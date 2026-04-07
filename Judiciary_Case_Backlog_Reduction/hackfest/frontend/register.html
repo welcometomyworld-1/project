@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NyayaFlow - Registration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 flex items-center justify-center min-h-screen font-sans p-6">
+    <div class="bg-white p-8 rounded-2xl shadow-2xl w-full max-w-2xl max-h-[95vh] overflow-y-auto">
+        <div class="text-center mb-8">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full mb-4">
+                <i class="fas fa-balance-scale text-3xl"></i>
+            </div>
+            <h1 class="text-3xl font-bold text-slate-800">NyayaFlow Registration</h1>
+            <p class="text-slate-500 mt-2">Judges: <span class="font-mono text-xs">JDG-STATE-COURT-####</span> · Lawyers: <span class="font-mono text-xs">LAW-BARCODE-STATE-####</span></p>
+        </div>
+
+        <div class="flex items-center justify-between mb-10 px-2">
+            <div id="step1-indicator" class="flex flex-col items-center">
+                <div class="w-10 h-10 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold">1</div>
+                <span class="text-xs mt-2 font-bold text-indigo-600">Account</span>
+            </div>
+            <div class="flex-1 h-1 bg-slate-100 mx-2" id="line1"></div>
+            <div id="step2-indicator" class="flex flex-col items-center">
+                <div class="w-10 h-10 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center font-bold">2</div>
+                <span class="text-xs mt-2 font-bold text-slate-400">Professional</span>
+            </div>
+            <div class="flex-1 h-1 bg-slate-100 mx-2" id="line2"></div>
+            <div id="step3-indicator" class="flex flex-col items-center">
+                <div class="w-10 h-10 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center font-bold">3</div>
+                <span class="text-xs mt-2 font-bold text-slate-400">Verify</span>
+            </div>
+        </div>
+
+        <form id="multiStepForm" class="space-y-6" onsubmit="return false;">
+            <div id="step1" class="space-y-6">
+                <div class="grid grid-cols-2 gap-4">
+                    <label class="cursor-pointer">
+                        <input type="radio" name="role" value="Judge" class="hidden peer" onchange="toggleRoleFields()">
+                        <div class="flex flex-col items-center justify-center p-4 border-2 border-slate-100 rounded-xl peer-checked:border-indigo-600 peer-checked:bg-indigo-50 transition">
+                            <i class="fas fa-gavel text-2xl mb-2 text-slate-400 peer-checked:text-indigo-600"></i>
+                            <span class="font-bold text-slate-600">Judge</span>
+                        </div>
+                    </label>
+                    <label class="cursor-pointer">
+                        <input type="radio" name="role" value="Lawyer" class="hidden peer" checked onchange="toggleRoleFields()">
+                        <div class="flex flex-col items-center justify-center p-4 border-2 border-slate-100 rounded-xl peer-checked:border-indigo-600 peer-checked:bg-indigo-50 transition">
+                            <i class="fas fa-briefcase text-2xl mb-2 text-slate-400 peer-checked:text-indigo-600"></i>
+                            <span class="font-bold text-slate-600">Lawyer</span>
+                        </div>
+                    </label>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-1">Full Name</label>
+                        <input type="text" id="full_name" class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-1">Username</label>
+                        <input type="text" id="username" class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500" required>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div id="dob-wrap-judge">
+                        <label class="block text-sm font-bold text-slate-700 mb-1">Date of Birth <span id="dob-required-tag" class="text-red-500">*</span></label>
+                        <input type="date" id="dob" class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-1">Mobile</label>
+                        <input type="tel" id="contact" class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500" placeholder="9876543210" required>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-1">Email</label>
+                        <input type="email" id="email" class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500" required>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-1">Password</label>
+                        <input type="password" id="password" class="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500" required minlength="6">
+                    </div>
+                </div>
+                <p id="step1Error" class="hidden text-sm text-red-600 font-bold text-center"></p>
+                <button type="button" onclick="validateAndGoStep2()" class="w-full bg-indigo-600 text-white py-3 rounded-xl font-bold hover:bg-indigo-700 transition">Next <i class="fas fa-arrow-right ml-2"></i></button>
+            </div>
+
+            <div id="step2" class="hidden space-y-6">
+                <div id="judgeDetails" class="hidden space-y-4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">State Code (ID)</label>
+                            <input type="text" id="state_code" class="w-full px-4 py-2 border border-slate-200 rounded-lg" placeholder="UP / DL" maxlength="4">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">Court Level</label>
+                            <select id="court_level" class="w-full px-4 py-2 border border-slate-200 rounded-lg">
+                                <option value="SC">Supreme Court (SC)</option>
+                                <option value="HC">High Court (HC)</option>
+                                <option value="DC">District Court (DC)</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-1">Court Name</label>
+                        <input type="text" id="court_name" class="w-full px-4 py-2 border border-slate-200 rounded-lg" placeholder="e.g. Allahabad High Court">
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">Designation</label>
+                            <select id="designation" class="w-full px-4 py-2 border border-slate-200 rounded-lg">
+                                <option value="Judge">Judge</option>
+                                <option value="Magistrate">Magistrate</option>
+                                <option value="Additional District Judge">Additional District Judge</option>
+                                <option value="District Judge">District Judge</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">Official Email</label>
+                            <input type="email" id="official_email" class="w-full px-4 py-2 border border-slate-200 rounded-lg" placeholder=".gov.in preferred">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">Employee ID</label>
+                            <input type="text" id="employee_id" class="w-full px-4 py-2 border border-slate-200 rounded-lg" placeholder="Optional">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">Appointment Date</label>
+                            <input type="date" id="appointment_date" class="w-full px-4 py-2 border border-slate-200 rounded-lg">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="lawyerDetails" class="space-y-4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">Bar prefix (ID)</label>
+                            <select id="bar_code" class="w-full px-4 py-2 border border-slate-200 rounded-lg">
+                                <option value="BCI">BCI</option>
+                                <option value="DEL">DEL</option>
+                                <option value="BOM">BOM</option>
+                                <option value="MAA">MAA</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">State Bar Council (ID)</label>
+                            <input type="text" id="bar_council_state" class="w-full px-4 py-2 border border-slate-200 rounded-lg" placeholder="UP / DL" maxlength="4">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-1">Bar Council Registration No.</label>
+                        <input type="text" id="bar_reg_no" class="w-full px-4 py-2 border border-slate-200 rounded-lg" placeholder="State roll number">
+                    </div>
+                    <div class="flex gap-2">
+                        <button type="button" onclick="checkBarMock()" class="text-sm px-3 py-2 bg-slate-100 rounded-lg font-bold text-slate-700 hover:bg-slate-200">Simulated BCI check</button>
+                        <span id="bar-mock-result" class="text-xs self-center text-slate-500"></span>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">Years of Experience</label>
+                            <input type="number" id="experience" min="0" class="w-full px-4 py-2 border border-slate-200 rounded-lg">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-1">Practice Area</label>
+                            <select id="practice_area" class="w-full px-4 py-2 border border-slate-200 rounded-lg">
+                                <option value="Criminal">Criminal</option>
+                                <option value="Civil">Civil</option>
+                                <option value="Corporate">Corporate</option>
+                                <option value="Family">Family</option>
+                                <option value="Tax">Tax</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-1">Chamber / Office Address</label>
+                        <textarea id="chamber_address" class="w-full px-4 py-2 border border-slate-200 rounded-lg" rows="2"></textarea>
+                    </div>
+                </div>
+
+                <div class="border-t border-slate-200 pt-4 space-y-3">
+                    <p class="text-sm font-bold text-slate-700">Government ID</p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">ID Type</label>
+                            <select id="gov_id_type" class="w-full px-4 py-2 border border-slate-200 rounded-lg">
+                                <option value="PAN">PAN</option>
+                                <option value="Aadhaar">Aadhaar</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-slate-600 mb-1">ID Number</label>
+                            <input type="text" id="gov_id_number" class="w-full px-4 py-2 border border-slate-200 rounded-lg" placeholder="PAN / Aadhaar" autocomplete="off">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="judgeDocs" class="hidden space-y-2 border border-amber-100 bg-amber-50/50 p-4 rounded-xl">
+                    <p class="text-sm font-bold text-amber-900">Judge documents (PDF/JPG)</p>
+                    <input type="file" id="gov_id_doc_j" accept=".pdf,.jpg,.jpeg,.png" class="text-sm w-full">
+                    <input type="file" id="appointment_letter" accept=".pdf,.jpg,.jpeg,.png" class="text-sm w-full">
+                    <input type="file" id="court_id_card" accept=".pdf,.jpg,.jpeg,.png" class="text-sm w-full">
+                </div>
+                <div id="lawyerDocs" class="space-y-2 border border-indigo-100 bg-indigo-50/50 p-4 rounded-xl">
+                    <p class="text-sm font-bold text-indigo-900">Lawyer documents (PDF/JPG)</p>
+                    <input type="file" id="gov_id_doc_l" accept=".pdf,.jpg,.jpeg,.png" class="text-sm w-full">
+                    <input type="file" id="bar_certificate" accept=".pdf,.jpg,.jpeg,.png" class="text-sm w-full">
+                    <input type="file" id="office_proof" accept=".pdf,.jpg,.jpeg,.png" class="text-sm w-full">
+                </div>
+
+                <p id="step2Error" class="hidden text-sm text-red-600 font-bold"></p>
+                <div class="flex space-x-4">
+                    <button type="button" onclick="goToStep(1)" class="w-1/3 bg-slate-100 text-slate-600 py-3 rounded-xl font-bold hover:bg-slate-200 transition">Back</button>
+                    <button type="button" onclick="validateAndSendOtps()" class="w-2/3 bg-indigo-600 text-white py-3 rounded-xl font-bold hover:bg-indigo-700 transition">Send OTPs <i class="fas fa-arrow-right ml-2"></i></button>
+                </div>
+            </div>
+
+            <div id="step3" class="hidden space-y-6">
+                <div class="text-center p-4 bg-indigo-50 rounded-xl border border-indigo-100 space-y-2">
+                    <p class="text-indigo-800 text-sm font-bold">Mobile &amp; email verification</p>
+                    <p class="text-indigo-600 text-xs" id="otp-contact-display"></p>
+                    <p class="text-xs text-indigo-700 px-2" id="otp-server-msg"></p>
+                </div>
+
+                <div id="realOtpNotice" class="hidden rounded-xl border border-sky-200 bg-sky-50 p-4 text-sm text-sky-900 text-center">
+                    <p class="font-bold mb-1"><i class="fas fa-paper-plane mr-1"></i> OTP bhej diya gaya</p>
+                    <p>Mobile par <strong>SMS</strong> aur email inbox (ya spam) mein alag-alag 6-digit code dekhein. Koi code screen par nahi dikhega.</p>
+                </div>
+
+                <div id="demoOtpPanel" class="hidden rounded-xl border-2 border-emerald-200 bg-emerald-50 p-4 space-y-2">
+                    <p class="text-center text-sm font-bold text-emerald-900">Demo mode — sirf local test</p>
+                    <div class="grid grid-cols-2 gap-3 text-center">
+                        <div>
+                            <p class="text-xs font-bold text-emerald-700 mb-1">Mobile OTP</p>
+                            <p class="text-3xl font-mono font-bold text-emerald-900 tracking-widest" id="otp-demo-mobile">—</p>
+                        </div>
+                        <div>
+                            <p class="text-xs font-bold text-emerald-700 mb-1">Email OTP</p>
+                            <p class="text-3xl font-mono font-bold text-emerald-900 tracking-widest" id="otp-demo-email">—</p>
+                        </div>
+                    </div>
+                    <button type="button" onclick="fillDemoOtps()" class="w-full text-sm py-2 bg-emerald-600 text-white rounded-lg font-bold hover:bg-emerald-700">Auto-fill demo OTPs</button>
+                    <button type="button" onclick="sendOtpsAndGoStep3()" class="w-full text-sm py-2 border border-emerald-300 text-emerald-800 rounded-lg font-bold hover:bg-emerald-100">Resend OTPs</button>
+                </div>
+
+                <div id="verifyStatus" class="hidden rounded-lg p-3 text-sm font-medium text-center"></div>
+
+                <div>
+                    <label class="block text-sm font-bold text-slate-700 mb-2 text-center">Mobile OTP</label>
+                    <input type="text" id="otp-code" inputmode="numeric" maxlength="6" autocomplete="one-time-code" class="w-full text-center text-2xl tracking-widest font-bold px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-indigo-600 focus:outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-bold text-slate-700 mb-2 text-center">Email OTP</label>
+                    <input type="text" id="otp-email" inputmode="numeric" maxlength="6" autocomplete="one-time-code" class="w-full text-center text-2xl tracking-widest font-bold px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-indigo-600 focus:outline-none">
+                </div>
+                <p id="otpModeHelpText" class="text-xs text-center text-slate-500">Loading…</p>
+                <div class="flex space-x-4">
+                    <button type="button" onclick="goToStep(2)" class="w-1/3 bg-slate-100 text-slate-600 py-3 rounded-xl font-bold hover:bg-slate-200 transition">Back</button>
+                    <button type="button" onclick="finalSubmit()" id="verifyBtn" class="w-2/3 bg-indigo-600 text-white py-3 rounded-xl font-bold hover:bg-indigo-700 transition">Verify &amp; Register <i class="fas fa-check-circle ml-2"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Success: ID + login details -->
+    <div id="successModal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/70">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 text-center space-y-4">
+            <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto text-3xl">
+                <i class="fas fa-check"></i>
+            </div>
+            <h2 class="text-xl font-bold text-slate-800" id="successTitle">Thank you!</h2>
+            <p class="text-slate-600 text-sm" id="successSubtitle">Registration successful.</p>
+            <div class="text-left bg-slate-50 rounded-xl p-4 text-sm space-y-2 border border-slate-100 font-mono break-all">
+                <p><span class="text-slate-500 font-sans font-bold">Professional ID:</span><br><span id="credNyayaId" class="text-indigo-700 font-bold"></span></p>
+                <p><span class="text-slate-500 font-sans font-bold">Username:</span><br><span id="credUsername"></span></p>
+                <p><span class="text-slate-500 font-sans font-bold">Password:</span><br><span id="credPassword"></span></p>
+                <p class="text-xs text-amber-700 font-sans pt-2">Password ko safe jagah note kar lein.</p>
+            </div>
+            <button type="button" onclick="goLogin()" class="w-full py-3 rounded-xl bg-indigo-600 text-white font-bold hover:bg-indigo-700">Login par jaayein</button>
+        </div>
+    </div>
+
+    <script>
+        const API = 'http://localhost:5000';
+        let currentStep = 1;
+        let lastMobileOtp = '';
+        let lastEmailOtp = '';
+        let otpConfig = { demo_mode: true, real_sms: false, real_email: false };
+
+        function normPhone(v) {
+            let s = String(v || '').replace(/[\s\-\(\)]/g, '');
+            if (s.startsWith('+91')) s = s.slice(3);
+            if (s.length === 12 && s.startsWith('91')) s = s.slice(2);
+            return s;
+        }
+
+        async function loadOtpConfig() {
+            try {
+                const r = await fetch(API + '/api/otp-config');
+                otpConfig = await r.json();
+            } catch (e) {
+                otpConfig = { demo_mode: true, real_sms: false, real_email: false };
+            }
+            applyOtpUiHints();
+        }
+
+        function applyOtpUiHints() {
+            const help = document.getElementById('otpModeHelpText');
+            if (!help) return;
+            if (otpConfig.demo_mode) {
+                help.textContent = 'Demo mode: OTP yahan box mein dikhega. Production mein NYAYAFLOW_OTP_MODE hata kar Twilio/Fast2SMS + SMTP .env mein bharein.';
+            } else {
+                help.textContent = 'Real mode: OTP sirf SMS aur email par — yahan code show nahi hoga.';
+            }
+        }
+
+        function showStep1Err(msg) {
+            const el = document.getElementById('step1Error');
+            if (!msg) { el.classList.add('hidden'); el.textContent = ''; return; }
+            el.textContent = msg;
+            el.classList.remove('hidden');
+        }
+
+        function showStep2Err(msg) {
+            const el = document.getElementById('step2Error');
+            if (!msg) { el.classList.add('hidden'); el.textContent = ''; return; }
+            el.textContent = msg;
+            el.classList.remove('hidden');
+        }
+
+        function validateAndGoStep2() {
+            showStep1Err('');
+            const role = document.querySelector('input[name="role"]:checked').value;
+            const name = document.getElementById('full_name').value.trim();
+            const user = document.getElementById('username').value.trim();
+            const contact = normPhone(document.getElementById('contact').value);
+            const email = document.getElementById('email').value.trim();
+            const pass = document.getElementById('password').value;
+            const dob = document.getElementById('dob').value;
+
+            if (name.length < 3) return showStep1Err('Poora naam kam se kam 3 akshar.');
+            if (user.length < 3) return showStep1Err('Username kam se kam 3 akshar.');
+            if (contact.length !== 10 || !/^[6-9]\d{9}$/.test(contact))
+                return showStep1Err('Sahi 10-digit Indian mobile daalein (6–9 se shuru).');
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
+                return showStep1Err('Sahi email daalein.');
+            if (!pass || pass.length < 6)
+                return showStep1Err('Password kam se kam 6 character.');
+            if (role === 'Judge' && !dob)
+                return showStep1Err('Judge ke liye Date of Birth zaroori hai.');
+
+            goToStep(2);
+        }
+
+        function validateStep2Fields() {
+            const role = document.querySelector('input[name="role"]:checked').value;
+            const gt = document.getElementById('gov_id_type').value;
+            const gid = document.getElementById('gov_id_number').value.replace(/\s/g, '');
+            const panRe = /^[A-Z]{5}[0-9]{4}[A-Z]$/i;
+            const aadhaarRe = /^\d{12}$/;
+
+            if (gt === 'PAN' && !panRe.test(gid)) return 'Sahi PAN format (AAAAA9999A).';
+            if (gt === 'Aadhaar' && !aadhaarRe.test(gid)) return 'Aadhaar 12 digit hona chahiye.';
+
+            if (role === 'Judge') {
+                if (!document.getElementById('state_code').value.trim()) return 'State code bharein.';
+                if (!document.getElementById('court_name').value.trim()) return 'Court name bharein.';
+                if (!document.getElementById('appointment_date').value) return 'Appointment date bharein.';
+                const off = document.getElementById('official_email').value.trim() || document.getElementById('email').value.trim();
+                if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(off)) return 'Official / contact email sahi daalein.';
+                if (!document.getElementById('gov_id_doc_j').files[0]) return 'Government ID document upload karein.';
+                if (!document.getElementById('appointment_letter').files[0]) return 'Appointment letter upload karein.';
+                if (!document.getElementById('court_id_card').files[0]) return 'Court ID card upload karein.';
+            } else {
+                if (!document.getElementById('bar_reg_no').value.trim()) return 'Bar registration number bharein.';
+                if (!document.getElementById('bar_council_state').value.trim()) return 'State Bar Council bharein.';
+                const ex = document.getElementById('experience').value;
+                if (ex === '' || Number(ex) < 0) return 'Experience (0+) bharein.';
+                if (document.getElementById('chamber_address').value.trim().length < 5) return 'Chamber address poora likhein.';
+                if (!document.getElementById('gov_id_doc_l').files[0]) return 'Government ID document upload karein.';
+                if (!document.getElementById('bar_certificate').files[0]) return 'Bar certificate upload karein.';
+                if (!document.getElementById('office_proof').files[0]) return 'Office proof upload karein.';
+            }
+            return '';
+        }
+
+        function validateAndSendOtps() {
+            showStep2Err('');
+            const err = validateStep2Fields();
+            if (err) { showStep2Err(err); return; }
+            sendOtpsAndGoStep3();
+        }
+
+        function showVerifyStatus(html, ok) {
+            const el = document.getElementById('verifyStatus');
+            el.classList.remove('hidden', 'bg-red-50', 'text-red-800', 'bg-emerald-50', 'text-emerald-900');
+            el.classList.add(ok ? 'bg-emerald-50' : 'bg-red-50', ok ? 'text-emerald-900' : 'text-red-800');
+            el.innerHTML = html;
+        }
+
+        function fillDemoOtps() {
+            const m = document.getElementById('otp-demo-mobile').textContent.trim();
+            const e = document.getElementById('otp-demo-email').textContent.trim();
+            if (m && m !== '—') document.getElementById('otp-code').value = m;
+            if (e && e !== '—') document.getElementById('otp-email').value = e;
+        }
+
+        function applyOtpStep3Panels(j1, j2) {
+            const demo = !!(j1 && j1.demo_mode);
+            const demoPanel = document.getElementById('demoOtpPanel');
+            const realNotice = document.getElementById('realOtpNotice');
+            if (demoPanel) demoPanel.classList.toggle('hidden', !demo);
+            if (realNotice) realNotice.classList.toggle('hidden', demo);
+            if (demo) {
+                lastMobileOtp = (j1 && j1.debug_otp) || '';
+                lastEmailOtp = (j2 && j2.debug_email_otp) || '';
+                document.getElementById('otp-demo-mobile').textContent = lastMobileOtp || '—';
+                document.getElementById('otp-demo-email').textContent = lastEmailOtp || '—';
+            } else {
+                document.getElementById('otp-demo-mobile').textContent = '—';
+                document.getElementById('otp-demo-email').textContent = '—';
+            }
+        }
+
+        async function sendOtpsAndGoStep3() {
+            const contactRaw = document.getElementById('contact').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const contact = normPhone(contactRaw);
+            if (!contact || !email) {
+                alert('Pehle mobile aur email step 1 mein bharein.');
+                return;
+            }
+            const err = validateStep2Fields();
+            if (err) { showStep2Err(err); return; }
+
+            try {
+                const r1 = await fetch(API + '/api/send-otp', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ contact: contactRaw })
+                });
+                const j1 = await r1.json().catch(() => ({}));
+                if (!r1.ok) {
+                    alert(j1.error || 'Mobile OTP fail. Backend .env mein SMS keys check karein.');
+                    return;
+                }
+                const r2 = await fetch(API + '/api/send-email-otp', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email })
+                });
+                const j2 = await r2.json().catch(() => ({}));
+                if (!r2.ok) {
+                    alert(j2.error || 'Email OTP fail. SMTP .env check karein.');
+                    return;
+                }
+
+                document.getElementById('otp-contact-display').textContent = `Mobile: ${contactRaw} · Email: ${email}`;
+                document.getElementById('otp-server-msg').textContent = [j1.message, j2.message].filter(Boolean).join(' ');
+
+                applyOtpStep3Panels(j1, j2);
+                document.getElementById('verifyStatus').classList.add('hidden');
+                document.getElementById(`step${currentStep}`).classList.add('hidden');
+                document.getElementById('step3').classList.remove('hidden');
+                updateStepper(3);
+                currentStep = 3;
+                document.getElementById('otp-code').value = '';
+                document.getElementById('otp-email').value = '';
+            } catch (err) {
+                console.error(err);
+                alert('Server connect nahi ho paya. `python app.py` backend folder se chalayein.');
+            }
+        }
+
+        function goLogin() {
+            window.location.href = 'login.html';
+        }
+
+        function toggleRoleFields() {
+            const role = document.querySelector('input[name="role"]:checked').value;
+            document.getElementById('judgeDetails').classList.toggle('hidden', role !== 'Judge');
+            document.getElementById('lawyerDetails').classList.toggle('hidden', role !== 'Lawyer');
+            document.getElementById('judgeDocs').classList.toggle('hidden', role !== 'Judge');
+            document.getElementById('lawyerDocs').classList.toggle('hidden', role !== 'Lawyer');
+            const dobIn = document.getElementById('dob');
+            const tag = document.getElementById('dob-required-tag');
+            if (role === 'Judge') {
+                dobIn.required = true;
+                tag.classList.remove('hidden');
+            } else {
+                dobIn.required = false;
+                tag.classList.add('hidden');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loadOtpConfig();
+            toggleRoleFields();
+        });
+
+        async function checkBarMock() {
+            const r = await fetch(API + '/api/verify-bar-mock', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    bar_reg_no: document.getElementById('bar_reg_no').value,
+                    state: document.getElementById('bar_council_state').value
+                })
+            });
+            const j = await r.json();
+            document.getElementById('bar-mock-result').textContent = j.message || '';
+        }
+
+        async function goToStep(step) {
+            if (step === 3 && currentStep === 2) {
+                await sendOtpsAndGoStep3();
+                return;
+            }
+            document.getElementById(`step${currentStep}`).classList.add('hidden');
+            document.getElementById(`step${step}`).classList.remove('hidden');
+            updateStepper(step);
+            currentStep = step;
+        }
+
+        function updateStepper(step) {
+            for (let i = 1; i <= 3; i++) {
+                const indicator = document.getElementById(`step${i}-indicator`);
+                const circle = indicator.querySelector('div');
+                const text = indicator.querySelector('span');
+                const line = document.getElementById(`line${i}`);
+                if (i < step) {
+                    circle.className = 'w-10 h-10 rounded-full bg-emerald-500 text-white flex items-center justify-center font-bold';
+                    circle.innerHTML = '<i class="fas fa-check"></i>';
+                    text.className = 'text-xs mt-2 font-bold text-emerald-500';
+                    if (line) line.className = 'flex-1 h-1 bg-emerald-500 mx-2';
+                } else if (i === step) {
+                    circle.className = 'w-10 h-10 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold';
+                    circle.innerHTML = i;
+                    text.className = 'text-xs mt-2 font-bold text-indigo-600';
+                    if (line) line.className = 'flex-1 h-1 bg-slate-100 mx-2';
+                } else {
+                    circle.className = 'w-10 h-10 rounded-full bg-slate-100 text-slate-400 flex items-center justify-center font-bold';
+                    circle.innerHTML = i;
+                    text.className = 'text-xs mt-2 font-bold text-slate-400';
+                    if (line) line.className = 'flex-1 h-1 bg-slate-100 mx-2';
+                }
+            }
+        }
+
+        async function finalSubmit() {
+            const btn = document.getElementById('verifyBtn');
+            const contact = document.getElementById('contact').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const otpPhone = document.getElementById('otp-code').value.trim();
+            const otpEmail = document.getElementById('otp-email').value.trim();
+            const passwordValue = document.getElementById('password').value;
+            const usernameValue = document.getElementById('username').value.trim();
+
+            if (!/^\d{6}$/.test(otpPhone) || !/^\d{6}$/.test(otpEmail)) {
+                showVerifyStatus('Dono jagah 6-digit OTP zaroori hai.', false);
+                return;
+            }
+
+            document.getElementById('verifyStatus').classList.add('hidden');
+            btn.disabled = true;
+
+            const otpRes = await fetch(API + '/api/verify-otp', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ contact, otp: otpPhone })
+            });
+            const otpJson = await otpRes.json().catch(() => ({}));
+            if (!otpRes.ok) {
+                showVerifyStatus(otpJson.error || 'Mobile OTP galat hai.', false);
+                btn.disabled = false;
+                return;
+            }
+            showVerifyStatus('<i class="fas fa-check-circle"></i> ' + (otpJson.thank_you || otpJson.message || 'Mobile OK'), true);
+
+            const emailRes = await fetch(API + '/api/verify-email-otp', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email, otp: otpEmail })
+            });
+            const emailJson = await emailRes.json().catch(() => ({}));
+            if (!emailRes.ok) {
+                showVerifyStatus((otpJson.thank_you || '') + '<br>' + (emailJson.error || 'Email OTP galat hai.'), false);
+                btn.disabled = false;
+                return;
+            }
+            showVerifyStatus(
+                '<i class="fas fa-check-circle"></i> ' + (otpJson.thank_you || '') + '<br>' +
+                '<i class="fas fa-check-circle"></i> ' + (emailJson.thank_you || emailJson.message || 'Email OK') +
+                '<br><span class="text-slate-600 font-sans mt-2 block">Shukriya! Ab aapka account register ho raha hai…</span>',
+                true
+            );
+
+            const role = document.querySelector('input[name="role"]:checked').value;
+            const fd = new FormData();
+            fd.append('role', role);
+            fd.append('username', usernameValue);
+            fd.append('password', passwordValue);
+            fd.append('full_name', document.getElementById('full_name').value.trim());
+            fd.append('contact', contact);
+            fd.append('email', email);
+            fd.append('dob', document.getElementById('dob').value || '');
+            fd.append('phone_verified', '1');
+            fd.append('email_verified', '1');
+            fd.append('gov_id_type', document.getElementById('gov_id_type').value);
+            fd.append('gov_id_number', document.getElementById('gov_id_number').value.trim());
+
+            if (role === 'Judge') {
+                fd.append('state_code', document.getElementById('state_code').value.trim());
+                fd.append('court_level', document.getElementById('court_level').value);
+                fd.append('court_name', document.getElementById('court_name').value.trim());
+                fd.append('designation', document.getElementById('designation').value);
+                fd.append('official_email', document.getElementById('official_email').value.trim() || email);
+                fd.append('employee_id', document.getElementById('employee_id').value.trim());
+                fd.append('appointment_date', document.getElementById('appointment_date').value);
+                fd.append('bar_reg_no', '');
+                fd.append('bar_council_state', '');
+                fd.append('experience', '0');
+                fd.append('practice_area', '');
+                fd.append('chamber_address', '');
+                fd.append('bar_code', 'BCI');
+                const j1 = document.getElementById('gov_id_doc_j').files[0];
+                const j2 = document.getElementById('appointment_letter').files[0];
+                const j3 = document.getElementById('court_id_card').files[0];
+                if (j1) fd.append('gov_id_doc', j1);
+                if (j2) fd.append('appointment_letter', j2);
+                if (j3) fd.append('court_id_card', j3);
+            } else {
+                fd.append('state_code', document.getElementById('bar_council_state').value.trim());
+                fd.append('court_level', '');
+                fd.append('court_name', '');
+                fd.append('designation', '');
+                fd.append('official_email', email);
+                fd.append('employee_id', '');
+                fd.append('appointment_date', '');
+                fd.append('bar_reg_no', document.getElementById('bar_reg_no').value.trim());
+                fd.append('bar_council_state', document.getElementById('bar_council_state').value.trim());
+                fd.append('experience', document.getElementById('experience').value || '0');
+                fd.append('practice_area', document.getElementById('practice_area').value);
+                fd.append('chamber_address', document.getElementById('chamber_address').value.trim());
+                fd.append('bar_code', document.getElementById('bar_code').value);
+                const l1 = document.getElementById('gov_id_doc_l').files[0];
+                const l2 = document.getElementById('bar_certificate').files[0];
+                const l3 = document.getElementById('office_proof').files[0];
+                if (l1) fd.append('gov_id_doc', l1);
+                if (l2) fd.append('bar_certificate', l2);
+                if (l3) fd.append('office_proof', l3);
+            }
+
+            const regRes = await fetch(API + '/api/register', { method: 'POST', body: fd });
+            const result = await regRes.json().catch(() => ({}));
+            btn.disabled = false;
+            if (regRes.ok) {
+                document.getElementById('successTitle').textContent = 'Thank you for registering!';
+                document.getElementById('successSubtitle').textContent =
+                    (result.thank_you || 'Registration successful.') +
+                    (result.verification_status ? ` Status: ${result.verification_status}.` : '');
+                document.getElementById('credNyayaId').textContent = result.nyaya_id || '—';
+                document.getElementById('credUsername').textContent = usernameValue;
+                document.getElementById('credPassword').textContent = passwordValue;
+                document.getElementById('successModal').classList.remove('hidden');
+
+                // Redirect to login after 5 seconds automatically
+                let count = 5;
+                const loginBtn = document.querySelector('#successModal button');
+                const interval = setInterval(() => {
+                    count--;
+                    if (count > 0) {
+                        loginBtn.textContent = `Login par jaayein (${count}s)`;
+                    } else {
+                        clearInterval(interval);
+                        goLogin();
+                    }
+                }, 1000);
+            } else {
+                showVerifyStatus(result.error || 'Registration failed', false);
+                alert(result.error || 'Registration failed');
+            }
+        }
+    </script>
+</body>
+</html>

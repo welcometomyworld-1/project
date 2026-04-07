@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Case Summarizer - SmartCourt AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 font-sans">
+    <div class="flex min-h-screen">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-slate-900 text-white p-6 hidden md:block">
+            <div class="flex items-center mb-8 space-x-2">
+                <i class="fas fa-balance-scale text-2xl text-indigo-400"></i>
+                <h1 class="text-xl font-bold tracking-tight">NyayaFlow AI</h1>
+            </div>
+            <nav class="space-y-4">
+                <a href="index.html" class="flex items-center space-x-3 p-3 hover:bg-slate-800 rounded-lg transition">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="cases.html" class="flex items-center space-x-3 p-3 hover:bg-slate-800 rounded-lg transition">
+                    <i class="fas fa-folder"></i>
+                    <span>Case Management</span>
+                </a>
+                <a href="schedule.html" class="flex items-center space-x-3 p-3 hover:bg-slate-800 rounded-lg transition">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Smart Schedule</span>
+                </a>
+                <a href="summary.html" class="flex items-center space-x-3 p-3 bg-indigo-600 rounded-lg">
+                    <i class="fas fa-file-alt"></i>
+                    <span>AI Summarizer</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 p-8">
+            <header class="mb-8">
+                <h2 class="text-2xl font-bold text-slate-800">AI Legal Document Summarizer</h2>
+                <p class="text-slate-500 mt-2">Paste legal text or upload documents to get an instant AI-powered summary.</p>
+            </header>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- Input Section -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <h3 class="text-lg font-bold mb-4 flex items-center">
+                        <i class="fas fa-file-contract mr-2 text-indigo-500"></i>Document Input
+                    </h3>
+                    <textarea id="inputText" rows="15" class="w-full border border-slate-200 rounded-lg p-4 focus:ring-2 focus:ring-indigo-500 focus:outline-none font-serif text-slate-700" placeholder="Paste legal document text here..."></textarea>
+                    
+                    <div class="mt-6 flex justify-between items-center">
+                        <button class="text-slate-500 hover:text-indigo-600 font-medium flex items-center transition">
+                            <i class="fas fa-upload mr-2"></i>Upload File
+                        </button>
+                        <button id="summarizeBtn" class="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 shadow-lg shadow-indigo-100 transition flex items-center font-bold">
+                            <i class="fas fa-magic mr-2"></i>Generate Summary
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Output Section -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100">
+                    <h3 class="text-lg font-bold mb-4 flex items-center">
+                        <i class="fas fa-robot mr-2 text-indigo-500"></i>AI-Generated Summary
+                    </h3>
+                    <div id="summaryOutput" class="h-[400px] bg-slate-50 rounded-lg p-6 overflow-y-auto border border-slate-100 text-slate-700 leading-relaxed font-serif italic">
+                        <p class="text-slate-400">Waiting for input document...</p>
+                    </div>
+                    
+                    <div class="mt-6 flex space-x-4">
+                        <button class="flex-1 py-3 border border-slate-200 rounded-lg text-slate-600 hover:bg-slate-50 font-bold transition">
+                            <i class="fas fa-copy mr-2"></i>Copy Summary
+                        </button>
+                        <button class="flex-1 py-3 border border-slate-200 rounded-lg text-slate-600 hover:bg-slate-50 font-bold transition">
+                            <i class="fas fa-download mr-2"></i>Download PDF
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const user = JSON.parse(localStorage.getItem('user'));
+            if (!user) {
+                window.location.href = 'login.html';
+                return;
+            }
+        });
+
+        function logout() {
+            localStorage.removeItem('user');
+            window.location.href = 'login.html';
+        }
+        const summarizeBtn = document.getElementById('summarizeBtn');
+        const inputText = document.getElementById('inputText');
+        const summaryOutput = document.getElementById('summaryOutput');
+
+        summarizeBtn.addEventListener('click', async () => {
+            const text = inputText.value;
+            if (!text || text.length < 20) {
+                alert('Please paste at least 20 characters of legal text.');
+                return;
+            }
+
+            summarizeBtn.disabled = true;
+            summarizeBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Generating...';
+            summaryOutput.innerHTML = '<p class="text-indigo-600 animate-pulse font-bold">AI is reading and summarizing your document...</p>';
+
+            try {
+                const response = await fetch('http://localhost:5000/api/ai/summarize', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ text })
+                });
+                
+                const result = await response.json();
+                if (result.error) throw new Error(result.error);
+
+                summaryOutput.innerHTML = `<div class="prose prose-sm text-slate-800">${result.summary.replace(/\n/g, '<br>')}</div>`;
+                summaryOutput.classList.remove('italic');
+            } catch (err) {
+                alert('Summarization Error: ' + err.message);
+                summaryOutput.innerHTML = '<p class="text-red-500">Error generating summary. Please try again.</p>';
+            } finally {
+                summarizeBtn.disabled = false;
+                summarizeBtn.innerHTML = '<i class="fas fa-magic mr-2"></i>Generate Summary';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin — NyayaFlow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-900 min-h-screen p-8 font-sans text-slate-100">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-2xl font-bold mb-2">Pending registrations</h1>
+        <p class="text-slate-400 text-sm mb-6">Demo key: <code class="bg-slate-800 px-2 py-0.5 rounded">X-Admin-Key: hackfest-admin</code>. Set <code class="bg-slate-800 px-2 py-0.5 rounded">NYAYAFLOW_AUTO_APPROVE=0</code> on the server to queue users here.</p>
+        <button onclick="loadPending()" class="mb-4 bg-indigo-600 px-4 py-2 rounded-lg font-bold hover:bg-indigo-700">Refresh</button>
+        <div id="list" class="space-y-4"></div>
+        <p class="mt-8 text-center"><a href="login.html" class="text-indigo-400 underline">Back to login</a></p>
+    </div>
+    <script>
+        const API = 'http://localhost:5000';
+        const headers = { 'Content-Type': 'application/json', 'X-Admin-Key': 'hackfest-admin' };
+
+        async function loadPending() {
+            const box = document.getElementById('list');
+            box.innerHTML = '<p class="text-slate-500">Loading…</p>';
+            const r = await fetch(API + '/api/admin/pending-users', { headers: { 'X-Admin-Key': 'hackfest-admin' } });
+            if (!r.ok) {
+                box.innerHTML = '<p class="text-red-400">Unauthorized or server error.</p>';
+                return;
+            }
+            const users = await r.json();
+            if (!users.length) {
+                box.innerHTML = '<p class="text-slate-500 italic">No pending users.</p>';
+                return;
+            }
+            box.innerHTML = users.map(u => `
+                <div class="bg-slate-800 rounded-xl p-4 border border-slate-700">
+                    <div class="flex flex-wrap justify-between gap-4">
+                        <div>
+                            <p class="font-mono text-indigo-400 font-bold">${u.nyaya_id}</p>
+                            <p class="font-bold">${u.full_name || ''} <span class="text-slate-500 text-sm">(${u.role})</span></p>
+                            <p class="text-xs text-slate-400">${u.email} · ${u.contact}</p>
+                            <p class="text-xs text-amber-400 mt-1">Fraud risk: ${u.fraud_risk_score ?? '—'}</p>
+                        </div>
+                        <div class="flex gap-2 items-start">
+                            <button onclick="setStatus('${u.nyaya_id}','Approved')" class="bg-emerald-600 px-3 py-2 rounded-lg text-sm font-bold hover:bg-emerald-700">Approve</button>
+                            <button onclick="setStatus('${u.nyaya_id}','Rejected')" class="bg-red-600 px-3 py-2 rounded-lg text-sm font-bold hover:bg-red-700">Reject</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        async function setStatus(nyayaId, status) {
+            await fetch(API + '/api/admin/approve-user', {
+                method: 'POST',
+                headers,
+                body: JSON.stringify({ nyaya_id: nyayaId, status, notes: 'admin.html' })
+            });
+            loadPending();
+        }
+
+        loadPending();
+    </script>
+</body>
+</html>

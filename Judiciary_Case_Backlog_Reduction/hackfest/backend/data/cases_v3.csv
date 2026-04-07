@@ -1,0 +1,2501 @@
+case_id,case_type,category,case_age_days,urgency,filing_date,duration,priority,status
+CASE-2026-1000,Family,Routine,2492,5,2019-06-01,228,High,Resolved
+CASE-2026-1001,Criminal,Public Interest,526,2,2024-10-18,549,Medium,Resolved
+CASE-2026-1002,Family,Personal,2463,3,2019-06-30,271,Medium,Pending
+CASE-2026-1003,Criminal,Financial,3410,4,2016-11-25,350,High,Pending
+CASE-2026-1004,Commercial,Financial,880,2,2023-10-30,632,Medium,Pending
+CASE-2026-1005,Commercial,High Stakes,3227,5,2017-05-27,787,High,Resolved
+CASE-2026-1006,Criminal,Routine,823,2,2023-12-26,336,Medium,Resolved
+CASE-2026-1007,Traffic,Financial,3263,3,2017-04-21,30,High,Resolved
+CASE-2026-1008,Civil,Personal,1943,2,2020-12-01,370,Medium,Pending
+CASE-2026-1009,Traffic,Routine,730,3,2024-03-28,159,Medium,Pending
+CASE-2026-1010,Criminal,Public Interest,2453,5,2019-07-10,497,High,Pending
+CASE-2026-1011,Traffic,Routine,1613,4,2021-10-27,63,High,Pending
+CASE-2026-1012,Criminal,Financial,3416,4,2016-11-19,434,High,Resolved
+CASE-2026-1013,Family,Personal,1806,5,2021-04-17,282,High,Pending
+CASE-2026-1014,Civil,Public Interest,3070,2,2017-10-31,526,High,Pending
+CASE-2026-1015,Criminal,Routine,2653,4,2018-12-22,272,High,Resolved
+CASE-2026-1016,Criminal,Financial,807,2,2024-01-11,448,Medium,Pending
+CASE-2026-1017,Criminal,Financial,713,4,2024-04-14,549,High,Resolved
+CASE-2026-1018,Commercial,Personal,1693,3,2021-08-08,572,Medium,Resolved
+CASE-2026-1019,Family,Personal,898,4,2023-10-12,298,High,Resolved
+CASE-2026-1020,Civil,High Stakes,1317,5,2022-08-19,802,High,Pending
+CASE-2026-1021,Criminal,Personal,1866,3,2021-02-16,319,High,Pending
+CASE-2026-1022,Criminal,Personal,1064,5,2023-04-29,444,High,Pending
+CASE-2026-1023,Traffic,Personal,599,5,2024-08-06,182,High,Pending
+CASE-2026-1024,Civil,Routine,1137,1,2023-02-15,333,Medium,Pending
+CASE-2026-1025,Criminal,Personal,2496,5,2019-05-28,359,High,Pending
+CASE-2026-1026,Commercial,Financial,2002,4,2020-10-03,646,High,Resolved
+CASE-2026-1027,Traffic,Personal,3362,5,2017-01-12,78,High,Resolved
+CASE-2026-1028,Family,Personal,2331,3,2019-11-09,289,Medium,Pending
+CASE-2026-1029,Criminal,Financial,2724,3,2018-10-12,429,High,Pending
+CASE-2026-1030,Traffic,Personal,1137,1,2023-02-15,91,Medium,Pending
+CASE-2026-1031,Family,Public Interest,3377,5,2016-12-28,363,High,Resolved
+CASE-2026-1032,Traffic,Financial,3649,5,2016-03-31,73,High,Pending
+CASE-2026-1033,Civil,Routine,1775,4,2021-05-18,413,High,Resolved
+CASE-2026-1034,Civil,High Stakes,1449,4,2022-04-09,698,High,Pending
+CASE-2026-1035,Family,Public Interest,1840,3,2021-03-14,361,Medium,Pending
+CASE-2026-1036,Family,Routine,3477,5,2016-09-19,172,High,Resolved
+CASE-2026-1037,Commercial,High Stakes,3404,4,2016-12-01,752,High,Pending
+CASE-2026-1038,Civil,Routine,845,1,2023-12-04,384,Low,Resolved
+CASE-2026-1039,Civil,Financial,959,2,2023-08-12,605,Medium,Pending
+CASE-2026-1040,Family,Financial,60,3,2026-01-27,459,Medium,Pending
+CASE-2026-1041,Traffic,Financial,2860,4,2018-05-29,57,High,Pending
+CASE-2026-1042,Family,Routine,217,1,2025-08-23,244,Low,Pending
+CASE-2026-1043,Family,Financial,2075,4,2020-07-22,339,High,Pending
+CASE-2026-1044,Family,High Stakes,597,4,2024-08-08,555,High,Pending
+CASE-2026-1045,Criminal,Financial,983,3,2023-07-19,503,High,Pending
+CASE-2026-1046,Commercial,Public Interest,1433,1,2022-04-25,646,Medium,Pending
+CASE-2026-1047,Criminal,Personal,3374,4,2016-12-31,307,High,Pending
+CASE-2026-1048,Family,Personal,3280,4,2017-04-04,258,High,Pending
+CASE-2026-1049,Criminal,Public Interest,719,3,2024-04-08,502,High,Pending
+CASE-2026-1050,Commercial,Routine,1294,3,2022-09-11,467,Medium,Pending
+CASE-2026-1051,Civil,Routine,1417,5,2022-05-11,480,High,Pending
+CASE-2026-1052,Family,Personal,1918,4,2020-12-26,295,High,Pending
+CASE-2026-1053,Criminal,Personal,199,3,2025-09-10,455,High,Pending
+CASE-2026-1054,Commercial,Routine,2498,5,2019-05-26,495,High,Pending
+CASE-2026-1055,Criminal,Financial,3567,4,2016-06-21,415,High,Pending
+CASE-2026-1056,Civil,Personal,1685,5,2021-08-16,478,High,Pending
+CASE-2026-1057,Civil,Personal,1132,2,2023-02-20,457,Medium,Pending
+CASE-2026-1058,Traffic,Public Interest,1128,2,2023-02-24,97,Medium,Pending
+CASE-2026-1059,Family,Financial,2512,2,2019-05-12,274,High,Pending
+CASE-2026-1060,Civil,Routine,1125,1,2023-02-27,415,Medium,Pending
+CASE-2026-1061,Family,Routine,1306,1,2022-08-30,250,Medium,Resolved
+CASE-2026-1062,Civil,Public Interest,2717,2,2018-10-19,501,High,Pending
+CASE-2026-1063,Civil,High Stakes,625,1,2024-07-11,732,Low,Pending
+CASE-2026-1064,Traffic,Routine,2619,4,2019-01-25,110,High,Pending
+CASE-2026-1065,Commercial,Personal,416,2,2025-02-05,572,Medium,Resolved
+CASE-2026-1066,Traffic,Personal,3597,2,2016-05-22,30,High,Pending
+CASE-2026-1067,Commercial,High Stakes,2071,5,2020-07-26,856,High,Resolved
+CASE-2026-1068,Family,Personal,1844,5,2021-03-10,333,High,Pending
+CASE-2026-1069,Commercial,High Stakes,1672,1,2021-08-29,829,Medium,Pending
+CASE-2026-1070,Family,Public Interest,3389,4,2016-12-16,285,High,Pending
+CASE-2026-1071,Traffic,Financial,3086,2,2017-10-15,30,High,Pending
+CASE-2026-1072,Criminal,Financial,3450,5,2016-10-16,403,High,Pending
+CASE-2026-1073,Family,High Stakes,2076,2,2020-07-21,374,Medium,Resolved
+CASE-2026-1074,Family,Routine,1369,5,2022-06-28,301,High,Resolved
+CASE-2026-1075,Traffic,Public Interest,59,1,2026-01-28,125,Low,Pending
+CASE-2026-1076,Civil,Personal,3174,5,2017-07-19,394,High,Pending
+CASE-2026-1077,Traffic,Financial,1769,5,2021-05-24,151,High,Pending
+CASE-2026-1078,Commercial,Personal,1209,4,2022-12-05,597,High,Pending
+CASE-2026-1079,Civil,Public Interest,2121,2,2020-06-06,542,Medium,Pending
+CASE-2026-1080,Commercial,High Stakes,1520,5,2022-01-28,872,High,Pending
+CASE-2026-1081,Civil,Routine,3489,5,2016-09-07,367,High,Pending
+CASE-2026-1082,Criminal,Routine,1718,3,2021-07-14,287,High,Pending
+CASE-2026-1083,Traffic,Financial,347,1,2025-04-15,80,Low,Pending
+CASE-2026-1084,Civil,Routine,2966,3,2018-02-12,328,High,Pending
+CASE-2026-1085,Criminal,High Stakes,3145,5,2017-08-17,591,High,Pending
+CASE-2026-1086,Commercial,Public Interest,3325,4,2017-02-18,646,High,Pending
+CASE-2026-1087,Criminal,Personal,3402,4,2016-12-03,304,High,Pending
+CASE-2026-1088,Civil,Routine,3432,3,2016-11-03,326,High,Resolved
+CASE-2026-1089,Family,Personal,792,3,2024-01-26,292,Medium,Pending
+CASE-2026-1090,Traffic,Financial,962,3,2023-08-09,123,Medium,Pending
+CASE-2026-1091,Traffic,Financial,1576,2,2021-12-03,78,Medium,Pending
+CASE-2026-1092,Criminal,Personal,885,4,2023-10-25,423,High,Pending
+CASE-2026-1093,Traffic,High Stakes,3329,5,2017-02-14,100,High,Pending
+CASE-2026-1094,Traffic,Personal,1082,1,2023-04-11,84,Medium,Pending
+CASE-2026-1095,Commercial,Financial,49,1,2026-02-07,660,Low,Resolved
+CASE-2026-1096,Family,High Stakes,1104,2,2023-03-20,448,Medium,Pending
+CASE-2026-1097,Traffic,High Stakes,3078,5,2017-10-23,118,High,Pending
+CASE-2026-1098,Criminal,Personal,2080,4,2020-07-17,331,High,Pending
+CASE-2026-1099,Traffic,Routine,1747,4,2021-06-15,110,High,Pending
+CASE-2026-1100,Traffic,Financial,1664,2,2021-09-06,43,Medium,Resolved
+CASE-2026-1101,Commercial,High Stakes,2614,5,2019-01-30,883,High,Pending
+CASE-2026-1102,Civil,Personal,3075,2,2017-10-26,390,High,Pending
+CASE-2026-1103,Commercial,High Stakes,1812,1,2021-04-11,749,Medium,Pending
+CASE-2026-1104,Criminal,Personal,2391,3,2019-09-10,352,High,Pending
+CASE-2026-1105,Criminal,Financial,901,4,2023-10-09,544,High,Pending
+CASE-2026-1106,Traffic,High Stakes,1203,1,2022-12-11,80,Medium,Pending
+CASE-2026-1107,Family,Personal,2272,5,2020-01-07,275,High,Resolved
+CASE-2026-1108,Criminal,Public Interest,1100,3,2023-03-24,513,High,Pending
+CASE-2026-1109,Traffic,Personal,1088,4,2023-04-05,142,High,Pending
+CASE-2026-1110,Criminal,Public Interest,370,3,2025-03-23,522,High,Pending
+CASE-2026-1111,Traffic,High Stakes,1309,2,2022-08-27,152,Medium,Resolved
+CASE-2026-1112,Traffic,High Stakes,2163,2,2020-04-25,111,Medium,Pending
+CASE-2026-1113,Civil,Personal,856,3,2023-11-23,499,Medium,Pending
+CASE-2026-1114,Civil,Personal,2421,4,2019-08-11,436,High,Pending
+CASE-2026-1115,Family,Personal,1630,2,2021-10-10,292,Medium,Pending
+CASE-2026-1116,Commercial,High Stakes,2549,5,2019-04-05,873,High,Pending
+CASE-2026-1117,Traffic,High Stakes,2760,2,2018-09-06,30,High,Pending
+CASE-2026-1118,Commercial,High Stakes,62,2,2026-01-25,876,Medium,Pending
+CASE-2026-1119,Family,Public Interest,2128,3,2020-05-30,294,Medium,Pending
+CASE-2026-1120,Family,Public Interest,187,2,2025-09-22,375,Medium,Resolved
+CASE-2026-1121,Criminal,Routine,475,2,2024-12-08,400,Medium,Pending
+CASE-2026-1122,Commercial,Financial,243,5,2025-07-28,817,High,Pending
+CASE-2026-1123,Family,Public Interest,1707,3,2021-07-25,396,Medium,Pending
+CASE-2026-1124,Family,Personal,2186,5,2020-04-02,304,High,Pending
+CASE-2026-1125,Family,Routine,1144,4,2023-02-08,347,High,Pending
+CASE-2026-1126,Family,Financial,3025,5,2017-12-15,358,High,Resolved
+CASE-2026-1127,Commercial,Personal,1969,3,2020-11-05,520,Medium,Pending
+CASE-2026-1128,Commercial,Routine,1709,1,2021-07-23,466,Medium,Pending
+CASE-2026-1129,Criminal,Personal,422,2,2025-01-30,393,Medium,Pending
+CASE-2026-1130,Civil,Public Interest,394,5,2025-02-27,754,High,Pending
+CASE-2026-1131,Civil,High Stakes,2041,5,2020-08-25,715,High,Pending
+CASE-2026-1132,Criminal,High Stakes,2295,3,2019-12-15,561,High,Resolved
+CASE-2026-1133,Family,Routine,2455,3,2019-07-08,194,Medium,Resolved
+CASE-2026-1134,Criminal,Financial,2186,3,2020-04-02,469,High,Pending
+CASE-2026-1135,Criminal,High Stakes,1768,2,2021-05-25,573,Medium,Pending
+CASE-2026-1136,Civil,Personal,951,5,2023-08-20,564,High,Resolved
+CASE-2026-1137,Criminal,Personal,1762,3,2021-05-31,324,High,Pending
+CASE-2026-1138,Family,Financial,3076,4,2017-10-25,345,High,Pending
+CASE-2026-1139,Traffic,Financial,3340,2,2017-02-03,30,High,Pending
+CASE-2026-1140,Family,Routine,3348,3,2017-01-26,133,High,Pending
+CASE-2026-1141,Traffic,Financial,2835,4,2018-06-23,72,High,Pending
+CASE-2026-1142,Family,Personal,780,3,2024-02-07,279,Medium,Pending
+CASE-2026-1143,Traffic,Routine,411,4,2025-02-10,131,High,Resolved
+CASE-2026-1144,Criminal,Public Interest,3062,5,2017-11-08,503,High,Resolved
+CASE-2026-1145,Traffic,Routine,590,2,2024-08-15,89,Medium,Pending
+CASE-2026-1146,Criminal,Personal,2358,4,2019-10-13,327,High,Pending
+CASE-2026-1147,Criminal,Personal,279,5,2025-06-22,486,High,Pending
+CASE-2026-1148,Civil,Routine,1743,4,2021-06-19,436,High,Pending
+CASE-2026-1149,Commercial,Routine,540,1,2024-10-04,516,Low,Pending
+CASE-2026-1150,Traffic,Routine,2005,5,2020-09-30,109,High,Pending
+CASE-2026-1151,Commercial,Personal,1441,1,2022-04-17,451,Medium,Resolved
+CASE-2026-1152,Criminal,High Stakes,1177,5,2023-01-06,667,High,Resolved
+CASE-2026-1153,Family,High Stakes,2771,5,2018-08-26,432,High,Pending
+CASE-2026-1154,Civil,High Stakes,3235,2,2017-05-19,561,High,Pending
+CASE-2026-1155,Criminal,High Stakes,1214,2,2022-11-30,569,Medium,Pending
+CASE-2026-1156,Family,Financial,777,4,2024-02-10,443,High,Pending
+CASE-2026-1157,Traffic,Financial,1403,4,2022-05-25,165,High,Resolved
+CASE-2026-1158,Criminal,Financial,1456,3,2022-04-02,506,High,Pending
+CASE-2026-1159,Criminal,Personal,1576,5,2021-12-03,477,High,Pending
+CASE-2026-1160,Family,High Stakes,1489,4,2022-02-28,473,High,Pending
+CASE-2026-1161,Civil,High Stakes,2377,2,2019-09-24,617,Medium,Pending
+CASE-2026-1162,Criminal,Financial,2504,5,2019-05-20,481,High,Pending
+CASE-2026-1163,Family,Public Interest,3476,5,2016-09-20,316,High,Pending
+CASE-2026-1164,Traffic,Personal,1466,5,2022-03-23,154,High,Pending
+CASE-2026-1165,Family,Public Interest,3458,5,2016-10-08,381,High,Pending
+CASE-2026-1166,Criminal,Routine,1024,2,2023-06-08,373,Medium,Resolved
+CASE-2026-1167,Commercial,High Stakes,1555,2,2021-12-24,782,Medium,Resolved
+CASE-2026-1168,Civil,Personal,1726,1,2021-07-06,434,Medium,Resolved
+CASE-2026-1169,Traffic,Personal,1760,5,2021-06-02,94,High,Pending
+CASE-2026-1170,Criminal,Routine,3114,4,2017-09-17,333,High,Pending
+CASE-2026-1171,Criminal,Financial,293,5,2025-06-08,567,High,Pending
+CASE-2026-1172,Civil,Public Interest,2608,2,2019-02-05,554,High,Pending
+CASE-2026-1173,Family,Routine,1842,2,2021-03-12,235,Medium,Pending
+CASE-2026-1174,Civil,Public Interest,3175,4,2017-07-18,543,High,Pending
+CASE-2026-1175,Commercial,Personal,3243,5,2017-05-11,550,High,Pending
+CASE-2026-1176,Criminal,Public Interest,2860,4,2018-05-29,486,High,Pending
+CASE-2026-1177,Traffic,Public Interest,1112,1,2023-03-12,127,Medium,Pending
+CASE-2026-1178,Family,Personal,2848,5,2018-06-10,258,High,Pending
+CASE-2026-1179,Family,High Stakes,363,4,2025-03-30,531,High,Resolved
+CASE-2026-1180,Family,Routine,690,3,2024-05-07,343,Medium,Pending
+CASE-2026-1181,Commercial,Public Interest,457,3,2024-12-26,837,Medium,Pending
+CASE-2026-1182,Civil,Financial,2735,3,2018-10-01,546,High,Resolved
+CASE-2026-1183,Commercial,Routine,1773,5,2021-05-20,491,High,Pending
+CASE-2026-1184,Civil,Personal,2516,3,2019-05-08,379,High,Pending
+CASE-2026-1185,Family,Financial,1416,3,2022-05-12,391,Medium,Pending
+CASE-2026-1186,Criminal,Public Interest,2143,5,2020-05-15,520,High,Pending
+CASE-2026-1187,Family,Personal,1888,3,2021-01-25,303,Medium,Pending
+CASE-2026-1188,Family,High Stakes,2303,5,2019-12-07,489,High,Pending
+CASE-2026-1189,Family,Financial,2316,3,2019-11-24,344,Medium,Pending
+CASE-2026-1190,Commercial,Public Interest,1812,2,2021-04-11,705,Medium,Pending
+CASE-2026-1191,Criminal,High Stakes,1589,4,2021-11-20,626,High,Pending
+CASE-2026-1192,Traffic,High Stakes,1044,3,2023-05-19,212,Medium,Resolved
+CASE-2026-1193,Traffic,Public Interest,1606,4,2021-11-03,188,High,Pending
+CASE-2026-1194,Family,High Stakes,2255,4,2020-01-24,440,High,Pending
+CASE-2026-1195,Family,Routine,3636,5,2016-04-13,207,High,Pending
+CASE-2026-1196,Civil,High Stakes,1308,2,2022-08-28,740,Medium,Pending
+CASE-2026-1197,Traffic,Routine,3244,3,2017-05-10,30,High,Pending
+CASE-2026-1198,Commercial,Personal,823,3,2023-12-26,576,Medium,Pending
+CASE-2026-1199,Traffic,High Stakes,2162,5,2020-04-26,191,High,Resolved
+CASE-2026-1200,Civil,Routine,337,4,2025-04-25,487,High,Resolved
+CASE-2026-1201,Traffic,Personal,1102,1,2023-03-22,56,Medium,Resolved
+CASE-2026-1202,Family,Financial,801,1,2024-01-17,308,Low,Pending
+CASE-2026-1203,Traffic,Financial,190,2,2025-09-19,138,Medium,Pending
+CASE-2026-1204,Civil,High Stakes,824,3,2023-12-25,731,Medium,Resolved
+CASE-2026-1205,Criminal,Public Interest,739,3,2024-03-19,519,High,Resolved
+CASE-2026-1206,Criminal,Financial,2600,3,2019-02-13,363,High,Pending
+CASE-2026-1207,Traffic,Public Interest,1510,5,2022-02-07,158,High,Pending
+CASE-2026-1208,Commercial,High Stakes,2048,5,2020-08-18,910,High,Pending
+CASE-2026-1209,Commercial,Public Interest,2084,5,2020-07-13,773,High,Pending
+CASE-2026-1210,Traffic,Personal,1298,5,2022-09-07,165,High,Pending
+CASE-2026-1211,Criminal,Public Interest,3249,4,2017-05-05,389,High,Pending
+CASE-2026-1212,Criminal,Public Interest,925,4,2023-09-15,527,High,Pending
+CASE-2026-1213,Family,High Stakes,3176,4,2017-07-17,331,High,Resolved
+CASE-2026-1214,Commercial,Personal,2946,5,2018-03-04,587,High,Pending
+CASE-2026-1215,Civil,Public Interest,3575,4,2016-06-13,500,High,Pending
+CASE-2026-1216,Commercial,Routine,94,2,2025-12-24,573,Medium,Pending
+CASE-2026-1217,Commercial,Public Interest,2372,2,2019-09-29,637,Medium,Pending
+CASE-2026-1218,Family,Public Interest,1507,3,2022-02-10,324,Medium,Pending
+CASE-2026-1219,Civil,Financial,332,4,2025-04-30,614,High,Pending
+CASE-2026-1220,Traffic,Financial,3035,5,2017-12-05,137,High,Resolved
+CASE-2026-1221,Commercial,Public Interest,2439,4,2019-07-24,757,High,Resolved
+CASE-2026-1222,Traffic,Routine,3000,2,2018-01-09,30,High,Pending
+CASE-2026-1223,Family,Financial,1861,3,2021-02-21,370,Medium,Pending
+CASE-2026-1224,Traffic,High Stakes,2735,5,2018-10-01,152,High,Pending
+CASE-2026-1225,Criminal,High Stakes,1061,5,2023-05-02,675,High,Pending
+CASE-2026-1226,Criminal,High Stakes,2275,5,2020-01-04,596,High,Pending
+CASE-2026-1227,Family,Routine,2409,3,2019-08-23,164,Medium,Pending
+CASE-2026-1228,Criminal,Routine,2943,4,2018-03-07,273,High,Resolved
+CASE-2026-1229,Criminal,High Stakes,173,3,2025-10-06,645,High,Pending
+CASE-2026-1230,Family,Routine,2626,2,2019-01-18,172,High,Pending
+CASE-2026-1231,Civil,High Stakes,674,4,2024-05-23,825,High,Pending
+CASE-2026-1232,Traffic,Routine,3032,5,2017-12-08,61,High,Pending
+CASE-2026-1233,Criminal,Public Interest,1838,4,2021-03-16,490,High,Pending
+CASE-2026-1234,Traffic,Public Interest,2476,4,2019-06-17,76,High,Pending
+CASE-2026-1235,Family,Routine,1248,5,2022-10-27,312,High,Resolved
+CASE-2026-1236,Commercial,High Stakes,1410,1,2022-05-18,802,Medium,Pending
+CASE-2026-1237,Family,Public Interest,830,3,2023-12-19,414,Medium,Pending
+CASE-2026-1238,Criminal,Public Interest,592,4,2024-08-13,523,High,Resolved
+CASE-2026-1239,Family,Routine,314,3,2025-05-18,350,Medium,Pending
+CASE-2026-1240,Civil,High Stakes,2256,5,2020-01-23,768,High,Resolved
+CASE-2026-1241,Commercial,High Stakes,3313,5,2017-03-02,854,High,Pending
+CASE-2026-1242,Traffic,Personal,2029,5,2020-09-06,130,High,Resolved
+CASE-2026-1243,Traffic,Personal,1569,5,2021-12-10,144,High,Resolved
+CASE-2026-1244,Commercial,Public Interest,2418,5,2019-08-14,725,High,Pending
+CASE-2026-1245,Family,Personal,1109,2,2023-03-15,230,Medium,Pending
+CASE-2026-1246,Family,Personal,1877,5,2021-02-05,311,High,Pending
+CASE-2026-1247,Civil,Routine,581,3,2024-08-24,499,Medium,Pending
+CASE-2026-1248,Commercial,Financial,2929,3,2018-03-21,601,High,Pending
+CASE-2026-1249,Traffic,Financial,1955,4,2020-11-19,82,High,Pending
+CASE-2026-1250,Criminal,Public Interest,432,5,2025-01-20,573,High,Resolved
+CASE-2026-1251,Traffic,Public Interest,1600,4,2021-11-09,112,High,Resolved
+CASE-2026-1252,Criminal,High Stakes,3539,4,2016-07-19,547,High,Pending
+CASE-2026-1253,Family,Routine,1836,5,2021-03-18,276,High,Pending
+CASE-2026-1254,Traffic,Personal,283,3,2025-06-18,114,Medium,Pending
+CASE-2026-1255,Family,Public Interest,1583,3,2021-11-26,368,Medium,Resolved
+CASE-2026-1256,Commercial,Public Interest,317,2,2025-05-15,762,Medium,Pending
+CASE-2026-1257,Civil,Public Interest,802,5,2024-01-16,737,High,Resolved
+CASE-2026-1258,Criminal,Public Interest,2347,4,2019-10-24,527,High,Pending
+CASE-2026-1259,Traffic,Routine,1854,5,2021-02-28,159,High,Pending
+CASE-2026-1260,Commercial,Personal,2930,3,2018-03-20,509,High,Resolved
+CASE-2026-1261,Civil,Personal,3647,5,2016-04-02,384,High,Pending
+CASE-2026-1262,Family,Public Interest,611,4,2024-07-25,477,High,Pending
+CASE-2026-1263,Civil,Routine,2217,4,2020-03-02,409,High,Resolved
+CASE-2026-1264,Family,High Stakes,590,2,2024-08-15,401,Medium,Pending
+CASE-2026-1265,Commercial,Financial,2004,4,2020-10-01,728,High,Pending
+CASE-2026-1266,Family,Public Interest,2524,2,2019-04-30,309,High,Pending
+CASE-2026-1267,Traffic,Personal,75,2,2026-01-12,90,Medium,Pending
+CASE-2026-1268,Traffic,Public Interest,337,4,2025-04-25,181,High,Pending
+CASE-2026-1269,Traffic,Routine,2315,5,2019-11-25,114,High,Pending
+CASE-2026-1270,Civil,Financial,965,4,2023-08-06,648,High,Pending
+CASE-2026-1271,Family,Financial,870,4,2023-11-09,447,High,Pending
+CASE-2026-1272,Commercial,High Stakes,2610,5,2019-02-03,874,High,Resolved
+CASE-2026-1273,Commercial,Public Interest,2328,2,2019-11-12,633,Medium,Pending
+CASE-2026-1274,Family,Personal,3174,4,2017-07-19,206,High,Pending
+CASE-2026-1275,Commercial,Routine,1198,1,2022-12-16,494,Medium,Pending
+CASE-2026-1276,Criminal,Personal,113,3,2025-12-05,468,High,Pending
+CASE-2026-1277,Civil,Routine,537,1,2024-10-07,382,Low,Resolved
+CASE-2026-1278,Civil,Personal,488,3,2024-11-25,479,Medium,Pending
+CASE-2026-1279,Traffic,Personal,2121,3,2020-06-06,113,Medium,Pending
+CASE-2026-1280,Civil,Public Interest,1422,5,2022-05-06,708,High,Pending
+CASE-2026-1281,Family,High Stakes,2480,5,2019-06-13,430,High,Pending
+CASE-2026-1282,Civil,Personal,2398,2,2019-09-03,395,Medium,Pending
+CASE-2026-1283,Criminal,High Stakes,823,3,2023-12-26,648,High,Pending
+CASE-2026-1284,Criminal,Personal,1878,4,2021-02-04,388,High,Resolved
+CASE-2026-1285,Family,Financial,887,5,2023-10-23,432,High,Pending
+CASE-2026-1286,Family,Financial,429,4,2025-01-23,393,High,Resolved
+CASE-2026-1287,Traffic,Financial,1558,5,2021-12-21,216,High,Pending
+CASE-2026-1288,Family,Financial,2726,3,2018-10-10,298,High,Resolved
+CASE-2026-1289,Criminal,Public Interest,1792,4,2021-05-01,511,High,Pending
+CASE-2026-1290,Traffic,Personal,1658,1,2021-09-12,30,Medium,Pending
+CASE-2026-1291,Traffic,Personal,1468,3,2022-03-21,73,Medium,Pending
+CASE-2026-1292,Commercial,Financial,388,1,2025-03-05,676,Low,Pending
+CASE-2026-1293,Traffic,Personal,2491,4,2019-06-02,105,High,Pending
+CASE-2026-1294,Commercial,Personal,1216,3,2022-11-28,547,Medium,Pending
+CASE-2026-1295,Family,Public Interest,2802,5,2018-07-26,355,High,Pending
+CASE-2026-1296,Family,Routine,2272,3,2020-01-07,185,Medium,Pending
+CASE-2026-1297,Criminal,Routine,2424,4,2019-08-08,335,High,Pending
+CASE-2026-1298,Family,Personal,3426,2,2016-11-09,112,High,Pending
+CASE-2026-1299,Family,Routine,3175,5,2017-07-18,257,High,Resolved
+CASE-2026-1300,Civil,Personal,2981,4,2018-01-28,425,High,Resolved
+CASE-2026-1301,Commercial,High Stakes,3232,5,2017-05-22,843,High,Pending
+CASE-2026-1302,Traffic,Personal,2662,3,2018-12-13,30,High,Pending
+CASE-2026-1303,Commercial,Personal,470,5,2024-12-13,715,High,Pending
+CASE-2026-1304,Family,Public Interest,1266,2,2022-10-09,311,Medium,Pending
+CASE-2026-1305,Civil,Routine,1311,2,2022-08-25,385,Medium,Resolved
+CASE-2026-1306,Commercial,Financial,2256,4,2020-01-23,625,High,Resolved
+CASE-2026-1307,Commercial,Personal,3292,3,2017-03-23,469,High,Pending
+CASE-2026-1308,Traffic,Financial,1756,2,2021-06-06,70,Medium,Pending
+CASE-2026-1309,Family,Personal,1301,1,2022-09-04,264,Medium,Pending
+CASE-2026-1310,Family,Routine,1312,1,2022-08-24,223,Medium,Pending
+CASE-2026-1311,Traffic,Routine,3581,3,2016-06-07,30,High,Pending
+CASE-2026-1312,Civil,Public Interest,2487,5,2019-06-06,670,High,Pending
+CASE-2026-1313,Commercial,High Stakes,2185,4,2020-04-03,879,High,Pending
+CASE-2026-1314,Commercial,Public Interest,2003,4,2020-10-02,770,High,Resolved
+CASE-2026-1315,Family,Financial,1812,2,2021-04-11,272,Medium,Pending
+CASE-2026-1316,Civil,Routine,478,1,2024-12-05,366,Low,Pending
+CASE-2026-1317,Civil,High Stakes,3169,3,2017-07-24,611,High,Pending
+CASE-2026-1318,Criminal,Personal,3192,5,2017-07-01,382,High,Pending
+CASE-2026-1319,Traffic,Public Interest,808,4,2024-01-10,192,High,Resolved
+CASE-2026-1320,Family,High Stakes,1409,3,2022-05-19,403,Medium,Pending
+CASE-2026-1321,Traffic,Public Interest,930,1,2023-09-10,134,Low,Pending
+CASE-2026-1322,Family,High Stakes,1175,4,2023-01-08,525,High,Pending
+CASE-2026-1323,Traffic,High Stakes,187,2,2025-09-22,221,Medium,Pending
+CASE-2026-1324,Family,High Stakes,3468,5,2016-09-28,371,High,Pending
+CASE-2026-1325,Civil,Financial,2453,5,2019-07-10,541,High,Resolved
+CASE-2026-1326,Criminal,Routine,666,4,2024-05-31,382,High,Pending
+CASE-2026-1327,Traffic,Personal,3530,5,2016-07-28,68,High,Resolved
+CASE-2026-1328,Traffic,Financial,2113,5,2020-06-14,134,High,Resolved
+CASE-2026-1329,Traffic,Personal,2110,5,2020-06-17,129,High,Pending
+CASE-2026-1330,Criminal,Personal,609,4,2024-07-27,457,High,Resolved
+CASE-2026-1331,Criminal,Financial,1881,5,2021-02-01,535,High,Resolved
+CASE-2026-1332,Commercial,Routine,1155,1,2023-01-28,403,Medium,Pending
+CASE-2026-1333,Traffic,Public Interest,1221,1,2022-11-23,50,Medium,Resolved
+CASE-2026-1334,Criminal,Personal,1949,5,2020-11-25,369,High,Pending
+CASE-2026-1335,Family,High Stakes,2662,3,2018-12-13,333,High,Pending
+CASE-2026-1336,Criminal,Routine,387,5,2025-03-06,465,High,Pending
+CASE-2026-1337,Criminal,Financial,12,5,2026-03-16,550,High,Pending
+CASE-2026-1338,Commercial,Public Interest,637,3,2024-06-29,733,Medium,Resolved
+CASE-2026-1339,Family,High Stakes,901,1,2023-10-09,402,Low,Resolved
+CASE-2026-1340,Civil,Financial,2138,5,2020-05-20,574,High,Pending
+CASE-2026-1341,Civil,High Stakes,2612,5,2019-02-01,766,High,Pending
+CASE-2026-1342,Traffic,Personal,1090,5,2023-04-03,161,High,Pending
+CASE-2026-1343,Civil,High Stakes,2441,4,2019-07-22,745,High,Pending
+CASE-2026-1344,Civil,Financial,3466,5,2016-09-30,544,High,Pending
+CASE-2026-1345,Traffic,Financial,3644,5,2016-04-05,98,High,Resolved
+CASE-2026-1346,Civil,Routine,41,2,2026-02-15,492,Medium,Pending
+CASE-2026-1347,Commercial,Financial,2802,4,2018-07-26,626,High,Pending
+CASE-2026-1348,Criminal,High Stakes,2603,3,2019-02-10,526,High,Pending
+CASE-2026-1349,Traffic,High Stakes,3431,2,2016-11-04,30,High,Pending
+CASE-2026-1350,Traffic,Financial,2376,3,2019-09-25,42,Medium,Resolved
+CASE-2026-1351,Civil,Financial,1850,3,2021-03-04,586,Medium,Pending
+CASE-2026-1352,Family,High Stakes,3554,3,2016-07-04,299,High,Pending
+CASE-2026-1353,Commercial,High Stakes,2048,5,2020-08-18,844,High,Pending
+CASE-2026-1354,Civil,High Stakes,2556,5,2019-03-29,731,High,Pending
+CASE-2026-1355,Civil,Personal,180,1,2025-09-29,423,Low,Pending
+CASE-2026-1356,Criminal,Routine,58,2,2026-01-29,423,Medium,Pending
+CASE-2026-1357,Traffic,Public Interest,2191,5,2020-03-28,189,High,Pending
+CASE-2026-1358,Criminal,Routine,1332,4,2022-08-04,375,High,Pending
+CASE-2026-1359,Family,Financial,335,5,2025-04-27,469,High,Pending
+CASE-2026-1360,Family,Financial,1502,3,2022-02-15,326,Medium,Pending
+CASE-2026-1361,Commercial,Public Interest,720,4,2024-04-07,800,High,Pending
+CASE-2026-1362,Commercial,Financial,1577,4,2021-12-02,653,High,Pending
+CASE-2026-1363,Criminal,High Stakes,1941,5,2020-12-03,567,High,Pending
+CASE-2026-1364,Commercial,Financial,1296,1,2022-09-09,598,Medium,Pending
+CASE-2026-1365,Criminal,Routine,2994,5,2018-01-15,334,High,Pending
+CASE-2026-1366,Family,High Stakes,3226,5,2017-05-28,369,High,Pending
+CASE-2026-1367,Criminal,Routine,1572,4,2021-12-07,352,High,Pending
+CASE-2026-1368,Family,Personal,3143,5,2017-08-19,279,High,Pending
+CASE-2026-1369,Civil,Financial,1350,4,2022-07-17,561,High,Pending
+CASE-2026-1370,Civil,Personal,575,4,2024-08-30,548,High,Pending
+CASE-2026-1371,Commercial,Public Interest,1690,1,2021-08-11,662,Medium,Pending
+CASE-2026-1372,Civil,Routine,1362,5,2022-07-05,508,High,Pending
+CASE-2026-1373,Family,Financial,2858,5,2018-05-31,333,High,Resolved
+CASE-2026-1374,Criminal,Personal,2840,4,2018-06-18,384,High,Pending
+CASE-2026-1375,Traffic,Public Interest,849,5,2023-11-30,187,High,Resolved
+CASE-2026-1376,Commercial,Routine,1919,2,2020-12-25,489,Medium,Resolved
+CASE-2026-1377,Commercial,Public Interest,75,5,2026-01-12,878,High,Pending
+CASE-2026-1378,Family,Personal,96,5,2025-12-22,416,High,Pending
+CASE-2026-1379,Criminal,High Stakes,1038,5,2023-05-25,663,High,Pending
+CASE-2026-1380,Family,Routine,555,4,2024-09-19,303,High,Pending
+CASE-2026-1381,Commercial,High Stakes,2071,5,2020-07-26,926,High,Pending
+CASE-2026-1382,Commercial,Financial,1192,4,2022-12-22,723,High,Pending
+CASE-2026-1383,Criminal,Routine,117,4,2025-12-01,472,High,Pending
+CASE-2026-1384,Traffic,Public Interest,1786,5,2021-05-07,121,High,Pending
+CASE-2026-1385,Family,Routine,2787,4,2018-08-10,236,High,Resolved
+CASE-2026-1386,Civil,High Stakes,632,4,2024-07-04,763,High,Pending
+CASE-2026-1387,Commercial,Routine,891,2,2023-10-19,508,Medium,Pending
+CASE-2026-1388,Civil,High Stakes,1912,5,2021-01-01,782,High,Pending
+CASE-2026-1389,Criminal,Public Interest,2144,5,2020-05-14,532,High,Pending
+CASE-2026-1390,Commercial,Routine,1129,2,2023-02-23,455,Medium,Pending
+CASE-2026-1391,Traffic,Routine,86,2,2026-01-01,176,Medium,Pending
+CASE-2026-1392,Traffic,High Stakes,2670,3,2018-12-05,40,High,Pending
+CASE-2026-1393,Family,Personal,569,5,2024-09-05,403,High,Pending
+CASE-2026-1394,Family,Routine,1907,5,2021-01-06,283,High,Pending
+CASE-2026-1395,Criminal,Financial,472,4,2024-12-11,543,High,Pending
+CASE-2026-1396,Family,Personal,2872,5,2018-05-17,243,High,Pending
+CASE-2026-1397,Commercial,High Stakes,1500,1,2022-02-17,751,Medium,Pending
+CASE-2026-1398,Criminal,Financial,68,2,2026-01-19,480,Medium,Pending
+CASE-2026-1399,Criminal,Public Interest,1569,3,2021-12-10,532,High,Pending
+CASE-2026-1400,Criminal,Routine,3619,4,2016-04-30,244,High,Pending
+CASE-2026-1401,Commercial,Personal,1975,5,2020-10-30,608,High,Pending
+CASE-2026-1402,Family,High Stakes,3014,5,2017-12-26,378,High,Pending
+CASE-2026-1403,Family,High Stakes,214,4,2025-08-26,550,High,Pending
+CASE-2026-1404,Criminal,High Stakes,2501,5,2019-05-23,632,High,Pending
+CASE-2026-1405,Criminal,Personal,2664,3,2018-12-11,322,High,Pending
+CASE-2026-1406,Family,Routine,3584,5,2016-06-04,194,High,Pending
+CASE-2026-1407,Civil,Personal,558,4,2024-09-16,526,High,Pending
+CASE-2026-1408,Commercial,Routine,1935,3,2020-12-09,491,Medium,Pending
+CASE-2026-1409,Traffic,Personal,2271,2,2020-01-08,64,Medium,Resolved
+CASE-2026-1410,Traffic,Routine,2966,5,2018-02-12,54,High,Pending
+CASE-2026-1411,Commercial,Public Interest,3415,5,2016-11-20,668,High,Pending
+CASE-2026-1412,Traffic,Financial,1982,2,2020-10-23,78,Medium,Pending
+CASE-2026-1413,Family,Routine,670,3,2024-05-27,336,Medium,Pending
+CASE-2026-1414,Traffic,Financial,684,2,2024-05-13,165,Medium,Pending
+CASE-2026-1415,Traffic,Routine,1832,2,2021-03-22,72,Medium,Pending
+CASE-2026-1416,Commercial,Public Interest,2154,4,2020-05-04,741,High,Pending
+CASE-2026-1417,Criminal,Financial,2048,5,2020-08-18,465,High,Pending
+CASE-2026-1418,Family,High Stakes,3559,2,2016-06-29,293,High,Resolved
+CASE-2026-1419,Civil,Financial,3233,5,2017-05-21,586,High,Pending
+CASE-2026-1420,Civil,Routine,2625,3,2019-01-19,407,High,Resolved
+CASE-2026-1421,Criminal,High Stakes,1679,2,2021-08-22,500,Medium,Resolved
+CASE-2026-1422,Criminal,Personal,2974,5,2018-02-04,331,High,Pending
+CASE-2026-1423,Family,Routine,1206,3,2022-12-08,238,Medium,Pending
+CASE-2026-1424,Criminal,Public Interest,2292,5,2019-12-18,473,High,Resolved
+CASE-2026-1425,Civil,Personal,3111,5,2017-09-20,478,High,Pending
+CASE-2026-1426,Criminal,High Stakes,3506,4,2016-08-21,544,High,Pending
+CASE-2026-1427,Family,Personal,1658,5,2021-09-12,300,High,Pending
+CASE-2026-1428,Commercial,High Stakes,2275,3,2020-01-04,859,Medium,Pending
+CASE-2026-1429,Family,Public Interest,3246,5,2017-05-08,345,High,Pending
+CASE-2026-1430,Commercial,High Stakes,2124,5,2020-06-03,863,High,Resolved
+CASE-2026-1431,Family,Routine,666,1,2024-05-31,192,Low,Resolved
+CASE-2026-1432,Traffic,Personal,3476,5,2016-09-20,34,High,Pending
+CASE-2026-1433,Civil,High Stakes,3236,3,2017-05-18,678,High,Pending
+CASE-2026-1434,Criminal,Personal,2851,4,2018-06-07,333,High,Pending
+CASE-2026-1435,Family,High Stakes,3256,2,2017-04-28,286,High,Resolved
+CASE-2026-1436,Civil,Financial,131,4,2025-11-17,672,High,Pending
+CASE-2026-1437,Commercial,Financial,1342,4,2022-07-25,708,High,Pending
+CASE-2026-1438,Family,Routine,1737,4,2021-06-25,302,High,Pending
+CASE-2026-1439,Civil,Public Interest,1707,4,2021-07-25,637,High,Pending
+CASE-2026-1440,Commercial,High Stakes,3579,5,2016-06-09,802,High,Pending
+CASE-2026-1441,Family,High Stakes,466,1,2024-12-17,439,Low,Pending
+CASE-2026-1442,Family,Routine,1302,5,2022-09-03,317,High,Pending
+CASE-2026-1443,Traffic,Personal,1191,3,2022-12-23,117,Medium,Pending
+CASE-2026-1444,Family,Financial,2922,5,2018-03-28,333,High,Resolved
+CASE-2026-1445,Criminal,High Stakes,2193,4,2020-03-26,607,High,Pending
+CASE-2026-1446,Family,Public Interest,3183,4,2017-07-10,369,High,Pending
+CASE-2026-1447,Civil,Financial,2494,3,2019-05-30,529,Medium,Pending
+CASE-2026-1448,Civil,Personal,1891,5,2021-01-22,534,High,Pending
+CASE-2026-1449,Family,High Stakes,1192,4,2022-12-22,524,High,Pending
+CASE-2026-1450,Traffic,High Stakes,2213,2,2020-03-06,111,Medium,Pending
+CASE-2026-1451,Traffic,High Stakes,1383,4,2022-06-14,139,High,Pending
+CASE-2026-1452,Civil,High Stakes,869,4,2023-11-10,808,High,Pending
+CASE-2026-1453,Criminal,Financial,1398,3,2022-05-30,468,High,Pending
+CASE-2026-1454,Traffic,Public Interest,2811,5,2018-07-17,126,High,Pending
+CASE-2026-1455,Traffic,Routine,640,4,2024-06-26,114,High,Pending
+CASE-2026-1456,Commercial,Financial,1588,1,2021-11-21,601,Medium,Pending
+CASE-2026-1457,Criminal,Public Interest,570,5,2024-09-04,589,High,Pending
+CASE-2026-1458,Criminal,Personal,1838,5,2021-03-16,389,High,Pending
+CASE-2026-1459,Criminal,High Stakes,1370,4,2022-06-27,637,High,Pending
+CASE-2026-1460,Criminal,Public Interest,3578,3,2016-06-10,420,High,Pending
+CASE-2026-1461,Family,Personal,3245,5,2017-05-09,242,High,Pending
+CASE-2026-1462,Family,Public Interest,1729,5,2021-07-03,472,High,Pending
+CASE-2026-1463,Family,Routine,2944,3,2018-03-06,221,High,Resolved
+CASE-2026-1464,Criminal,Personal,1280,2,2022-09-25,365,Medium,Pending
+CASE-2026-1465,Civil,Routine,3584,3,2016-06-04,295,High,Pending
+CASE-2026-1466,Criminal,Routine,11,3,2026-03-17,378,High,Pending
+CASE-2026-1467,Civil,High Stakes,488,2,2024-11-25,751,Medium,Pending
+CASE-2026-1468,Commercial,Personal,1441,2,2022-04-17,488,Medium,Pending
+CASE-2026-1469,Civil,Personal,32,4,2026-02-24,548,High,Pending
+CASE-2026-1470,Civil,Personal,1469,4,2022-03-20,534,High,Pending
+CASE-2026-1471,Commercial,Personal,3567,5,2016-06-21,559,High,Pending
+CASE-2026-1472,Criminal,High Stakes,1811,5,2021-04-12,613,High,Pending
+CASE-2026-1473,Commercial,Public Interest,3426,4,2016-11-09,701,High,Pending
+CASE-2026-1474,Criminal,Public Interest,160,3,2025-10-19,543,High,Pending
+CASE-2026-1475,Civil,Financial,1823,3,2021-03-31,520,Medium,Pending
+CASE-2026-1476,Civil,Financial,2170,5,2020-04-18,591,High,Pending
+CASE-2026-1477,Civil,Routine,1644,2,2021-09-26,387,Medium,Pending
+CASE-2026-1478,Commercial,Public Interest,3140,5,2017-08-22,706,High,Resolved
+CASE-2026-1479,Commercial,Routine,1668,4,2021-09-02,518,High,Pending
+CASE-2026-1480,Commercial,Routine,1020,5,2023-06-12,588,High,Pending
+CASE-2026-1481,Family,Personal,1994,3,2020-10-11,296,Medium,Pending
+CASE-2026-1482,Criminal,Public Interest,1395,3,2022-06-02,454,High,Pending
+CASE-2026-1483,Civil,High Stakes,2080,5,2020-07-17,728,High,Pending
+CASE-2026-1484,Commercial,Routine,3149,4,2017-08-13,438,High,Resolved
+CASE-2026-1485,Family,High Stakes,3346,5,2017-01-28,388,High,Pending
+CASE-2026-1486,Criminal,Public Interest,2594,4,2019-02-19,442,High,Pending
+CASE-2026-1487,Civil,Routine,2482,3,2019-06-11,357,Medium,Pending
+CASE-2026-1488,Family,Financial,2699,5,2018-11-06,348,High,Pending
+CASE-2026-1489,Civil,Routine,2392,5,2019-09-09,461,High,Pending
+CASE-2026-1490,Commercial,Routine,1838,4,2021-03-16,555,High,Pending
+CASE-2026-1491,Commercial,Routine,1952,2,2020-11-22,459,Medium,Pending
+CASE-2026-1492,Family,Public Interest,1145,5,2023-02-07,405,High,Pending
+CASE-2026-1493,Criminal,Personal,3468,5,2016-09-28,342,High,Pending
+CASE-2026-1494,Commercial,Personal,2471,3,2019-06-22,507,Medium,Pending
+CASE-2026-1495,Civil,Personal,1639,3,2021-10-01,430,Medium,Pending
+CASE-2026-1496,Commercial,High Stakes,328,5,2025-05-04,975,High,Pending
+CASE-2026-1497,Civil,Routine,1650,2,2021-09-20,382,Medium,Pending
+CASE-2026-1498,Civil,Personal,2228,3,2020-02-20,396,Medium,Resolved
+CASE-2026-1499,Commercial,High Stakes,734,4,2024-03-24,954,High,Pending
+CASE-2026-1500,Family,Routine,2994,5,2018-01-15,202,High,Pending
+CASE-2026-1501,Family,Routine,578,5,2024-08-27,358,High,Pending
+CASE-2026-1502,Traffic,High Stakes,2930,4,2018-03-20,146,High,Pending
+CASE-2026-1503,Criminal,Routine,2352,5,2019-10-19,355,High,Pending
+CASE-2026-1504,Family,Personal,3380,3,2016-12-25,230,High,Pending
+CASE-2026-1505,Commercial,Routine,2999,5,2018-01-10,473,High,Pending
+CASE-2026-1506,Commercial,Routine,3207,2,2017-06-16,408,High,Pending
+CASE-2026-1507,Civil,Financial,2088,2,2020-07-09,516,Medium,Pending
+CASE-2026-1508,Traffic,Personal,2360,3,2019-10-11,81,Medium,Pending
+CASE-2026-1509,Traffic,Routine,111,5,2025-12-07,179,High,Pending
+CASE-2026-1510,Traffic,Public Interest,1105,5,2023-03-19,205,High,Pending
+CASE-2026-1511,Civil,Financial,480,4,2024-12-03,671,High,Resolved
+CASE-2026-1512,Criminal,Financial,1930,5,2020-12-14,508,High,Pending
+CASE-2026-1513,Criminal,Public Interest,1620,5,2021-10-20,538,High,Pending
+CASE-2026-1514,Commercial,Personal,370,3,2025-03-23,602,Medium,Pending
+CASE-2026-1515,Civil,Routine,3327,4,2017-02-16,360,High,Pending
+CASE-2026-1516,Commercial,Public Interest,3270,5,2017-04-14,750,High,Pending
+CASE-2026-1517,Commercial,Routine,2655,2,2018-12-20,395,High,Pending
+CASE-2026-1518,Traffic,Public Interest,2952,2,2018-02-26,67,High,Pending
+CASE-2026-1519,Criminal,Financial,1495,3,2022-02-22,498,High,Pending
+CASE-2026-1520,Family,Public Interest,2787,3,2018-08-10,307,High,Pending
+CASE-2026-1521,Criminal,Personal,729,4,2024-03-29,481,High,Pending
+CASE-2026-1522,Family,Financial,1633,1,2021-10-07,306,Medium,Pending
+CASE-2026-1523,Civil,Personal,27,3,2026-03-01,557,Medium,Pending
+CASE-2026-1524,Traffic,Personal,3567,3,2016-06-21,30,High,Resolved
+CASE-2026-1525,Civil,High Stakes,1377,2,2022-06-20,711,Medium,Pending
+CASE-2026-1526,Criminal,Personal,1261,5,2022-10-14,400,High,Resolved
+CASE-2026-1527,Commercial,Routine,1683,2,2021-08-18,444,Medium,Pending
+CASE-2026-1528,Family,Personal,3096,5,2017-10-05,315,High,Pending
+CASE-2026-1529,Family,Financial,2958,3,2018-02-20,285,High,Pending
+CASE-2026-1530,Civil,High Stakes,355,5,2025-04-07,864,High,Resolved
+CASE-2026-1531,Civil,Public Interest,3107,4,2017-09-24,585,High,Pending
+CASE-2026-1532,Civil,Routine,3494,3,2016-09-02,341,High,Pending
+CASE-2026-1533,Criminal,Financial,3095,4,2017-10-06,435,High,Pending
+CASE-2026-1534,Commercial,Personal,2876,3,2018-05-13,490,High,Pending
+CASE-2026-1535,Civil,High Stakes,1606,5,2021-11-03,742,High,Pending
+CASE-2026-1536,Traffic,High Stakes,1120,2,2023-03-04,152,Medium,Pending
+CASE-2026-1537,Civil,High Stakes,3518,5,2016-08-09,636,High,Pending
+CASE-2026-1538,Criminal,Routine,49,3,2026-02-07,360,High,Pending
+CASE-2026-1539,Family,High Stakes,2133,5,2020-05-25,457,High,Pending
+CASE-2026-1540,Family,Financial,3406,2,2016-11-29,170,High,Pending
+CASE-2026-1541,Commercial,Financial,2971,3,2018-02-07,642,High,Resolved
+CASE-2026-1542,Traffic,Routine,1988,5,2020-10-17,87,High,Resolved
+CASE-2026-1543,Traffic,Routine,1876,4,2021-02-06,83,High,Resolved
+CASE-2026-1544,Civil,Personal,983,3,2023-07-19,529,Medium,Pending
+CASE-2026-1545,Commercial,High Stakes,2561,5,2019-03-24,838,High,Pending
+CASE-2026-1546,Civil,High Stakes,259,4,2025-07-12,842,High,Pending
+CASE-2026-1547,Family,Financial,3612,2,2016-05-07,171,High,Pending
+CASE-2026-1548,Family,Financial,1448,3,2022-04-10,387,Medium,Resolved
+CASE-2026-1549,Criminal,Routine,2441,4,2019-07-22,330,High,Pending
+CASE-2026-1550,Commercial,Routine,3226,2,2017-05-28,393,High,Pending
+CASE-2026-1551,Commercial,Routine,1801,1,2021-04-22,429,Medium,Pending
+CASE-2026-1552,Civil,Public Interest,1334,2,2022-08-02,625,Medium,Pending
+CASE-2026-1553,Criminal,High Stakes,3478,4,2016-09-18,460,High,Pending
+CASE-2026-1554,Family,Routine,3505,4,2016-08-22,192,High,Pending
+CASE-2026-1555,Traffic,Routine,3605,5,2016-05-14,87,High,Pending
+CASE-2026-1556,Family,Public Interest,206,1,2025-09-03,331,Low,Pending
+CASE-2026-1557,Traffic,High Stakes,2871,3,2018-05-18,70,High,Pending
+CASE-2026-1558,Family,Personal,2788,5,2018-08-09,236,High,Pending
+CASE-2026-1559,Commercial,Routine,2209,3,2020-03-10,493,Medium,Pending
+CASE-2026-1560,Commercial,Personal,2357,3,2019-10-14,539,Medium,Pending
+CASE-2026-1561,Family,Financial,2738,5,2018-09-28,297,High,Pending
+CASE-2026-1562,Civil,High Stakes,40,4,2026-02-16,867,High,Pending
+CASE-2026-1563,Traffic,Public Interest,2265,5,2020-01-14,136,High,Pending
+CASE-2026-1564,Family,Financial,22,3,2026-03-06,415,Medium,Pending
+CASE-2026-1565,Commercial,High Stakes,2158,4,2020-04-30,852,High,Resolved
+CASE-2026-1566,Civil,High Stakes,3315,2,2017-02-28,630,High,Pending
+CASE-2026-1567,Family,High Stakes,2680,3,2018-11-25,426,High,Resolved
+CASE-2026-1568,Civil,Routine,114,2,2025-12-04,470,Medium,Pending
+CASE-2026-1569,Civil,High Stakes,2015,4,2020-09-20,765,High,Resolved
+CASE-2026-1570,Commercial,High Stakes,2033,4,2020-09-02,829,High,Resolved
+CASE-2026-1571,Civil,Routine,2317,4,2019-11-23,370,High,Pending
+CASE-2026-1572,Civil,Public Interest,3596,3,2016-05-23,523,High,Pending
+CASE-2026-1573,Civil,Routine,3474,4,2016-09-22,367,High,Pending
+CASE-2026-1574,Traffic,Public Interest,3445,2,2016-10-21,30,High,Pending
+CASE-2026-1575,Traffic,Public Interest,1569,4,2021-12-10,149,High,Resolved
+CASE-2026-1576,Civil,Routine,3539,2,2016-07-19,289,High,Pending
+CASE-2026-1577,Commercial,High Stakes,3153,5,2017-08-09,839,High,Pending
+CASE-2026-1578,Commercial,Financial,1754,5,2021-06-08,755,High,Pending
+CASE-2026-1579,Civil,Financial,1730,2,2021-07-02,474,Medium,Pending
+CASE-2026-1580,Traffic,High Stakes,2444,3,2019-07-19,55,Medium,Pending
+CASE-2026-1581,Traffic,Financial,1539,1,2022-01-09,30,Medium,Resolved
+CASE-2026-1582,Criminal,Financial,1004,3,2023-06-28,524,High,Pending
+CASE-2026-1583,Civil,Personal,1247,4,2022-10-28,542,High,Pending
+CASE-2026-1584,Family,Public Interest,2458,2,2019-07-05,266,Medium,Resolved
+CASE-2026-1585,Criminal,Financial,726,4,2024-04-01,506,High,Pending
+CASE-2026-1586,Family,Personal,2841,4,2018-06-17,277,High,Resolved
+CASE-2026-1587,Family,Public Interest,3560,5,2016-06-28,303,High,Pending
+CASE-2026-1588,Traffic,Personal,2356,5,2019-10-15,79,High,Pending
+CASE-2026-1589,Civil,High Stakes,3350,5,2017-01-24,709,High,Pending
+CASE-2026-1590,Commercial,Public Interest,3107,5,2017-09-24,737,High,Pending
+CASE-2026-1591,Civil,Routine,2653,4,2018-12-22,364,High,Resolved
+CASE-2026-1592,Family,Routine,1653,3,2021-09-17,198,Medium,Pending
+CASE-2026-1593,Civil,Public Interest,207,5,2025-09-02,738,High,Pending
+CASE-2026-1594,Family,High Stakes,1,2,2026-03-27,456,Medium,Pending
+CASE-2026-1595,Traffic,Personal,2431,5,2019-08-01,128,High,Pending
+CASE-2026-1596,Family,Financial,677,2,2024-05-20,327,Medium,Pending
+CASE-2026-1597,Criminal,Routine,2608,4,2019-02-05,295,High,Pending
+CASE-2026-1598,Civil,Financial,1340,5,2022-07-27,631,High,Pending
+CASE-2026-1599,Criminal,Personal,2660,4,2018-12-15,362,High,Pending
+CASE-2026-1600,Criminal,Routine,2108,4,2020-06-19,308,High,Pending
+CASE-2026-1601,Commercial,Financial,1247,5,2022-10-28,715,High,Resolved
+CASE-2026-1602,Civil,Financial,1101,4,2023-03-23,581,High,Resolved
+CASE-2026-1603,Commercial,Financial,467,2,2024-12-16,701,Medium,Pending
+CASE-2026-1604,Criminal,Public Interest,1485,2,2022-03-04,515,Medium,Pending
+CASE-2026-1605,Criminal,Public Interest,1378,2,2022-06-19,440,Medium,Pending
+CASE-2026-1606,Criminal,Public Interest,344,5,2025-04-18,651,High,Pending
+CASE-2026-1607,Family,Financial,1256,4,2022-10-19,419,High,Resolved
+CASE-2026-1608,Family,Routine,1498,5,2022-02-19,360,High,Pending
+CASE-2026-1609,Commercial,High Stakes,306,4,2025-05-26,924,High,Pending
+CASE-2026-1610,Family,Routine,885,1,2023-10-25,209,Low,Resolved
+CASE-2026-1611,Family,Public Interest,781,1,2024-02-06,322,Low,Pending
+CASE-2026-1612,Commercial,Personal,3233,4,2017-05-21,460,High,Pending
+CASE-2026-1613,Civil,High Stakes,37,5,2026-02-19,892,High,Resolved
+CASE-2026-1614,Commercial,Personal,2927,5,2018-03-23,553,High,Pending
+CASE-2026-1615,Commercial,Personal,961,1,2023-08-10,506,Low,Pending
+CASE-2026-1616,Family,Personal,3555,2,2016-07-03,145,High,Pending
+CASE-2026-1617,Civil,Financial,278,3,2025-06-23,610,Medium,Pending
+CASE-2026-1618,Criminal,High Stakes,70,3,2026-01-17,670,High,Pending
+CASE-2026-1619,Civil,Public Interest,719,2,2024-04-08,599,Medium,Pending
+CASE-2026-1620,Commercial,High Stakes,2226,3,2020-02-22,800,Medium,Pending
+CASE-2026-1621,Civil,Public Interest,591,5,2024-08-14,712,High,Pending
+CASE-2026-1622,Criminal,High Stakes,2732,5,2018-10-04,585,High,Pending
+CASE-2026-1623,Traffic,High Stakes,138,1,2025-11-10,134,Low,Pending
+CASE-2026-1624,Family,Routine,2928,2,2018-03-22,154,High,Pending
+CASE-2026-1625,Civil,Financial,1052,2,2023-05-11,600,Medium,Pending
+CASE-2026-1626,Traffic,High Stakes,877,1,2023-11-02,121,Low,Pending
+CASE-2026-1627,Commercial,Routine,917,4,2023-09-23,596,High,Pending
+CASE-2026-1628,Family,Public Interest,3545,5,2016-07-13,379,High,Pending
+CASE-2026-1629,Civil,Personal,3210,4,2017-06-13,371,High,Pending
+CASE-2026-1630,Traffic,High Stakes,1000,3,2023-07-02,176,Medium,Pending
+CASE-2026-1631,Criminal,High Stakes,227,2,2025-08-13,583,Medium,Pending
+CASE-2026-1632,Criminal,Financial,2068,3,2020-07-29,389,High,Pending
+CASE-2026-1633,Family,Financial,1561,1,2021-12-18,237,Medium,Pending
+CASE-2026-1634,Civil,High Stakes,820,3,2023-12-29,720,Medium,Pending
+CASE-2026-1635,Family,Public Interest,2995,3,2018-01-14,276,High,Pending
+CASE-2026-1636,Family,Financial,978,2,2023-07-24,371,Medium,Pending
+CASE-2026-1637,Criminal,Financial,2161,4,2020-04-27,474,High,Pending
+CASE-2026-1638,Traffic,Public Interest,2031,4,2020-09-04,129,High,Pending
+CASE-2026-1639,Commercial,Routine,2008,5,2020-09-27,530,High,Pending
+CASE-2026-1640,Civil,High Stakes,2276,5,2020-01-03,732,High,Resolved
+CASE-2026-1641,Criminal,Routine,3271,4,2017-04-13,298,High,Pending
+CASE-2026-1642,Family,Public Interest,1526,4,2022-01-22,422,High,Pending
+CASE-2026-1643,Traffic,Personal,551,5,2024-09-23,184,High,Pending
+CASE-2026-1644,Criminal,Personal,852,5,2023-11-27,419,High,Resolved
+CASE-2026-1645,Family,Routine,2080,3,2020-07-17,214,Medium,Pending
+CASE-2026-1646,Family,Routine,1527,3,2022-01-21,235,Medium,Pending
+CASE-2026-1647,Criminal,Financial,2758,4,2018-09-08,412,High,Pending
+CASE-2026-1648,Traffic,Public Interest,131,5,2025-11-17,220,High,Resolved
+CASE-2026-1649,Civil,Personal,2854,3,2018-06-04,390,High,Pending
+CASE-2026-1650,Traffic,Personal,945,5,2023-08-26,164,High,Pending
+CASE-2026-1651,Criminal,High Stakes,404,4,2025-02-17,695,High,Pending
+CASE-2026-1652,Criminal,Personal,127,5,2025-11-21,549,High,Pending
+CASE-2026-1653,Traffic,Public Interest,2824,5,2018-07-04,158,High,Pending
+CASE-2026-1654,Civil,Personal,255,4,2025-07-16,567,High,Pending
+CASE-2026-1655,Civil,Routine,609,2,2024-07-27,411,Medium,Pending
+CASE-2026-1656,Civil,Routine,2298,2,2019-12-12,320,Medium,Pending
+CASE-2026-1657,Family,Personal,551,4,2024-09-23,345,High,Pending
+CASE-2026-1658,Traffic,Routine,3504,4,2016-08-23,30,High,Pending
+CASE-2026-1659,Traffic,Public Interest,2363,4,2019-10-08,137,High,Pending
+CASE-2026-1660,Civil,Public Interest,2868,4,2018-05-21,555,High,Pending
+CASE-2026-1661,Commercial,High Stakes,1380,5,2022-06-17,903,High,Resolved
+CASE-2026-1662,Family,Public Interest,462,4,2024-12-21,474,High,Resolved
+CASE-2026-1663,Civil,Public Interest,501,2,2024-11-12,621,Medium,Pending
+CASE-2026-1664,Civil,High Stakes,871,1,2023-11-08,664,Low,Pending
+CASE-2026-1665,Commercial,Public Interest,2427,4,2019-08-05,706,High,Pending
+CASE-2026-1666,Civil,Personal,229,5,2025-08-11,601,High,Pending
+CASE-2026-1667,Criminal,Financial,2892,3,2018-04-27,435,High,Pending
+CASE-2026-1668,Commercial,Routine,808,5,2024-01-10,546,High,Pending
+CASE-2026-1669,Traffic,Public Interest,837,3,2023-12-12,136,Medium,Resolved
+CASE-2026-1670,Criminal,High Stakes,3560,4,2016-06-28,459,High,Pending
+CASE-2026-1671,Commercial,Public Interest,694,3,2024-05-03,764,Medium,Resolved
+CASE-2026-1672,Commercial,Personal,978,1,2023-07-24,479,Low,Pending
+CASE-2026-1673,Traffic,Routine,1790,4,2021-05-03,70,High,Pending
+CASE-2026-1674,Criminal,Personal,2690,5,2018-11-15,420,High,Pending
+CASE-2026-1675,Criminal,Routine,1693,3,2021-08-08,315,High,Resolved
+CASE-2026-1676,Traffic,High Stakes,2695,3,2018-11-10,81,High,Resolved
+CASE-2026-1677,Civil,Public Interest,1586,5,2021-11-23,679,High,Pending
+CASE-2026-1678,Criminal,Personal,1791,4,2021-05-02,340,High,Pending
+CASE-2026-1679,Family,High Stakes,3180,5,2017-07-13,454,High,Resolved
+CASE-2026-1680,Civil,Public Interest,3573,4,2016-06-15,553,High,Pending
+CASE-2026-1681,Civil,Financial,3599,3,2016-05-20,441,High,Pending
+CASE-2026-1682,Family,Routine,2556,5,2019-03-29,231,High,Pending
+CASE-2026-1683,Family,High Stakes,2994,5,2018-01-15,405,High,Pending
+CASE-2026-1684,Civil,Financial,287,3,2025-06-14,639,Medium,Pending
+CASE-2026-1685,Civil,Public Interest,3090,5,2017-10-11,597,High,Pending
+CASE-2026-1686,Civil,Personal,72,1,2026-01-15,454,Low,Pending
+CASE-2026-1687,Commercial,Public Interest,2430,5,2019-08-02,778,High,Resolved
+CASE-2026-1688,Family,Routine,1586,1,2021-11-23,170,Medium,Resolved
+CASE-2026-1689,Commercial,Routine,1671,2,2021-08-30,408,Medium,Pending
+CASE-2026-1690,Criminal,Personal,615,4,2024-07-21,478,High,Pending
+CASE-2026-1691,Criminal,Routine,1727,4,2021-07-05,383,High,Resolved
+CASE-2026-1692,Commercial,Personal,3642,5,2016-04-07,525,High,Pending
+CASE-2026-1693,Civil,Routine,1056,3,2023-05-07,455,Medium,Resolved
+CASE-2026-1694,Criminal,Public Interest,2239,4,2020-02-09,510,High,Pending
+CASE-2026-1695,Civil,Financial,1740,4,2021-06-22,568,High,Pending
+CASE-2026-1696,Civil,Financial,2244,3,2020-02-04,489,Medium,Pending
+CASE-2026-1697,Commercial,Financial,3293,3,2017-03-22,605,High,Pending
+CASE-2026-1698,Criminal,Public Interest,1896,4,2021-01-17,529,High,Pending
+CASE-2026-1699,Civil,Financial,1650,5,2021-09-20,614,High,Pending
+CASE-2026-1700,Criminal,Financial,1681,3,2021-08-20,466,High,Pending
+CASE-2026-1701,Traffic,High Stakes,1151,2,2023-02-01,123,Medium,Pending
+CASE-2026-1702,Civil,High Stakes,12,4,2026-03-16,867,High,Resolved
+CASE-2026-1703,Criminal,Financial,3480,4,2016-09-16,345,High,Resolved
+CASE-2026-1704,Civil,Personal,269,4,2025-07-02,553,High,Pending
+CASE-2026-1705,Traffic,Public Interest,2095,5,2020-07-02,159,High,Pending
+CASE-2026-1706,Family,Financial,455,4,2024-12-28,379,High,Pending
+CASE-2026-1707,Criminal,Routine,3083,5,2017-10-18,355,High,Pending
+CASE-2026-1708,Commercial,Routine,304,5,2025-05-28,606,High,Pending
+CASE-2026-1709,Criminal,Personal,2467,5,2019-06-26,413,High,Pending
+CASE-2026-1710,Civil,High Stakes,2962,2,2018-02-16,651,High,Pending
+CASE-2026-1711,Traffic,Public Interest,593,4,2024-08-12,222,High,Pending
+CASE-2026-1712,Civil,Personal,1173,1,2023-01-10,374,Medium,Pending
+CASE-2026-1713,Civil,Public Interest,3339,3,2017-02-04,549,High,Pending
+CASE-2026-1714,Civil,Personal,1466,4,2022-03-23,479,High,Resolved
+CASE-2026-1715,Traffic,Personal,1001,5,2023-07-01,188,High,Pending
+CASE-2026-1716,Family,Public Interest,910,4,2023-09-30,449,High,Pending
+CASE-2026-1717,Family,High Stakes,2613,2,2019-01-31,367,High,Pending
+CASE-2026-1718,Traffic,Routine,2023,3,2020-09-12,30,Medium,Pending
+CASE-2026-1719,Criminal,Routine,1066,3,2023-04-27,316,High,Pending
+CASE-2026-1720,Traffic,High Stakes,1439,3,2022-04-19,143,Medium,Pending
+CASE-2026-1721,Commercial,Routine,3108,5,2017-09-23,521,High,Pending
+CASE-2026-1722,Traffic,High Stakes,1408,2,2022-05-20,70,Medium,Pending
+CASE-2026-1723,Commercial,High Stakes,2132,5,2020-05-26,902,High,Pending
+CASE-2026-1724,Civil,Financial,1973,5,2020-11-01,608,High,Pending
+CASE-2026-1725,Civil,Public Interest,2668,3,2018-12-07,533,High,Resolved
+CASE-2026-1726,Traffic,High Stakes,3039,5,2017-12-01,139,High,Pending
+CASE-2026-1727,Family,Public Interest,3257,5,2017-04-27,377,High,Pending
+CASE-2026-1728,Commercial,Routine,1750,2,2021-06-12,484,Medium,Pending
+CASE-2026-1729,Civil,Public Interest,3296,3,2017-03-19,548,High,Pending
+CASE-2026-1730,Commercial,Public Interest,2942,3,2018-03-08,687,High,Pending
+CASE-2026-1731,Traffic,Routine,1280,5,2022-09-25,181,High,Pending
+CASE-2026-1732,Traffic,Personal,317,4,2025-05-15,170,High,Pending
+CASE-2026-1733,Commercial,Routine,1130,1,2023-02-22,481,Medium,Pending
+CASE-2026-1734,Family,Personal,314,3,2025-05-18,387,Medium,Pending
+CASE-2026-1735,Traffic,High Stakes,3495,3,2016-09-01,30,High,Pending
+CASE-2026-1736,Civil,High Stakes,1148,5,2023-02-04,762,High,Pending
+CASE-2026-1737,Commercial,Public Interest,2541,4,2019-04-13,752,High,Resolved
+CASE-2026-1738,Traffic,Financial,256,3,2025-07-15,126,Medium,Pending
+CASE-2026-1739,Traffic,High Stakes,2558,3,2019-03-27,92,High,Pending
+CASE-2026-1740,Criminal,Routine,2884,5,2018-05-05,334,High,Pending
+CASE-2026-1741,Civil,Public Interest,2201,3,2020-03-18,591,Medium,Pending
+CASE-2026-1742,Civil,Public Interest,955,3,2023-08-16,597,Medium,Pending
+CASE-2026-1743,Civil,Financial,228,5,2025-08-12,657,High,Pending
+CASE-2026-1744,Family,Personal,2977,3,2018-02-01,179,High,Pending
+CASE-2026-1745,Family,Personal,1460,5,2022-03-29,372,High,Resolved
+CASE-2026-1746,Civil,High Stakes,2856,4,2018-06-02,719,High,Pending
+CASE-2026-1747,Family,Financial,651,4,2024-06-15,443,High,Pending
+CASE-2026-1748,Civil,Personal,1061,3,2023-05-02,509,Medium,Pending
+CASE-2026-1749,Criminal,Public Interest,956,5,2023-08-15,534,High,Resolved
+CASE-2026-1750,Commercial,Public Interest,3585,5,2016-06-03,732,High,Pending
+CASE-2026-1751,Family,Personal,83,3,2026-01-04,338,Medium,Pending
+CASE-2026-1752,Civil,Public Interest,293,3,2025-06-08,659,Medium,Pending
+CASE-2026-1753,Traffic,Financial,1064,1,2023-04-29,76,Medium,Pending
+CASE-2026-1754,Civil,High Stakes,1008,4,2023-06-24,762,High,Pending
+CASE-2026-1755,Civil,Public Interest,3383,3,2016-12-22,497,High,Pending
+CASE-2026-1756,Traffic,Routine,430,2,2025-01-22,111,Medium,Pending
+CASE-2026-1757,Civil,Personal,2401,5,2019-08-31,454,High,Pending
+CASE-2026-1758,Civil,Public Interest,1149,4,2023-02-03,650,High,Pending
+CASE-2026-1759,Civil,Personal,540,1,2024-10-04,461,Low,Resolved
+CASE-2026-1760,Family,Routine,1123,4,2023-03-01,322,High,Pending
+CASE-2026-1761,Traffic,High Stakes,3236,4,2017-05-18,92,High,Pending
+CASE-2026-1762,Commercial,High Stakes,2590,5,2019-02-23,878,High,Pending
+CASE-2026-1763,Traffic,Personal,2446,4,2019-07-17,82,High,Pending
+CASE-2026-1764,Civil,Public Interest,760,4,2024-02-27,702,High,Pending
+CASE-2026-1765,Family,High Stakes,1303,2,2022-09-02,386,Medium,Pending
+CASE-2026-1766,Commercial,Personal,944,5,2023-08-27,624,High,Pending
+CASE-2026-1767,Civil,Public Interest,2334,5,2019-11-06,601,High,Resolved
+CASE-2026-1768,Traffic,High Stakes,3116,2,2017-09-15,51,High,Pending
+CASE-2026-1769,Commercial,Routine,1010,4,2023-06-22,516,High,Pending
+CASE-2026-1770,Traffic,Public Interest,273,3,2025-06-28,181,Medium,Resolved
+CASE-2026-1771,Commercial,Financial,236,1,2025-08-04,650,Low,Resolved
+CASE-2026-1772,Family,High Stakes,1631,1,2021-10-09,415,Medium,Pending
+CASE-2026-1773,Family,High Stakes,363,3,2025-03-30,504,Medium,Pending
+CASE-2026-1774,Family,High Stakes,2249,5,2020-01-30,464,High,Pending
+CASE-2026-1775,Traffic,Routine,2656,5,2018-12-19,78,High,Resolved
+CASE-2026-1776,Commercial,Public Interest,2449,5,2019-07-14,722,High,Pending
+CASE-2026-1777,Traffic,Routine,1905,5,2021-01-08,150,High,Pending
+CASE-2026-1778,Traffic,High Stakes,2448,5,2019-07-15,184,High,Pending
+CASE-2026-1779,Criminal,High Stakes,314,5,2025-05-18,674,High,Pending
+CASE-2026-1780,Family,High Stakes,195,5,2025-09-14,577,High,Pending
+CASE-2026-1781,Family,Financial,592,5,2024-08-13,435,High,Pending
+CASE-2026-1782,Commercial,Financial,380,4,2025-03-13,717,High,Pending
+CASE-2026-1783,Traffic,Personal,2807,5,2018-07-21,95,High,Pending
+CASE-2026-1784,Family,Personal,1586,5,2021-11-23,317,High,Resolved
+CASE-2026-1785,Family,Personal,2514,2,2019-05-10,244,High,Pending
+CASE-2026-1786,Civil,Financial,2660,4,2018-12-15,553,High,Pending
+CASE-2026-1787,Family,Personal,1180,4,2023-01-03,303,High,Pending
+CASE-2026-1788,Commercial,Public Interest,1281,1,2022-09-24,662,Medium,Pending
+CASE-2026-1789,Traffic,Routine,1170,1,2023-01-13,84,Medium,Pending
+CASE-2026-1790,Family,Personal,3594,5,2016-05-25,259,High,Pending
+CASE-2026-1791,Criminal,Routine,2863,3,2018-05-26,279,High,Pending
+CASE-2026-1792,Commercial,Personal,2125,5,2020-06-02,591,High,Pending
+CASE-2026-1793,Civil,High Stakes,335,4,2025-04-27,827,High,Resolved
+CASE-2026-1794,Commercial,Personal,2909,5,2018-04-10,509,High,Resolved
+CASE-2026-1795,Civil,High Stakes,3306,4,2017-03-09,635,High,Pending
+CASE-2026-1796,Criminal,High Stakes,2984,5,2018-01-25,570,High,Resolved
+CASE-2026-1797,Family,Financial,1729,3,2021-07-03,379,Medium,Pending
+CASE-2026-1798,Family,High Stakes,842,2,2023-12-07,460,Medium,Pending
+CASE-2026-1799,Traffic,Routine,3431,5,2016-11-04,30,High,Pending
+CASE-2026-1800,Commercial,High Stakes,507,4,2024-11-06,901,High,Pending
+CASE-2026-1801,Civil,Financial,2657,4,2018-12-18,549,High,Resolved
+CASE-2026-1802,Commercial,Public Interest,2168,2,2020-04-20,720,Medium,Pending
+CASE-2026-1803,Traffic,Routine,2409,2,2019-08-23,61,Medium,Pending
+CASE-2026-1804,Traffic,High Stakes,3635,2,2016-04-14,34,High,Pending
+CASE-2026-1805,Civil,High Stakes,3538,3,2016-07-20,567,High,Pending
+CASE-2026-1806,Criminal,Financial,584,3,2024-08-21,499,High,Pending
+CASE-2026-1807,Traffic,Public Interest,2407,2,2019-08-25,31,Medium,Resolved
+CASE-2026-1808,Family,Routine,37,3,2026-02-19,366,Medium,Pending
+CASE-2026-1809,Traffic,Financial,1883,2,2021-01-30,79,Medium,Pending
+CASE-2026-1810,Criminal,Financial,2561,5,2019-03-24,442,High,Pending
+CASE-2026-1811,Family,Public Interest,1185,4,2022-12-29,417,High,Pending
+CASE-2026-1812,Civil,Public Interest,2535,2,2019-04-19,494,High,Resolved
+CASE-2026-1813,Family,Financial,2307,5,2019-12-03,345,High,Pending
+CASE-2026-1814,Civil,Personal,1551,5,2021-12-28,494,High,Pending
+CASE-2026-1815,Family,Personal,938,5,2023-09-02,366,High,Resolved
+CASE-2026-1816,Commercial,Routine,1077,3,2023-04-16,547,Medium,Pending
+CASE-2026-1817,Civil,Personal,1727,3,2021-07-05,419,Medium,Pending
+CASE-2026-1818,Traffic,Routine,1594,5,2021-11-15,185,High,Pending
+CASE-2026-1819,Criminal,Routine,2170,5,2020-04-18,364,High,Pending
+CASE-2026-1820,Criminal,Personal,2872,3,2018-05-17,342,High,Pending
+CASE-2026-1821,Criminal,Public Interest,37,5,2026-02-19,610,High,Pending
+CASE-2026-1822,Traffic,High Stakes,3200,3,2017-06-23,31,High,Pending
+CASE-2026-1823,Traffic,Personal,1479,1,2022-03-10,30,Medium,Pending
+CASE-2026-1824,Family,Public Interest,3645,3,2016-04-04,240,High,Pending
+CASE-2026-1825,Civil,Financial,720,3,2024-04-07,623,Medium,Pending
+CASE-2026-1826,Civil,Routine,1238,5,2022-11-06,498,High,Pending
+CASE-2026-1827,Civil,Personal,1283,4,2022-09-22,460,High,Pending
+CASE-2026-1828,Traffic,Public Interest,1523,4,2022-01-25,124,High,Pending
+CASE-2026-1829,Civil,High Stakes,3476,2,2016-09-20,555,High,Pending
+CASE-2026-1830,Commercial,Personal,1740,3,2021-06-22,541,Medium,Resolved
+CASE-2026-1831,Traffic,Routine,2322,5,2019-11-18,61,High,Pending
+CASE-2026-1832,Commercial,Personal,1271,3,2022-10-04,614,Medium,Pending
+CASE-2026-1833,Civil,High Stakes,2792,4,2018-08-05,659,High,Pending
+CASE-2026-1834,Commercial,Financial,3343,5,2017-01-31,608,High,Resolved
+CASE-2026-1835,Traffic,Public Interest,1094,4,2023-03-30,222,High,Pending
+CASE-2026-1836,Traffic,Personal,2169,5,2020-04-19,96,High,Pending
+CASE-2026-1837,Family,High Stakes,2727,5,2018-10-09,472,High,Resolved
+CASE-2026-1838,Family,High Stakes,1359,3,2022-07-08,392,Medium,Pending
+CASE-2026-1839,Civil,High Stakes,3508,3,2016-08-19,615,High,Pending
+CASE-2026-1840,Family,Public Interest,3225,4,2017-05-29,302,High,Pending
+CASE-2026-1841,Commercial,Financial,2999,2,2018-01-10,548,High,Pending
+CASE-2026-1842,Family,Financial,576,4,2024-08-29,461,High,Resolved
+CASE-2026-1843,Criminal,Public Interest,3644,5,2016-04-05,458,High,Pending
+CASE-2026-1844,Commercial,Personal,2865,3,2018-05-24,514,High,Pending
+CASE-2026-1845,Civil,Public Interest,3319,3,2017-02-24,568,High,Resolved
+CASE-2026-1846,Family,Personal,123,5,2025-11-25,388,High,Pending
+CASE-2026-1847,Family,Public Interest,1787,1,2021-05-06,321,Medium,Pending
+CASE-2026-1848,Family,Financial,2176,2,2020-04-12,244,Medium,Resolved
+CASE-2026-1849,Commercial,Routine,2713,2,2018-10-23,382,High,Pending
+CASE-2026-1850,Traffic,Routine,847,1,2023-12-02,34,Low,Pending
+CASE-2026-1851,Civil,High Stakes,2365,2,2019-10-06,659,Medium,Resolved
+CASE-2026-1852,Criminal,Routine,1863,5,2021-02-19,395,High,Pending
+CASE-2026-1853,Traffic,Personal,3555,5,2016-07-03,75,High,Pending
+CASE-2026-1854,Commercial,High Stakes,1763,5,2021-05-30,940,High,Pending
+CASE-2026-1855,Civil,Routine,1264,2,2022-10-11,388,Medium,Pending
+CASE-2026-1856,Family,Public Interest,2303,5,2019-12-07,365,High,Pending
+CASE-2026-1857,Civil,Financial,443,1,2025-01-09,548,Low,Pending
+CASE-2026-1858,Criminal,High Stakes,3415,5,2016-11-20,542,High,Pending
+CASE-2026-1859,Civil,Public Interest,3449,5,2016-10-17,561,High,Pending
+CASE-2026-1860,Civil,High Stakes,3170,4,2017-07-23,698,High,Pending
+CASE-2026-1861,Family,Public Interest,342,2,2025-04-20,379,Medium,Resolved
+CASE-2026-1862,Family,Personal,3600,3,2016-05-19,200,High,Pending
+CASE-2026-1863,Criminal,Personal,1058,3,2023-05-05,356,High,Pending
+CASE-2026-1864,Family,Routine,3377,3,2016-12-28,153,High,Pending
+CASE-2026-1865,Commercial,High Stakes,327,5,2025-05-05,1020,High,Pending
+CASE-2026-1866,Commercial,High Stakes,1509,2,2022-02-08,851,Medium,Pending
+CASE-2026-1867,Criminal,Public Interest,832,5,2023-12-17,563,High,Pending
+CASE-2026-1868,Family,Routine,2630,5,2019-01-14,235,High,Pending
+CASE-2026-1869,Family,High Stakes,907,4,2023-10-03,519,High,Resolved
+CASE-2026-1870,Family,Financial,3062,2,2017-11-08,227,High,Pending
+CASE-2026-1871,Family,Personal,136,2,2025-11-12,371,Medium,Pending
+CASE-2026-1872,Traffic,Routine,1148,3,2023-02-04,78,Medium,Pending
+CASE-2026-1873,Criminal,High Stakes,2634,3,2019-01-10,564,High,Pending
+CASE-2026-1874,Commercial,Financial,3441,2,2016-10-25,531,High,Pending
+CASE-2026-1875,Civil,Personal,1707,2,2021-07-25,407,Medium,Resolved
+CASE-2026-1876,Traffic,Financial,1288,2,2022-09-17,108,Medium,Pending
+CASE-2026-1877,Criminal,Routine,144,2,2025-11-04,384,Medium,Pending
+CASE-2026-1878,Family,Financial,1194,4,2022-12-20,420,High,Resolved
+CASE-2026-1879,Family,Public Interest,1264,2,2022-10-11,306,Medium,Pending
+CASE-2026-1880,Civil,Financial,2494,4,2019-05-30,513,High,Resolved
+CASE-2026-1881,Family,High Stakes,1785,5,2021-05-08,484,High,Resolved
+CASE-2026-1882,Criminal,Public Interest,2119,4,2020-06-08,505,High,Pending
+CASE-2026-1883,Traffic,Personal,2625,3,2019-01-19,61,High,Pending
+CASE-2026-1884,Traffic,High Stakes,969,3,2023-08-02,158,Medium,Pending
+CASE-2026-1885,Family,Financial,3020,3,2017-12-20,314,High,Resolved
+CASE-2026-1886,Family,Personal,3428,2,2016-11-07,203,High,Resolved
+CASE-2026-1887,Family,Personal,796,5,2024-01-22,403,High,Pending
+CASE-2026-1888,Civil,High Stakes,2035,4,2020-08-31,674,High,Pending
+CASE-2026-1889,Family,High Stakes,521,2,2024-10-23,499,Medium,Pending
+CASE-2026-1890,Criminal,Personal,1682,3,2021-08-19,384,High,Pending
+CASE-2026-1891,Commercial,Routine,3278,3,2017-04-06,453,High,Pending
+CASE-2026-1892,Commercial,Routine,2571,5,2019-03-14,546,High,Pending
+CASE-2026-1893,Traffic,High Stakes,3149,2,2017-08-13,30,High,Resolved
+CASE-2026-1894,Commercial,Personal,2342,5,2019-10-29,592,High,Resolved
+CASE-2026-1895,Family,High Stakes,3089,5,2017-10-12,400,High,Pending
+CASE-2026-1896,Commercial,Personal,285,2,2025-06-16,536,Medium,Pending
+CASE-2026-1897,Family,Personal,3364,2,2017-01-10,155,High,Pending
+CASE-2026-1898,Civil,Financial,136,1,2025-11-12,586,Low,Pending
+CASE-2026-1899,Traffic,Financial,338,1,2025-04-24,128,Low,Pending
+CASE-2026-1900,Civil,Financial,285,2,2025-06-16,592,Medium,Pending
+CASE-2026-1901,Civil,Financial,3541,2,2016-07-17,456,High,Pending
+CASE-2026-1902,Criminal,Public Interest,2832,4,2018-06-26,500,High,Pending
+CASE-2026-1903,Commercial,High Stakes,1181,4,2023-01-02,927,High,Pending
+CASE-2026-1904,Commercial,High Stakes,1972,3,2020-11-02,839,Medium,Pending
+CASE-2026-1905,Civil,Financial,2482,5,2019-06-11,606,High,Resolved
+CASE-2026-1906,Traffic,High Stakes,2693,5,2018-11-12,164,High,Pending
+CASE-2026-1907,Civil,High Stakes,1364,3,2022-07-03,679,Medium,Pending
+CASE-2026-1908,Commercial,Routine,3641,2,2016-04-08,310,High,Pending
+CASE-2026-1909,Criminal,Personal,3576,4,2016-06-12,339,High,Pending
+CASE-2026-1910,Commercial,Personal,1352,5,2022-07-15,663,High,Pending
+CASE-2026-1911,Family,High Stakes,398,3,2025-02-23,534,Medium,Pending
+CASE-2026-1912,Commercial,High Stakes,3135,2,2017-08-27,786,High,Pending
+CASE-2026-1913,Criminal,Public Interest,267,2,2025-07-04,557,Medium,Pending
+CASE-2026-1914,Civil,Public Interest,803,5,2024-01-15,747,High,Pending
+CASE-2026-1915,Traffic,Personal,3155,2,2017-08-07,30,High,Pending
+CASE-2026-1916,Traffic,Public Interest,1885,3,2021-01-28,98,Medium,Pending
+CASE-2026-1917,Family,Personal,1965,2,2020-11-09,277,Medium,Pending
+CASE-2026-1918,Criminal,High Stakes,2510,5,2019-05-14,623,High,Pending
+CASE-2026-1919,Civil,Public Interest,762,1,2024-02-25,613,Low,Pending
+CASE-2026-1920,Traffic,Financial,2119,4,2020-06-08,99,High,Pending
+CASE-2026-1921,Civil,High Stakes,364,4,2025-03-29,819,High,Pending
+CASE-2026-1922,Family,Financial,2317,5,2019-11-23,398,High,Pending
+CASE-2026-1923,Traffic,Financial,2888,5,2018-05-01,85,High,Pending
+CASE-2026-1924,Family,Financial,549,4,2024-09-25,377,High,Resolved
+CASE-2026-1925,Commercial,Public Interest,1544,1,2022-01-04,631,Medium,Resolved
+CASE-2026-1926,Criminal,Public Interest,3629,4,2016-04-20,432,High,Pending
+CASE-2026-1927,Commercial,High Stakes,340,4,2025-04-22,992,High,Pending
+CASE-2026-1928,Traffic,High Stakes,3405,5,2016-11-30,91,High,Pending
+CASE-2026-1929,Civil,Personal,2538,4,2019-04-16,469,High,Pending
+CASE-2026-1930,Criminal,Personal,1591,3,2021-11-18,326,High,Resolved
+CASE-2026-1931,Family,Public Interest,2359,5,2019-10-12,367,High,Pending
+CASE-2026-1932,Traffic,Financial,3273,3,2017-04-11,68,High,Pending
+CASE-2026-1933,Criminal,Public Interest,2011,4,2020-09-24,476,High,Resolved
+CASE-2026-1934,Commercial,Financial,3112,2,2017-09-19,573,High,Pending
+CASE-2026-1935,Traffic,Personal,3400,5,2016-12-05,36,High,Pending
+CASE-2026-1936,Criminal,Routine,1310,3,2022-08-26,324,High,Pending
+CASE-2026-1937,Commercial,Routine,1423,5,2022-05-05,510,High,Pending
+CASE-2026-1938,Family,Routine,905,3,2023-10-05,255,Medium,Pending
+CASE-2026-1939,Criminal,High Stakes,1556,3,2021-12-23,551,High,Pending
+CASE-2026-1940,Family,High Stakes,314,4,2025-05-18,521,High,Pending
+CASE-2026-1941,Family,Personal,2269,5,2020-01-10,334,High,Pending
+CASE-2026-1942,Family,Routine,606,3,2024-07-30,265,Medium,Pending
+CASE-2026-1943,Criminal,Public Interest,174,2,2025-10-05,504,Medium,Pending
+CASE-2026-1944,Traffic,Personal,3576,5,2016-06-12,60,High,Pending
+CASE-2026-1945,Civil,Personal,776,2,2024-02-11,482,Medium,Pending
+CASE-2026-1946,Family,Public Interest,3281,3,2017-04-03,309,High,Pending
+CASE-2026-1947,Civil,Financial,736,3,2024-03-22,578,Medium,Pending
+CASE-2026-1948,Traffic,Public Interest,2055,5,2020-08-11,172,High,Pending
+CASE-2026-1949,Civil,High Stakes,2560,5,2019-03-25,674,High,Pending
+CASE-2026-1950,Family,Public Interest,1043,1,2023-05-20,332,Medium,Resolved
+CASE-2026-1951,Traffic,Personal,489,3,2024-11-24,119,Medium,Pending
+CASE-2026-1952,Family,Personal,3307,5,2017-03-08,287,High,Pending
+CASE-2026-1953,Family,Personal,1091,2,2023-04-02,269,Medium,Resolved
+CASE-2026-1954,Commercial,High Stakes,415,3,2025-02-06,890,Medium,Pending
+CASE-2026-1955,Criminal,Personal,3610,4,2016-05-09,315,High,Resolved
+CASE-2026-1956,Family,Personal,712,2,2024-04-15,280,Medium,Pending
+CASE-2026-1957,Criminal,Routine,2413,3,2019-08-19,253,High,Resolved
+CASE-2026-1958,Traffic,Financial,2556,4,2019-03-29,63,High,Pending
+CASE-2026-1959,Criminal,Financial,868,3,2023-11-11,459,High,Pending
+CASE-2026-1960,Commercial,High Stakes,2525,2,2019-04-29,768,High,Pending
+CASE-2026-1961,Civil,High Stakes,1968,4,2020-11-06,754,High,Resolved
+CASE-2026-1962,Criminal,Public Interest,933,3,2023-09-07,552,High,Pending
+CASE-2026-1963,Traffic,Public Interest,1326,3,2022-08-10,128,Medium,Resolved
+CASE-2026-1964,Family,Financial,2799,2,2018-07-29,297,High,Pending
+CASE-2026-1965,Criminal,Personal,2246,4,2020-02-02,329,High,Pending
+CASE-2026-1966,Commercial,High Stakes,3397,5,2016-12-08,802,High,Pending
+CASE-2026-1967,Commercial,High Stakes,303,5,2025-05-29,925,High,Pending
+CASE-2026-1968,Civil,Routine,2298,4,2019-12-12,434,High,Pending
+CASE-2026-1969,Criminal,Public Interest,2898,4,2018-04-21,475,High,Pending
+CASE-2026-1970,Civil,Financial,3565,2,2016-06-23,422,High,Resolved
+CASE-2026-1971,Traffic,Routine,3324,5,2017-02-19,89,High,Pending
+CASE-2026-1972,Commercial,Financial,2121,5,2020-06-06,667,High,Pending
+CASE-2026-1973,Traffic,Routine,682,5,2024-05-15,164,High,Pending
+CASE-2026-1974,Civil,Personal,239,2,2025-08-01,493,Medium,Pending
+CASE-2026-1975,Traffic,Financial,3372,5,2017-01-02,128,High,Pending
+CASE-2026-1976,Commercial,Public Interest,9,2,2026-03-19,801,Medium,Pending
+CASE-2026-1977,Traffic,Routine,1306,2,2022-08-30,103,Medium,Pending
+CASE-2026-1978,Commercial,Routine,1895,4,2021-01-18,535,High,Pending
+CASE-2026-1979,Criminal,High Stakes,3542,4,2016-07-16,503,High,Pending
+CASE-2026-1980,Traffic,Public Interest,1703,2,2021-07-29,32,Medium,Resolved
+CASE-2026-1981,Family,Routine,2497,5,2019-05-27,238,High,Pending
+CASE-2026-1982,Commercial,Financial,2764,5,2018-09-02,679,High,Pending
+CASE-2026-1983,Commercial,Financial,1719,3,2021-07-13,645,Medium,Pending
+CASE-2026-1984,Criminal,Public Interest,1102,2,2023-03-22,456,Medium,Resolved
+CASE-2026-1985,Civil,Personal,656,1,2024-06-10,475,Low,Pending
+CASE-2026-1986,Commercial,High Stakes,2250,2,2020-01-29,773,Medium,Pending
+CASE-2026-1987,Family,Routine,2246,2,2020-02-02,184,Medium,Pending
+CASE-2026-1988,Criminal,Public Interest,360,2,2025-04-02,481,Medium,Pending
+CASE-2026-1989,Commercial,Personal,2405,4,2019-08-27,505,High,Pending
+CASE-2026-1990,Traffic,Personal,2644,4,2018-12-31,66,High,Pending
+CASE-2026-1991,Criminal,Personal,2542,3,2019-04-12,336,High,Resolved
+CASE-2026-1992,Commercial,Financial,3532,5,2016-07-26,675,High,Pending
+CASE-2026-1993,Criminal,Public Interest,803,5,2024-01-15,621,High,Resolved
+CASE-2026-1994,Family,Financial,1139,2,2023-02-13,313,Medium,Pending
+CASE-2026-1995,Traffic,Personal,1690,3,2021-08-11,133,Medium,Pending
+CASE-2026-1996,Traffic,Routine,2257,4,2020-01-22,98,High,Pending
+CASE-2026-1997,Traffic,Financial,1026,3,2023-06-06,157,Medium,Pending
+CASE-2026-1998,Traffic,High Stakes,482,3,2024-12-01,207,Medium,Pending
+CASE-2026-1999,Civil,High Stakes,1880,4,2021-02-02,743,High,Pending
+CASE-2026-2000,Criminal,Routine,3479,5,2016-09-17,307,High,Pending
+CASE-2026-2001,Criminal,High Stakes,1228,5,2022-11-16,598,High,Pending
+CASE-2026-2002,Commercial,Personal,2457,2,2019-07-06,490,Medium,Pending
+CASE-2026-2003,Traffic,Public Interest,97,5,2025-12-21,272,High,Resolved
+CASE-2026-2004,Criminal,Personal,1205,3,2022-12-09,413,High,Resolved
+CASE-2026-2005,Civil,Public Interest,3080,5,2017-10-21,574,High,Pending
+CASE-2026-2006,Family,High Stakes,2819,3,2018-07-09,398,High,Pending
+CASE-2026-2007,Traffic,Routine,983,5,2023-07-19,170,High,Pending
+CASE-2026-2008,Criminal,Public Interest,258,5,2025-07-13,605,High,Pending
+CASE-2026-2009,Civil,Personal,3390,5,2016-12-15,411,High,Pending
+CASE-2026-2010,Commercial,Financial,3229,2,2017-05-25,519,High,Pending
+CASE-2026-2011,Civil,Routine,387,5,2025-03-06,491,High,Pending
+CASE-2026-2012,Criminal,Routine,1842,5,2021-03-12,401,High,Pending
+CASE-2026-2013,Family,Public Interest,2722,5,2018-10-14,366,High,Pending
+CASE-2026-2014,Civil,Routine,1162,4,2023-01-21,505,High,Pending
+CASE-2026-2015,Criminal,Financial,1307,2,2022-08-29,417,Medium,Pending
+CASE-2026-2016,Traffic,Financial,839,4,2023-12-10,136,High,Pending
+CASE-2026-2017,Criminal,High Stakes,236,3,2025-08-04,598,High,Pending
+CASE-2026-2018,Family,Public Interest,487,4,2024-11-26,469,High,Pending
+CASE-2026-2019,Commercial,High Stakes,1078,1,2023-04-15,796,Medium,Pending
+CASE-2026-2020,Traffic,Routine,2628,4,2019-01-16,30,High,Resolved
+CASE-2026-2021,Civil,Public Interest,3556,4,2016-07-02,558,High,Pending
+CASE-2026-2022,Criminal,Public Interest,1037,4,2023-05-26,517,High,Pending
+CASE-2026-2023,Civil,Personal,1603,4,2021-11-06,534,High,Pending
+CASE-2026-2024,Commercial,High Stakes,985,4,2023-07-17,907,High,Pending
+CASE-2026-2025,Civil,Personal,1582,4,2021-11-27,491,High,Pending
+CASE-2026-2026,Criminal,High Stakes,3324,4,2017-02-19,538,High,Pending
+CASE-2026-2027,Commercial,Routine,860,4,2023-11-19,562,High,Pending
+CASE-2026-2028,Traffic,Financial,1502,5,2022-02-15,210,High,Resolved
+CASE-2026-2029,Family,High Stakes,3183,4,2017-07-10,421,High,Pending
+CASE-2026-2030,Family,Routine,2350,5,2019-10-21,240,High,Pending
+CASE-2026-2031,Commercial,Personal,1597,4,2021-11-12,563,High,Pending
+CASE-2026-2032,Civil,Financial,1956,3,2020-11-18,592,Medium,Pending
+CASE-2026-2033,Commercial,Personal,2954,3,2018-02-24,460,High,Pending
+CASE-2026-2034,Civil,High Stakes,2669,5,2018-12-06,761,High,Pending
+CASE-2026-2035,Traffic,High Stakes,1055,1,2023-05-08,130,Medium,Pending
+CASE-2026-2036,Civil,Financial,740,1,2024-03-18,510,Low,Pending
+CASE-2026-2037,Family,Routine,3032,4,2017-12-08,196,High,Pending
+CASE-2026-2038,Civil,Financial,1150,3,2023-02-02,593,Medium,Pending
+CASE-2026-2039,Traffic,High Stakes,1600,5,2021-11-09,217,High,Resolved
+CASE-2026-2040,Family,Routine,2294,2,2019-12-16,138,Medium,Pending
+CASE-2026-2041,Criminal,High Stakes,2324,5,2019-11-16,563,High,Pending
+CASE-2026-2042,Family,Public Interest,2077,2,2020-07-20,311,Medium,Pending
+CASE-2026-2043,Commercial,Financial,1473,2,2022-03-16,650,Medium,Pending
+CASE-2026-2044,Commercial,Financial,615,5,2024-07-21,770,High,Resolved
+CASE-2026-2045,Criminal,Public Interest,562,2,2024-09-12,468,Medium,Pending
+CASE-2026-2046,Traffic,High Stakes,2420,3,2019-08-12,106,Medium,Pending
+CASE-2026-2047,Commercial,High Stakes,3388,3,2016-12-17,791,High,Pending
+CASE-2026-2048,Criminal,High Stakes,1907,4,2021-01-06,621,High,Resolved
+CASE-2026-2049,Commercial,Financial,1902,4,2021-01-11,691,High,Pending
+CASE-2026-2050,Traffic,Public Interest,1191,5,2022-12-23,194,High,Pending
+CASE-2026-2051,Commercial,Public Interest,3466,5,2016-09-30,650,High,Pending
+CASE-2026-2052,Traffic,High Stakes,3649,3,2016-03-31,30,High,Pending
+CASE-2026-2053,Commercial,Financial,1424,1,2022-05-04,574,Medium,Resolved
+CASE-2026-2054,Commercial,Financial,3044,5,2017-11-26,628,High,Pending
+CASE-2026-2055,Traffic,Public Interest,3348,2,2017-01-26,30,High,Pending
+CASE-2026-2056,Commercial,Public Interest,1795,2,2021-04-28,666,Medium,Pending
+CASE-2026-2057,Family,Public Interest,586,1,2024-08-19,365,Low,Resolved
+CASE-2026-2058,Commercial,High Stakes,646,4,2024-06-20,934,High,Pending
+CASE-2026-2059,Traffic,Financial,938,1,2023-09-02,123,Low,Resolved
+CASE-2026-2060,Criminal,Routine,1846,4,2021-03-08,374,High,Resolved
+CASE-2026-2061,Traffic,High Stakes,1194,1,2022-12-20,92,Medium,Pending
+CASE-2026-2062,Traffic,Public Interest,2190,3,2020-03-29,128,Medium,Pending
+CASE-2026-2063,Criminal,Public Interest,891,4,2023-10-19,580,High,Pending
+CASE-2026-2064,Criminal,Public Interest,808,2,2024-01-10,537,Medium,Pending
+CASE-2026-2065,Civil,Routine,3624,5,2016-04-25,407,High,Pending
+CASE-2026-2066,Commercial,Public Interest,1866,3,2021-02-16,752,Medium,Pending
+CASE-2026-2067,Criminal,Financial,1250,3,2022-10-25,496,High,Pending
+CASE-2026-2068,Family,Personal,1572,5,2021-12-07,340,High,Resolved
+CASE-2026-2069,Commercial,Routine,166,1,2025-10-13,493,Low,Pending
+CASE-2026-2070,Traffic,Routine,1078,2,2023-04-15,89,Medium,Pending
+CASE-2026-2071,Commercial,Personal,240,5,2025-07-31,673,High,Pending
+CASE-2026-2072,Family,Personal,3003,2,2018-01-06,143,High,Pending
+CASE-2026-2073,Commercial,Personal,2833,3,2018-06-25,498,High,Pending
+CASE-2026-2074,Civil,High Stakes,1933,4,2020-12-11,689,High,Pending
+CASE-2026-2075,Commercial,High Stakes,3080,5,2017-10-21,799,High,Pending
+CASE-2026-2076,Family,Financial,2316,4,2019-11-24,316,High,Resolved
+CASE-2026-2077,Commercial,Routine,3452,3,2016-10-14,415,High,Pending
+CASE-2026-2078,Commercial,Routine,2378,3,2019-09-23,483,Medium,Resolved
+CASE-2026-2079,Traffic,Public Interest,507,2,2024-11-06,147,Medium,Pending
+CASE-2026-2080,Commercial,High Stakes,2157,3,2020-05-01,868,Medium,Pending
+CASE-2026-2081,Criminal,Financial,1844,5,2021-03-10,543,High,Pending
+CASE-2026-2082,Traffic,Financial,1125,3,2023-02-27,143,Medium,Pending
+CASE-2026-2083,Traffic,Financial,2121,4,2020-06-06,159,High,Pending
+CASE-2026-2084,Criminal,Financial,950,5,2023-08-21,550,High,Pending
+CASE-2026-2085,Civil,Financial,1131,4,2023-02-21,617,High,Pending
+CASE-2026-2086,Traffic,High Stakes,2529,3,2019-04-25,120,High,Pending
+CASE-2026-2087,Criminal,Personal,816,5,2024-01-02,435,High,Pending
+CASE-2026-2088,Civil,Financial,1656,2,2021-09-14,528,Medium,Pending
+CASE-2026-2089,Criminal,Routine,297,5,2025-06-04,420,High,Pending
+CASE-2026-2090,Criminal,Public Interest,3648,5,2016-04-01,449,High,Pending
+CASE-2026-2091,Civil,Routine,2800,5,2018-07-28,393,High,Pending
+CASE-2026-2092,Civil,Public Interest,3572,5,2016-06-16,535,High,Pending
+CASE-2026-2093,Traffic,Personal,3215,2,2017-06-08,30,High,Resolved
+CASE-2026-2094,Criminal,Personal,2625,4,2019-01-19,320,High,Pending
+CASE-2026-2095,Commercial,Financial,3367,5,2017-01-07,616,High,Resolved
+CASE-2026-2096,Civil,Financial,1306,2,2022-08-30,568,Medium,Pending
+CASE-2026-2097,Criminal,Public Interest,3142,3,2017-08-20,384,High,Pending
+CASE-2026-2098,Family,Financial,156,2,2025-10-23,343,Medium,Resolved
+CASE-2026-2099,Traffic,Routine,3490,5,2016-09-06,50,High,Pending
+CASE-2026-2100,Family,Personal,2338,5,2019-11-02,261,High,Pending
+CASE-2026-2101,Family,Financial,393,2,2025-02-28,333,Medium,Resolved
+CASE-2026-2102,Criminal,Routine,1890,4,2021-01-23,319,High,Pending
+CASE-2026-2103,Commercial,Public Interest,2755,4,2018-09-11,689,High,Pending
+CASE-2026-2104,Criminal,High Stakes,70,3,2026-01-17,643,High,Pending
+CASE-2026-2105,Criminal,Routine,1811,3,2021-04-12,283,High,Pending
+CASE-2026-2106,Commercial,Personal,1112,2,2023-03-12,532,Medium,Pending
+CASE-2026-2107,Civil,High Stakes,708,3,2024-04-19,796,Medium,Pending
+CASE-2026-2108,Commercial,Personal,3333,5,2017-02-10,530,High,Pending
+CASE-2026-2109,Family,High Stakes,3446,3,2016-10-20,300,High,Pending
+CASE-2026-2110,Traffic,Financial,389,4,2025-03-04,238,High,Pending
+CASE-2026-2111,Family,Routine,2337,4,2019-11-03,282,High,Pending
+CASE-2026-2112,Civil,Financial,248,1,2025-07-23,542,Low,Pending
+CASE-2026-2113,Criminal,Personal,143,4,2025-11-05,478,High,Resolved
+CASE-2026-2114,Traffic,Routine,2588,3,2019-02-25,30,High,Pending
+CASE-2026-2115,Family,Personal,608,5,2024-07-28,417,High,Pending
+CASE-2026-2116,Commercial,Personal,2239,5,2020-02-09,532,High,Pending
+CASE-2026-2117,Traffic,Financial,1437,5,2022-04-21,183,High,Pending
+CASE-2026-2118,Criminal,Public Interest,3376,3,2016-12-29,371,High,Pending
+CASE-2026-2119,Commercial,Financial,3226,4,2017-05-28,612,High,Pending
+CASE-2026-2120,Traffic,Financial,2225,3,2020-02-23,118,Medium,Pending
+CASE-2026-2121,Criminal,Financial,192,4,2025-09-17,580,High,Pending
+CASE-2026-2122,Family,Public Interest,572,3,2024-09-02,399,Medium,Resolved
+CASE-2026-2123,Civil,Financial,1917,2,2020-12-27,503,Medium,Pending
+CASE-2026-2124,Criminal,Personal,3179,4,2017-07-14,339,High,Pending
+CASE-2026-2125,Family,High Stakes,2846,4,2018-06-12,369,High,Pending
+CASE-2026-2126,Commercial,Personal,376,4,2025-03-17,601,High,Resolved
+CASE-2026-2127,Family,Financial,1762,5,2021-05-31,392,High,Pending
+CASE-2026-2128,Family,Financial,1745,4,2021-06-17,318,High,Resolved
+CASE-2026-2129,Civil,Routine,3473,5,2016-09-23,360,High,Pending
+CASE-2026-2130,Traffic,Personal,166,1,2025-10-13,87,Low,Pending
+CASE-2026-2131,Criminal,Personal,2216,5,2020-03-03,365,High,Pending
+CASE-2026-2132,Criminal,High Stakes,3064,3,2017-11-06,448,High,Pending
+CASE-2026-2133,Traffic,Financial,2349,5,2019-10-22,115,High,Pending
+CASE-2026-2134,Family,Personal,1842,5,2021-03-12,324,High,Pending
+CASE-2026-2135,Criminal,Public Interest,67,3,2026-01-20,554,High,Resolved
+CASE-2026-2136,Civil,Routine,3098,5,2017-10-03,395,High,Pending
+CASE-2026-2137,Traffic,High Stakes,2874,2,2018-05-15,30,High,Resolved
+CASE-2026-2138,Criminal,Routine,3388,4,2016-12-17,294,High,Pending
+CASE-2026-2139,Commercial,Personal,2034,5,2020-09-01,544,High,Pending
+CASE-2026-2140,Traffic,Public Interest,3355,4,2017-01-19,73,High,Pending
+CASE-2026-2141,Traffic,Financial,204,4,2025-09-05,181,High,Resolved
+CASE-2026-2142,Family,Public Interest,2332,3,2019-11-08,324,Medium,Pending
+CASE-2026-2143,Civil,Financial,2248,4,2020-01-31,555,High,Pending
+CASE-2026-2144,Traffic,Personal,2971,5,2018-02-07,127,High,Pending
+CASE-2026-2145,Commercial,Public Interest,477,1,2024-12-06,679,Low,Resolved
+CASE-2026-2146,Criminal,Public Interest,847,2,2023-12-02,454,Medium,Resolved
+CASE-2026-2147,Civil,High Stakes,2225,3,2020-02-23,652,Medium,Resolved
+CASE-2026-2148,Traffic,High Stakes,3409,4,2016-11-26,70,High,Pending
+CASE-2026-2149,Criminal,Routine,1423,5,2022-05-05,388,High,Pending
+CASE-2026-2150,Civil,Financial,2787,3,2018-08-10,512,High,Pending
+CASE-2026-2151,Commercial,Personal,726,3,2024-04-01,549,Medium,Pending
+CASE-2026-2152,Criminal,Public Interest,196,3,2025-09-13,528,High,Pending
+CASE-2026-2153,Commercial,Routine,2721,4,2018-10-15,450,High,Pending
+CASE-2026-2154,Commercial,Public Interest,3379,2,2016-12-26,562,High,Pending
+CASE-2026-2155,Traffic,Personal,3305,5,2017-03-10,49,High,Pending
+CASE-2026-2156,Commercial,High Stakes,717,5,2024-04-10,984,High,Pending
+CASE-2026-2157,Family,Financial,2890,5,2018-04-29,309,High,Pending
+CASE-2026-2158,Commercial,Financial,2502,3,2019-05-22,608,High,Pending
+CASE-2026-2159,Civil,Personal,3597,5,2016-05-22,455,High,Pending
+CASE-2026-2160,Commercial,Financial,264,2,2025-07-07,755,Medium,Pending
+CASE-2026-2161,Family,High Stakes,124,2,2025-11-24,495,Medium,Pending
+CASE-2026-2162,Commercial,Routine,1779,2,2021-05-14,443,Medium,Pending
+CASE-2026-2163,Traffic,Routine,1800,1,2021-04-23,30,Medium,Pending
+CASE-2026-2164,Family,High Stakes,2223,5,2020-02-25,429,High,Pending
+CASE-2026-2165,Civil,Routine,1743,2,2021-06-19,363,Medium,Pending
+CASE-2026-2166,Criminal,Personal,1932,5,2020-12-12,438,High,Resolved
+CASE-2026-2167,Civil,Routine,770,5,2024-02-17,472,High,Resolved
+CASE-2026-2168,Civil,Routine,1866,4,2021-02-16,433,High,Pending
+CASE-2026-2169,Traffic,Routine,1675,3,2021-08-26,47,Medium,Pending
+CASE-2026-2170,Civil,Financial,1481,5,2022-03-08,636,High,Pending
+CASE-2026-2171,Civil,Routine,432,1,2025-01-20,375,Low,Pending
+CASE-2026-2172,Family,High Stakes,3373,3,2017-01-01,347,High,Pending
+CASE-2026-2173,Criminal,Public Interest,2828,4,2018-06-30,457,High,Pending
+CASE-2026-2174,Civil,Public Interest,1676,2,2021-08-25,536,Medium,Resolved
+CASE-2026-2175,Family,High Stakes,1599,5,2021-11-10,465,High,Pending
+CASE-2026-2176,Commercial,Routine,70,3,2026-01-17,612,Medium,Pending
+CASE-2026-2177,Family,Routine,1913,5,2020-12-31,265,High,Resolved
+CASE-2026-2178,Commercial,Public Interest,3080,4,2017-10-21,651,High,Pending
+CASE-2026-2179,Commercial,Public Interest,1714,3,2021-07-18,769,Medium,Pending
+CASE-2026-2180,Family,High Stakes,1448,4,2022-04-10,422,High,Pending
+CASE-2026-2181,Criminal,Personal,2026,5,2020-09-09,386,High,Pending
+CASE-2026-2182,Traffic,Routine,1104,2,2023-03-20,33,Medium,Resolved
+CASE-2026-2183,Family,Financial,545,1,2024-09-29,356,Low,Pending
+CASE-2026-2184,Criminal,High Stakes,2302,3,2019-12-08,560,High,Pending
+CASE-2026-2185,Civil,Routine,2425,3,2019-08-07,413,Medium,Pending
+CASE-2026-2186,Civil,High Stakes,828,2,2023-12-21,692,Medium,Pending
+CASE-2026-2187,Commercial,Financial,1778,3,2021-05-15,656,Medium,Pending
+CASE-2026-2188,Civil,Personal,1564,5,2021-12-15,513,High,Pending
+CASE-2026-2189,Traffic,High Stakes,380,5,2025-03-13,246,High,Pending
+CASE-2026-2190,Commercial,Financial,1035,3,2023-05-28,689,Medium,Pending
+CASE-2026-2191,Traffic,Financial,770,4,2024-02-17,223,High,Pending
+CASE-2026-2192,Criminal,High Stakes,3451,3,2016-10-15,478,High,Pending
+CASE-2026-2193,Traffic,High Stakes,3512,3,2016-08-15,52,High,Resolved
+CASE-2026-2194,Civil,Routine,3289,4,2017-03-26,316,High,Pending
+CASE-2026-2195,Traffic,Routine,3429,5,2016-11-06,91,High,Pending
+CASE-2026-2196,Traffic,Personal,2674,5,2018-12-01,95,High,Resolved
+CASE-2026-2197,Civil,High Stakes,2290,4,2019-12-20,692,High,Pending
+CASE-2026-2198,Family,Public Interest,700,3,2024-04-27,460,Medium,Pending
+CASE-2026-2199,Commercial,Public Interest,3563,5,2016-06-25,704,High,Resolved
+CASE-2026-2200,Criminal,Routine,1360,3,2022-07-07,322,High,Resolved
+CASE-2026-2201,Civil,Personal,1844,4,2021-03-10,507,High,Pending
+CASE-2026-2202,Commercial,Public Interest,2767,5,2018-08-30,763,High,Pending
+CASE-2026-2203,Family,Personal,395,4,2025-02-26,324,High,Pending
+CASE-2026-2204,Traffic,Routine,774,1,2024-02-13,30,Low,Pending
+CASE-2026-2205,Traffic,Public Interest,126,2,2025-11-22,157,Medium,Resolved
+CASE-2026-2206,Family,Personal,3157,5,2017-08-05,267,High,Resolved
+CASE-2026-2207,Traffic,Financial,3373,2,2017-01-01,30,High,Pending
+CASE-2026-2208,Family,High Stakes,2722,2,2018-10-14,364,High,Pending
+CASE-2026-2209,Commercial,High Stakes,1532,2,2022-01-16,853,Medium,Resolved
+CASE-2026-2210,Civil,Personal,2294,5,2019-12-16,459,High,Pending
+CASE-2026-2211,Traffic,Routine,2746,3,2018-09-20,64,High,Pending
+CASE-2026-2212,Civil,Financial,2824,3,2018-07-04,518,High,Pending
+CASE-2026-2213,Traffic,Personal,409,5,2025-02-12,260,High,Resolved
+CASE-2026-2214,Family,Routine,1023,4,2023-06-09,266,High,Pending
+CASE-2026-2215,Commercial,Financial,2948,3,2018-03-02,626,High,Resolved
+CASE-2026-2216,Civil,Financial,907,2,2023-10-03,612,Medium,Pending
+CASE-2026-2217,Civil,Personal,158,3,2025-10-21,490,Medium,Resolved
+CASE-2026-2218,Traffic,Personal,2157,2,2020-05-01,60,Medium,Resolved
+CASE-2026-2219,Commercial,Public Interest,2615,4,2019-01-29,740,High,Resolved
+CASE-2026-2220,Family,Personal,2962,5,2018-02-16,260,High,Pending
+CASE-2026-2221,Civil,Personal,1570,3,2021-12-09,417,Medium,Pending
+CASE-2026-2222,Commercial,High Stakes,1552,1,2021-12-27,744,Medium,Pending
+CASE-2026-2223,Commercial,Financial,1746,2,2021-06-16,608,Medium,Pending
+CASE-2026-2224,Family,Personal,1126,3,2023-02-26,315,Medium,Pending
+CASE-2026-2225,Commercial,Financial,3355,4,2017-01-19,579,High,Pending
+CASE-2026-2226,Commercial,High Stakes,1110,4,2023-03-14,929,High,Pending
+CASE-2026-2227,Criminal,Routine,3252,4,2017-05-02,244,High,Pending
+CASE-2026-2228,Family,Personal,1922,5,2020-12-22,348,High,Pending
+CASE-2026-2229,Civil,Personal,3049,3,2017-11-21,343,High,Pending
+CASE-2026-2230,Criminal,Routine,2435,4,2019-07-28,320,High,Pending
+CASE-2026-2231,Commercial,Routine,3642,5,2016-04-07,418,High,Pending
+CASE-2026-2232,Criminal,High Stakes,522,4,2024-10-22,651,High,Pending
+CASE-2026-2233,Civil,Routine,2697,4,2018-11-08,412,High,Pending
+CASE-2026-2234,Commercial,Public Interest,1059,3,2023-05-04,730,Medium,Pending
+CASE-2026-2235,Criminal,High Stakes,3297,4,2017-03-18,514,High,Pending
+CASE-2026-2236,Commercial,High Stakes,3339,2,2017-02-04,686,High,Pending
+CASE-2026-2237,Commercial,Personal,1946,4,2020-11-28,611,High,Resolved
+CASE-2026-2238,Family,Public Interest,1188,2,2022-12-26,339,Medium,Pending
+CASE-2026-2239,Criminal,Financial,1234,3,2022-11-10,485,High,Pending
+CASE-2026-2240,Civil,Personal,2987,5,2018-01-22,489,High,Resolved
+CASE-2026-2241,Family,High Stakes,1072,3,2023-04-21,453,Medium,Pending
+CASE-2026-2242,Civil,Personal,1060,3,2023-05-03,483,Medium,Pending
+CASE-2026-2243,Commercial,Public Interest,1480,2,2022-03-09,669,Medium,Resolved
+CASE-2026-2244,Traffic,Personal,2452,3,2019-07-11,84,Medium,Pending
+CASE-2026-2245,Criminal,Public Interest,1181,2,2023-01-02,494,Medium,Pending
+CASE-2026-2246,Traffic,High Stakes,3498,5,2016-08-29,139,High,Pending
+CASE-2026-2247,Traffic,Personal,1908,2,2021-01-05,30,Medium,Pending
+CASE-2026-2248,Family,Financial,2075,3,2020-07-22,300,Medium,Pending
+CASE-2026-2249,Family,Routine,2369,3,2019-10-02,180,Medium,Pending
+CASE-2026-2250,Commercial,Public Interest,821,5,2023-12-28,813,High,Pending
+CASE-2026-2251,Civil,High Stakes,286,1,2025-06-15,724,Low,Pending
+CASE-2026-2252,Family,Personal,1226,3,2022-11-18,290,Medium,Pending
+CASE-2026-2253,Traffic,Financial,2950,5,2018-02-28,105,High,Pending
+CASE-2026-2254,Criminal,Public Interest,3430,5,2016-11-05,473,High,Resolved
+CASE-2026-2255,Civil,Financial,1311,3,2022-08-25,563,Medium,Pending
+CASE-2026-2256,Family,Personal,1631,1,2021-10-09,186,Medium,Resolved
+CASE-2026-2257,Traffic,Personal,1403,1,2022-05-25,80,Medium,Pending
+CASE-2026-2258,Family,Personal,1693,3,2021-08-08,243,Medium,Pending
+CASE-2026-2259,Family,Financial,252,2,2025-07-19,392,Medium,Pending
+CASE-2026-2260,Traffic,Public Interest,2803,4,2018-07-25,95,High,Pending
+CASE-2026-2261,Traffic,High Stakes,1911,2,2021-01-02,107,Medium,Pending
+CASE-2026-2262,Civil,Public Interest,1364,1,2022-07-03,547,Medium,Pending
+CASE-2026-2263,Commercial,High Stakes,3506,4,2016-08-21,833,High,Resolved
+CASE-2026-2264,Civil,Personal,2585,5,2019-02-28,491,High,Resolved
+CASE-2026-2265,Family,Financial,1351,1,2022-07-16,256,Medium,Resolved
+CASE-2026-2266,Civil,Routine,1265,3,2022-10-10,394,Medium,Resolved
+CASE-2026-2267,Civil,Routine,2912,5,2018-04-07,382,High,Resolved
+CASE-2026-2268,Family,Personal,618,4,2024-07-18,337,High,Resolved
+CASE-2026-2269,Family,Routine,2129,5,2020-05-29,301,High,Pending
+CASE-2026-2270,Commercial,Personal,3014,2,2017-12-26,483,High,Pending
+CASE-2026-2271,Commercial,Personal,323,4,2025-05-09,605,High,Resolved
+CASE-2026-2272,Traffic,Public Interest,3601,5,2016-05-18,82,High,Pending
+CASE-2026-2273,Civil,Routine,473,2,2024-12-10,455,Medium,Pending
+CASE-2026-2274,Criminal,High Stakes,2737,4,2018-09-29,493,High,Pending
+CASE-2026-2275,Civil,High Stakes,2714,4,2018-10-22,653,High,Pending
+CASE-2026-2276,Family,Personal,2002,4,2020-10-03,319,High,Resolved
+CASE-2026-2277,Criminal,Financial,686,5,2024-05-11,520,High,Pending
+CASE-2026-2278,Civil,Personal,877,1,2023-11-02,441,Low,Pending
+CASE-2026-2279,Commercial,High Stakes,905,2,2023-10-05,843,Medium,Pending
+CASE-2026-2280,Family,Routine,1531,3,2022-01-17,254,Medium,Pending
+CASE-2026-2281,Commercial,Routine,349,5,2025-04-13,643,High,Pending
+CASE-2026-2282,Civil,Routine,2231,5,2020-02-17,442,High,Pending
+CASE-2026-2283,Family,Financial,3392,5,2016-12-13,310,High,Pending
+CASE-2026-2284,Commercial,Public Interest,2473,2,2019-06-20,689,Medium,Pending
+CASE-2026-2285,Commercial,Routine,1845,5,2021-03-09,577,High,Pending
+CASE-2026-2286,Civil,High Stakes,3551,2,2016-07-07,559,High,Pending
+CASE-2026-2287,Civil,Financial,1197,3,2022-12-17,548,Medium,Pending
+CASE-2026-2288,Family,Routine,3427,3,2016-11-08,181,High,Pending
+CASE-2026-2289,Civil,Routine,703,3,2024-04-24,437,Medium,Pending
+CASE-2026-2290,Commercial,Public Interest,1070,2,2023-04-23,687,Medium,Resolved
+CASE-2026-2291,Criminal,High Stakes,2654,5,2018-12-21,570,High,Pending
+CASE-2026-2292,Criminal,Public Interest,3552,4,2016-07-06,469,High,Pending
+CASE-2026-2293,Family,High Stakes,2344,4,2019-10-27,387,High,Pending
+CASE-2026-2294,Civil,High Stakes,2004,4,2020-10-01,747,High,Pending
+CASE-2026-2295,Criminal,Public Interest,356,4,2025-04-06,624,High,Resolved
+CASE-2026-2296,Commercial,High Stakes,3359,5,2017-01-15,782,High,Pending
+CASE-2026-2297,Family,Routine,3155,3,2017-08-07,133,High,Resolved
+CASE-2026-2298,Criminal,Public Interest,2936,5,2018-03-14,472,High,Pending
+CASE-2026-2299,Criminal,High Stakes,2283,5,2019-12-27,618,High,Pending
+CASE-2026-2300,Civil,Routine,37,4,2026-02-19,542,High,Pending
+CASE-2026-2301,Commercial,Personal,286,5,2025-06-15,668,High,Pending
+CASE-2026-2302,Civil,High Stakes,33,5,2026-02-23,851,High,Resolved
+CASE-2026-2303,Family,Public Interest,464,4,2024-12-19,450,High,Pending
+CASE-2026-2304,Traffic,Routine,3148,5,2017-08-14,99,High,Resolved
+CASE-2026-2305,Commercial,Routine,396,4,2025-02-25,567,High,Pending
+CASE-2026-2306,Civil,Financial,24,3,2026-03-04,597,Medium,Pending
+CASE-2026-2307,Family,Personal,2969,2,2018-02-09,137,High,Pending
+CASE-2026-2308,Family,Routine,369,1,2025-03-24,244,Low,Pending
+CASE-2026-2309,Commercial,High Stakes,2566,5,2019-03-19,890,High,Pending
+CASE-2026-2310,Civil,Financial,1169,1,2023-01-14,481,Medium,Resolved
+CASE-2026-2311,Criminal,High Stakes,2353,3,2019-10-18,536,High,Resolved
+CASE-2026-2312,Traffic,Public Interest,632,1,2024-07-04,82,Low,Pending
+CASE-2026-2313,Commercial,Financial,3078,3,2017-10-23,609,High,Pending
+CASE-2026-2314,Traffic,High Stakes,1313,3,2022-08-23,144,Medium,Resolved
+CASE-2026-2315,Traffic,Routine,1327,3,2022-08-09,57,Medium,Resolved
+CASE-2026-2316,Traffic,Financial,3455,5,2016-10-11,84,High,Pending
+CASE-2026-2317,Traffic,High Stakes,2816,4,2018-07-12,126,High,Pending
+CASE-2026-2318,Criminal,Routine,2427,4,2019-08-05,269,High,Pending
+CASE-2026-2319,Criminal,Financial,2133,3,2020-05-25,421,High,Pending
+CASE-2026-2320,Traffic,Financial,1963,5,2020-11-11,200,High,Pending
+CASE-2026-2321,Commercial,Routine,2825,5,2018-07-03,483,High,Pending
+CASE-2026-2322,Civil,Financial,1797,2,2021-04-26,531,Medium,Pending
+CASE-2026-2323,Traffic,Routine,579,2,2024-08-26,136,Medium,Pending
+CASE-2026-2324,Civil,Financial,3090,3,2017-10-11,485,High,Pending
+CASE-2026-2325,Criminal,Public Interest,2902,5,2018-04-17,508,High,Resolved
+CASE-2026-2326,Traffic,Financial,1819,4,2021-04-04,87,High,Pending
+CASE-2026-2327,Commercial,Public Interest,301,2,2025-05-31,739,Medium,Pending
+CASE-2026-2328,Criminal,Personal,525,2,2024-10-19,358,Medium,Pending
+CASE-2026-2329,Criminal,Public Interest,1693,5,2021-08-08,536,High,Pending
+CASE-2026-2330,Family,Routine,2005,5,2020-09-30,311,High,Pending
+CASE-2026-2331,Traffic,Routine,2309,3,2019-12-01,30,Medium,Resolved
+CASE-2026-2332,Criminal,Routine,1694,3,2021-08-07,356,High,Resolved
+CASE-2026-2333,Family,High Stakes,2554,3,2019-03-31,376,High,Resolved
+CASE-2026-2334,Criminal,Personal,2627,4,2019-01-17,343,High,Pending
+CASE-2026-2335,Civil,High Stakes,2825,5,2018-07-03,718,High,Resolved
+CASE-2026-2336,Civil,Personal,1293,2,2022-09-12,432,Medium,Resolved
+CASE-2026-2337,Traffic,Personal,118,1,2025-11-30,69,Low,Pending
+CASE-2026-2338,Traffic,High Stakes,124,5,2025-11-24,284,High,Pending
+CASE-2026-2339,Commercial,Public Interest,313,5,2025-05-19,861,High,Resolved
+CASE-2026-2340,Family,Financial,3182,2,2017-07-11,242,High,Pending
+CASE-2026-2341,Family,Public Interest,2804,4,2018-07-24,372,High,Pending
+CASE-2026-2342,Civil,Routine,2174,3,2020-04-14,398,Medium,Pending
+CASE-2026-2343,Commercial,Public Interest,2180,3,2020-04-08,673,Medium,Pending
+CASE-2026-2344,Criminal,High Stakes,2547,4,2019-04-07,601,High,Pending
+CASE-2026-2345,Criminal,Financial,2481,5,2019-06-12,505,High,Pending
+CASE-2026-2346,Civil,Financial,3494,5,2016-09-02,549,High,Pending
+CASE-2026-2347,Family,Routine,2261,3,2020-01-18,180,Medium,Resolved
+CASE-2026-2348,Criminal,Public Interest,1871,4,2021-02-11,490,High,Pending
+CASE-2026-2349,Commercial,Routine,986,2,2023-07-16,463,Medium,Pending
+CASE-2026-2350,Civil,Financial,972,5,2023-07-30,695,High,Pending
+CASE-2026-2351,Civil,Personal,3068,2,2017-11-02,354,High,Pending
+CASE-2026-2352,Family,Financial,2011,3,2020-09-24,343,Medium,Pending
+CASE-2026-2353,Criminal,Financial,997,5,2023-07-05,497,High,Pending
+CASE-2026-2354,Commercial,Routine,2615,2,2019-01-29,386,High,Resolved
+CASE-2026-2355,Traffic,Financial,1385,3,2022-06-12,102,Medium,Pending
+CASE-2026-2356,Civil,Financial,995,5,2023-07-07,692,High,Pending
+CASE-2026-2357,Traffic,High Stakes,2458,3,2019-07-05,95,Medium,Pending
+CASE-2026-2358,Commercial,Personal,1218,4,2022-11-26,595,High,Resolved
+CASE-2026-2359,Family,Personal,1514,4,2022-02-03,342,High,Pending
+CASE-2026-2360,Traffic,Financial,842,3,2023-12-07,155,Medium,Pending
+CASE-2026-2361,Family,High Stakes,3463,4,2016-10-03,404,High,Pending
+CASE-2026-2362,Traffic,High Stakes,2235,5,2020-02-13,122,High,Pending
+CASE-2026-2363,Traffic,Financial,2120,5,2020-06-07,169,High,Pending
+CASE-2026-2364,Family,Public Interest,3135,5,2017-08-27,313,High,Resolved
+CASE-2026-2365,Criminal,High Stakes,2867,3,2018-05-22,524,High,Pending
+CASE-2026-2366,Civil,Financial,2913,4,2018-04-06,488,High,Pending
+CASE-2026-2367,Family,Public Interest,168,2,2025-10-11,445,Medium,Pending
+CASE-2026-2368,Traffic,Routine,2685,4,2018-11-20,97,High,Pending
+CASE-2026-2369,Traffic,Financial,1063,4,2023-04-30,209,High,Pending
+CASE-2026-2370,Commercial,Public Interest,2911,4,2018-04-08,702,High,Pending
+CASE-2026-2371,Criminal,Personal,454,4,2024-12-29,488,High,Pending
+CASE-2026-2372,Commercial,High Stakes,2852,3,2018-06-06,826,High,Resolved
+CASE-2026-2373,Commercial,Routine,1303,4,2022-09-02,545,High,Resolved
+CASE-2026-2374,Family,Financial,1523,5,2022-01-25,355,High,Pending
+CASE-2026-2375,Traffic,Public Interest,2567,2,2019-03-18,30,High,Pending
+CASE-2026-2376,Family,High Stakes,2386,4,2019-09-15,412,High,Pending
+CASE-2026-2377,Commercial,Public Interest,3173,3,2017-07-20,665,High,Pending
+CASE-2026-2378,Traffic,High Stakes,1751,5,2021-06-11,188,High,Resolved
+CASE-2026-2379,Commercial,Financial,992,3,2023-07-10,692,Medium,Pending
+CASE-2026-2380,Civil,Routine,2361,4,2019-10-10,351,High,Pending
+CASE-2026-2381,Family,Routine,303,2,2025-05-29,238,Medium,Pending
+CASE-2026-2382,Traffic,Routine,1609,2,2021-10-31,89,Medium,Pending
+CASE-2026-2383,Criminal,Financial,1706,3,2021-07-26,420,High,Pending
+CASE-2026-2384,Civil,Financial,3307,3,2017-03-08,452,High,Pending
+CASE-2026-2385,Criminal,High Stakes,1784,2,2021-05-09,489,Medium,Pending
+CASE-2026-2386,Commercial,High Stakes,1546,2,2022-01-02,810,Medium,Resolved
+CASE-2026-2387,Civil,Financial,1008,2,2023-06-24,509,Medium,Pending
+CASE-2026-2388,Civil,Public Interest,1951,3,2020-11-23,624,Medium,Pending
+CASE-2026-2389,Criminal,Financial,3121,4,2017-09-10,446,High,Resolved
+CASE-2026-2390,Criminal,Public Interest,132,5,2025-11-16,665,High,Pending
+CASE-2026-2391,Commercial,Financial,2833,4,2018-06-25,593,High,Pending
+CASE-2026-2392,Commercial,High Stakes,3388,3,2016-12-17,775,High,Pending
+CASE-2026-2393,Family,High Stakes,2556,3,2019-03-29,343,High,Pending
+CASE-2026-2394,Traffic,Routine,3548,5,2016-07-10,94,High,Pending
+CASE-2026-2395,Traffic,Public Interest,1350,5,2022-07-17,236,High,Pending
+CASE-2026-2396,Traffic,Routine,1285,5,2022-09-20,126,High,Pending
+CASE-2026-2397,Criminal,Financial,2666,5,2018-12-09,417,High,Pending
+CASE-2026-2398,Commercial,High Stakes,608,1,2024-07-28,871,Low,Pending
+CASE-2026-2399,Criminal,Personal,982,4,2023-07-20,444,High,Pending
+CASE-2026-2400,Family,Public Interest,2549,4,2019-04-05,341,High,Resolved
+CASE-2026-2401,Criminal,Routine,3133,5,2017-08-29,325,High,Pending
+CASE-2026-2402,Commercial,Public Interest,3199,5,2017-06-24,665,High,Pending
+CASE-2026-2403,Civil,Personal,3150,3,2017-08-12,395,High,Pending
+CASE-2026-2404,Traffic,Public Interest,1854,5,2021-02-28,203,High,Resolved
+CASE-2026-2405,Commercial,Routine,419,2,2025-02-02,558,Medium,Pending
+CASE-2026-2406,Family,Routine,1949,2,2020-11-25,200,Medium,Pending
+CASE-2026-2407,Civil,Financial,1374,4,2022-06-23,618,High,Pending
+CASE-2026-2408,Traffic,High Stakes,489,3,2024-11-24,188,Medium,Pending
+CASE-2026-2409,Traffic,Financial,1810,5,2021-04-13,178,High,Pending
+CASE-2026-2410,Traffic,Personal,94,5,2025-12-24,177,High,Pending
+CASE-2026-2411,Traffic,High Stakes,1330,4,2022-08-06,152,High,Pending
+CASE-2026-2412,Civil,Public Interest,23,1,2026-03-05,579,Low,Pending
+CASE-2026-2413,Civil,Routine,550,4,2024-09-24,450,High,Pending
+CASE-2026-2414,Family,Routine,3419,5,2016-11-16,204,High,Resolved
+CASE-2026-2415,Commercial,Public Interest,2861,4,2018-05-28,697,High,Pending
+CASE-2026-2416,Civil,Routine,1653,1,2021-09-17,343,Medium,Pending
+CASE-2026-2417,Commercial,Financial,2829,5,2018-06-29,642,High,Pending
+CASE-2026-2418,Family,Financial,1532,1,2022-01-16,305,Medium,Pending
+CASE-2026-2419,Commercial,Personal,2690,4,2018-11-15,476,High,Pending
+CASE-2026-2420,Civil,Routine,2186,2,2020-04-02,361,Medium,Pending
+CASE-2026-2421,Commercial,Routine,824,2,2023-12-25,532,Medium,Pending
+CASE-2026-2422,Traffic,High Stakes,484,2,2024-11-29,120,Medium,Pending
+CASE-2026-2423,Criminal,Routine,389,5,2025-03-04,470,High,Pending
+CASE-2026-2424,Civil,High Stakes,1023,1,2023-06-09,717,Medium,Resolved
+CASE-2026-2425,Traffic,Routine,2561,4,2019-03-24,64,High,Resolved
+CASE-2026-2426,Criminal,Personal,3231,3,2017-05-23,256,High,Pending
+CASE-2026-2427,Civil,Financial,501,4,2024-11-12,594,High,Pending
+CASE-2026-2428,Traffic,High Stakes,756,4,2024-03-02,204,High,Pending
+CASE-2026-2429,Family,Personal,3636,5,2016-04-13,262,High,Pending
+CASE-2026-2430,Traffic,High Stakes,1081,5,2023-04-12,265,High,Pending
+CASE-2026-2431,Commercial,Routine,2254,4,2020-01-25,440,High,Pending
+CASE-2026-2432,Civil,Public Interest,2740,3,2018-09-26,549,High,Pending
+CASE-2026-2433,Traffic,Routine,935,1,2023-09-05,65,Low,Pending
+CASE-2026-2434,Commercial,Financial,1479,2,2022-03-10,614,Medium,Pending
+CASE-2026-2435,Commercial,Routine,3231,3,2017-05-23,419,High,Pending
+CASE-2026-2436,Criminal,Routine,2827,4,2018-07-01,343,High,Resolved
+CASE-2026-2437,Criminal,Public Interest,3220,4,2017-06-03,479,High,Resolved
+CASE-2026-2438,Criminal,Personal,3487,4,2016-09-09,299,High,Pending
+CASE-2026-2439,Commercial,Personal,3623,3,2016-04-26,401,High,Pending
+CASE-2026-2440,Family,Personal,1504,3,2022-02-13,305,Medium,Pending
+CASE-2026-2441,Commercial,Financial,1644,1,2021-09-26,567,Medium,Pending
+CASE-2026-2442,Commercial,Routine,1122,4,2023-03-02,522,High,Resolved
+CASE-2026-2443,Family,High Stakes,3222,5,2017-06-01,408,High,Pending
+CASE-2026-2444,Family,Public Interest,55,2,2026-02-01,411,Medium,Pending
+CASE-2026-2445,Civil,Routine,91,1,2025-12-27,399,Low,Pending
+CASE-2026-2446,Commercial,Routine,1057,1,2023-05-06,494,Medium,Pending
+CASE-2026-2447,Commercial,Routine,2688,5,2018-11-17,541,High,Pending
+CASE-2026-2448,Family,Personal,2348,5,2019-10-23,332,High,Pending
+CASE-2026-2449,Commercial,Public Interest,495,3,2024-11-18,754,Medium,Pending
+CASE-2026-2450,Commercial,Public Interest,2074,5,2020-07-23,740,High,Pending
+CASE-2026-2451,Traffic,Personal,475,5,2024-12-08,158,High,Pending
+CASE-2026-2452,Traffic,Personal,579,2,2024-08-26,67,Medium,Pending
+CASE-2026-2453,Commercial,Routine,2423,3,2019-08-09,439,Medium,Pending
+CASE-2026-2454,Commercial,Routine,1139,5,2023-02-13,532,High,Pending
+CASE-2026-2455,Traffic,Personal,3243,5,2017-05-11,30,High,Resolved
+CASE-2026-2456,Criminal,Public Interest,148,4,2025-10-31,616,High,Pending
+CASE-2026-2457,Traffic,Financial,484,4,2024-11-29,160,High,Pending
+CASE-2026-2458,Traffic,Routine,1922,2,2020-12-22,30,Medium,Pending
+CASE-2026-2459,Family,Personal,3297,2,2017-03-18,137,High,Pending
+CASE-2026-2460,Criminal,Public Interest,1430,4,2022-04-28,563,High,Pending
+CASE-2026-2461,Family,Financial,2489,2,2019-06-04,277,Medium,Pending
+CASE-2026-2462,Family,Routine,3474,5,2016-09-22,232,High,Pending
+CASE-2026-2463,Civil,High Stakes,2586,4,2019-02-27,700,High,Pending
+CASE-2026-2464,Civil,Financial,2994,5,2018-01-15,537,High,Resolved
+CASE-2026-2465,Commercial,Financial,3407,4,2016-11-28,577,High,Pending
+CASE-2026-2466,Criminal,Public Interest,3185,5,2017-07-08,450,High,Pending
+CASE-2026-2467,Criminal,Personal,3151,4,2017-08-11,327,High,Pending
+CASE-2026-2468,Civil,Personal,2656,3,2018-12-19,362,High,Resolved
+CASE-2026-2469,Civil,High Stakes,3547,5,2016-07-11,691,High,Resolved
+CASE-2026-2470,Family,Personal,637,1,2024-06-29,309,Low,Resolved
+CASE-2026-2471,Commercial,Routine,2817,5,2018-07-11,523,High,Pending
+CASE-2026-2472,Traffic,Financial,1325,5,2022-08-11,155,High,Pending
+CASE-2026-2473,Commercial,Personal,2401,5,2019-08-31,601,High,Pending
+CASE-2026-2474,Civil,Personal,1317,2,2022-08-19,409,Medium,Pending
+CASE-2026-2475,Commercial,Routine,2945,5,2018-03-05,517,High,Pending
+CASE-2026-2476,Family,Routine,846,5,2023-12-03,393,High,Pending
+CASE-2026-2477,Traffic,Personal,2636,2,2019-01-08,30,High,Pending
+CASE-2026-2478,Family,High Stakes,439,3,2025-01-13,466,Medium,Resolved
+CASE-2026-2479,Traffic,Routine,306,2,2025-05-26,103,Medium,Pending
+CASE-2026-2480,Family,Personal,362,1,2025-03-31,315,Low,Pending
+CASE-2026-2481,Commercial,Personal,1924,2,2020-12-20,532,Medium,Pending
+CASE-2026-2482,Traffic,Financial,1241,2,2022-11-03,120,Medium,Pending
+CASE-2026-2483,Commercial,Routine,2302,2,2019-12-08,461,Medium,Pending
+CASE-2026-2484,Traffic,Personal,2196,3,2020-03-23,63,Medium,Pending
+CASE-2026-2485,Civil,High Stakes,1451,2,2022-04-07,696,Medium,Pending
+CASE-2026-2486,Family,High Stakes,956,5,2023-08-15,521,High,Pending
+CASE-2026-2487,Commercial,Routine,1474,4,2022-03-15,497,High,Pending
+CASE-2026-2488,Commercial,High Stakes,1018,3,2023-06-14,904,Medium,Pending
+CASE-2026-2489,Family,Personal,1287,1,2022-09-18,228,Medium,Pending
+CASE-2026-2490,Family,High Stakes,1587,2,2021-11-22,422,Medium,Pending
+CASE-2026-2491,Criminal,High Stakes,3135,5,2017-08-27,586,High,Pending
+CASE-2026-2492,Traffic,Financial,579,3,2024-08-26,197,Medium,Resolved
+CASE-2026-2493,Civil,Routine,3018,3,2017-12-22,348,High,Pending
+CASE-2026-2494,Civil,Routine,243,4,2025-07-28,480,High,Pending
+CASE-2026-2495,Commercial,Public Interest,1275,1,2022-09-30,692,Medium,Pending
+CASE-2026-2496,Family,Public Interest,3570,4,2016-06-18,306,High,Pending
+CASE-2026-2497,Traffic,Personal,2946,5,2018-03-04,50,High,Pending
+CASE-2026-2498,Traffic,Public Interest,928,2,2023-09-12,111,Medium,Pending
+CASE-2026-2499,Criminal,Personal,1060,4,2023-05-03,451,High,Pending
+CASE-2026-2500,Criminal,High Stakes,1514,3,2022-02-03,618,High,Resolved
+CASE-2026-2501,Criminal,Routine,1362,5,2022-07-05,422,High,Pending
+CASE-2026-2502,Civil,Personal,3116,5,2017-09-15,447,High,Pending
+CASE-2026-2503,Civil,Financial,1279,4,2022-09-26,622,High,Pending
+CASE-2026-2504,Criminal,Public Interest,893,5,2023-10-17,601,High,Pending
+CASE-2026-2505,Criminal,Personal,1305,4,2022-08-31,408,High,Pending
+CASE-2026-2506,Criminal,Personal,3332,4,2017-02-11,301,High,Resolved
+CASE-2026-2507,Commercial,Public Interest,2019,5,2020-09-16,811,High,Pending
+CASE-2026-2508,Family,Routine,2302,2,2019-12-08,150,Medium,Pending
+CASE-2026-2509,Commercial,Routine,3410,5,2016-11-25,477,High,Pending
+CASE-2026-2510,Traffic,Financial,3320,4,2017-02-23,30,High,Pending
+CASE-2026-2511,Commercial,Public Interest,2016,2,2020-09-19,633,Medium,Pending
+CASE-2026-2512,Family,Personal,832,5,2023-12-17,399,High,Pending
+CASE-2026-2513,Commercial,Public Interest,3083,4,2017-10-18,685,High,Pending
+CASE-2026-2514,Traffic,Personal,2182,4,2020-04-06,136,High,Pending
+CASE-2026-2515,Traffic,Personal,1027,2,2023-06-05,71,Medium,Pending
+CASE-2026-2516,Family,Public Interest,1664,1,2021-09-06,349,Medium,Pending
+CASE-2026-2517,Traffic,Financial,1975,5,2020-10-30,102,High,Pending
+CASE-2026-2518,Civil,Personal,764,4,2024-02-23,560,High,Pending
+CASE-2026-2519,Civil,High Stakes,867,1,2023-11-12,687,Low,Pending
+CASE-2026-2520,Family,High Stakes,2436,4,2019-07-27,433,High,Pending
+CASE-2026-2521,Traffic,Routine,1530,5,2022-01-18,174,High,Pending
+CASE-2026-2522,Family,Public Interest,3558,4,2016-06-30,279,High,Pending
+CASE-2026-2523,Criminal,Personal,1808,2,2021-04-15,330,Medium,Pending
+CASE-2026-2524,Commercial,Routine,3043,5,2017-11-27,473,High,Pending
+CASE-2026-2525,Civil,Public Interest,1700,3,2021-08-01,641,Medium,Pending
+CASE-2026-2526,Traffic,Public Interest,2294,3,2019-12-16,115,Medium,Pending
+CASE-2026-2527,Civil,Routine,2320,4,2019-11-20,368,High,Pending
+CASE-2026-2528,Criminal,Routine,1686,3,2021-08-15,317,High,Pending
+CASE-2026-2529,Traffic,Public Interest,2370,2,2019-10-01,30,Medium,Pending
+CASE-2026-2530,Criminal,Public Interest,1814,2,2021-04-09,450,Medium,Pending
+CASE-2026-2531,Family,Personal,2600,4,2019-02-13,308,High,Pending
+CASE-2026-2532,Civil,Personal,2075,5,2020-07-22,519,High,Pending
+CASE-2026-2533,Criminal,Routine,602,4,2024-08-03,411,High,Pending
+CASE-2026-2534,Criminal,Personal,3105,4,2017-09-26,310,High,Pending
+CASE-2026-2535,Family,Routine,2746,5,2018-09-20,262,High,Resolved
+CASE-2026-2536,Criminal,Public Interest,3031,3,2017-12-09,370,High,Pending
+CASE-2026-2537,Civil,High Stakes,1211,5,2022-12-03,832,High,Pending
+CASE-2026-2538,Criminal,Personal,1235,3,2022-11-09,434,High,Resolved
+CASE-2026-2539,Criminal,Financial,535,2,2024-10-09,514,Medium,Resolved
+CASE-2026-2540,Criminal,Financial,1909,4,2021-01-04,494,High,Pending
+CASE-2026-2541,Criminal,Public Interest,1725,3,2021-07-07,444,High,Pending
+CASE-2026-2542,Family,Public Interest,1863,5,2021-02-19,462,High,Pending
+CASE-2026-2543,Family,High Stakes,1591,3,2021-11-18,473,Medium,Pending
+CASE-2026-2544,Family,Financial,1152,2,2023-01-31,311,Medium,Pending
+CASE-2026-2545,Family,Personal,617,5,2024-07-19,426,High,Pending
+CASE-2026-2546,Family,Routine,22,4,2026-03-06,335,High,Resolved
+CASE-2026-2547,Family,High Stakes,1518,4,2022-01-30,428,High,Pending
+CASE-2026-2548,Family,Financial,2159,5,2020-04-29,391,High,Pending
+CASE-2026-2549,Civil,Public Interest,1674,3,2021-08-27,652,Medium,Pending
+CASE-2026-2550,Commercial,Public Interest,1174,1,2023-01-09,717,Medium,Pending
+CASE-2026-2551,Traffic,Financial,840,3,2023-12-09,158,Medium,Pending
+CASE-2026-2552,Criminal,Personal,654,3,2024-06-12,412,High,Resolved
+CASE-2026-2553,Criminal,Financial,184,2,2025-09-25,508,Medium,Pending
+CASE-2026-2554,Commercial,Personal,175,2,2025-10-04,547,Medium,Pending
+CASE-2026-2555,Traffic,Financial,871,1,2023-11-08,87,Low,Pending
+CASE-2026-2556,Criminal,Public Interest,498,2,2024-11-15,506,Medium,Pending
+CASE-2026-2557,Criminal,Financial,401,4,2025-02-20,548,High,Pending
+CASE-2026-2558,Family,Public Interest,1374,3,2022-06-23,424,Medium,Pending
+CASE-2026-2559,Family,High Stakes,2729,5,2018-10-07,406,High,Pending
+CASE-2026-2560,Family,Financial,2833,2,2018-06-25,235,High,Pending
+CASE-2026-2561,Commercial,Public Interest,3206,4,2017-06-17,709,High,Pending
+CASE-2026-2562,Family,Public Interest,1366,1,2022-07-01,321,Medium,Pending
+CASE-2026-2563,Traffic,Financial,2833,3,2018-06-25,49,High,Pending
+CASE-2026-2564,Civil,Public Interest,354,4,2025-04-08,706,High,Pending
+CASE-2026-2565,Civil,Financial,775,2,2024-02-12,574,Medium,Pending
+CASE-2026-2566,Traffic,Personal,3548,5,2016-07-10,72,High,Pending
+CASE-2026-2567,Civil,Public Interest,1964,2,2020-11-10,605,Medium,Pending
+CASE-2026-2568,Family,Personal,3641,5,2016-04-08,202,High,Pending
+CASE-2026-2569,Family,High Stakes,1698,5,2021-08-03,503,High,Pending
+CASE-2026-2570,Civil,Routine,2400,2,2019-09-01,377,Medium,Pending
+CASE-2026-2571,Commercial,High Stakes,550,2,2024-09-24,911,Medium,Pending
+CASE-2026-2572,Criminal,Financial,402,4,2025-02-19,562,High,Pending
+CASE-2026-2573,Traffic,Routine,1545,1,2022-01-03,38,Medium,Pending
+CASE-2026-2574,Traffic,Financial,2622,4,2019-01-22,100,High,Pending
+CASE-2026-2575,Traffic,Public Interest,2669,4,2018-12-06,59,High,Pending
+CASE-2026-2576,Criminal,Personal,2371,4,2019-09-30,388,High,Pending
+CASE-2026-2577,Civil,Financial,1201,1,2022-12-13,535,Medium,Pending
+CASE-2026-2578,Family,Financial,597,3,2024-08-08,411,Medium,Pending
+CASE-2026-2579,Civil,Routine,858,4,2023-11-21,469,High,Pending
+CASE-2026-2580,Family,High Stakes,151,5,2025-10-28,607,High,Resolved
+CASE-2026-2581,Criminal,Financial,1259,5,2022-10-16,544,High,Pending
+CASE-2026-2582,Family,Financial,3536,2,2016-07-22,241,High,Pending
+CASE-2026-2583,Civil,Public Interest,520,1,2024-10-24,638,Low,Pending
+CASE-2026-2584,Commercial,Financial,258,3,2025-07-13,786,Medium,Pending
+CASE-2026-2585,Civil,Personal,391,1,2025-03-02,447,Low,Pending
+CASE-2026-2586,Family,Public Interest,733,3,2024-03-25,416,Medium,Pending
+CASE-2026-2587,Commercial,Financial,1092,1,2023-04-01,656,Medium,Pending
+CASE-2026-2588,Criminal,High Stakes,2313,3,2019-11-27,561,High,Pending
+CASE-2026-2589,Commercial,Financial,2595,2,2019-02-18,540,High,Pending
+CASE-2026-2590,Traffic,High Stakes,1198,5,2022-12-16,183,High,Pending
+CASE-2026-2591,Civil,High Stakes,151,2,2025-10-28,778,Medium,Pending
+CASE-2026-2592,Commercial,Public Interest,3480,5,2016-09-16,716,High,Pending
+CASE-2026-2593,Traffic,Public Interest,2305,3,2019-12-05,48,Medium,Resolved
+CASE-2026-2594,Family,Routine,2137,3,2020-05-21,236,Medium,Pending
+CASE-2026-2595,Family,Public Interest,1584,3,2021-11-25,327,Medium,Pending
+CASE-2026-2596,Commercial,Routine,435,4,2025-01-17,582,High,Pending
+CASE-2026-2597,Traffic,Public Interest,2240,2,2020-02-08,82,Medium,Pending
+CASE-2026-2598,Commercial,Routine,932,2,2023-09-08,540,Medium,Resolved
+CASE-2026-2599,Civil,Financial,2941,4,2018-03-09,516,High,Pending
+CASE-2026-2600,Civil,High Stakes,1521,5,2022-01-27,760,High,Resolved
+CASE-2026-2601,Traffic,Personal,904,5,2023-10-06,219,High,Pending
+CASE-2026-2602,Commercial,Routine,1586,1,2021-11-23,390,Medium,Pending
+CASE-2026-2603,Family,Public Interest,749,4,2024-03-09,443,High,Pending
+CASE-2026-2604,Traffic,Routine,752,2,2024-03-06,144,Medium,Pending
+CASE-2026-2605,Commercial,Financial,3270,4,2017-04-14,599,High,Pending
+CASE-2026-2606,Civil,Personal,1480,3,2022-03-09,507,Medium,Pending
+CASE-2026-2607,Traffic,Public Interest,1950,2,2020-11-24,88,Medium,Pending
+CASE-2026-2608,Civil,Routine,3232,2,2017-05-22,253,High,Pending
+CASE-2026-2609,Civil,Personal,1205,5,2022-12-09,584,High,Pending
+CASE-2026-2610,Family,Personal,2200,5,2020-03-19,329,High,Pending
+CASE-2026-2611,Traffic,Personal,3059,5,2017-11-11,60,High,Resolved
+CASE-2026-2612,Traffic,Public Interest,3149,5,2017-08-13,94,High,Resolved
+CASE-2026-2613,Family,Personal,1951,2,2020-11-23,203,Medium,Pending
+CASE-2026-2614,Family,Routine,2256,5,2020-01-23,279,High,Resolved
+CASE-2026-2615,Traffic,Financial,1661,1,2021-09-09,30,Medium,Resolved
+CASE-2026-2616,Criminal,Routine,2398,5,2019-09-03,395,High,Pending
+CASE-2026-2617,Civil,High Stakes,3215,5,2017-06-08,668,High,Resolved
+CASE-2026-2618,Traffic,Public Interest,1806,4,2021-04-17,138,High,Pending
+CASE-2026-2619,Family,High Stakes,3404,3,2016-12-01,301,High,Pending
+CASE-2026-2620,Civil,Financial,861,1,2023-11-18,517,Low,Pending
+CASE-2026-2621,Criminal,Financial,2098,5,2020-06-29,486,High,Pending
+CASE-2026-2622,Traffic,Public Interest,145,2,2025-11-03,123,Medium,Pending
+CASE-2026-2623,Traffic,Financial,273,2,2025-06-28,98,Medium,Pending
+CASE-2026-2624,Criminal,Personal,1191,3,2022-12-23,432,High,Pending
+CASE-2026-2625,Commercial,High Stakes,468,5,2024-12-15,944,High,Pending
+CASE-2026-2626,Family,High Stakes,2255,2,2020-01-24,390,Medium,Resolved
+CASE-2026-2627,Family,Routine,3042,5,2017-11-28,266,High,Resolved
+CASE-2026-2628,Family,Routine,116,2,2025-12-02,295,Medium,Pending
+CASE-2026-2629,Commercial,Routine,3392,4,2016-12-13,472,High,Pending
+CASE-2026-2630,Commercial,Personal,341,5,2025-04-21,683,High,Resolved
+CASE-2026-2631,Family,Routine,847,3,2023-12-02,264,Medium,Pending
+CASE-2026-2632,Criminal,Personal,2390,5,2019-09-11,347,High,Pending
+CASE-2026-2633,Criminal,High Stakes,2243,4,2020-02-05,597,High,Pending
+CASE-2026-2634,Civil,Financial,2524,2,2019-04-30,452,High,Pending
+CASE-2026-2635,Commercial,Public Interest,1653,4,2021-09-17,710,High,Pending
+CASE-2026-2636,Family,Routine,1031,3,2023-06-01,242,Medium,Pending
+CASE-2026-2637,Civil,Financial,499,1,2024-11-14,546,Low,Resolved
+CASE-2026-2638,Civil,Routine,1951,3,2020-11-23,417,Medium,Pending
+CASE-2026-2639,Commercial,High Stakes,3005,3,2018-01-04,788,High,Pending
+CASE-2026-2640,Civil,Financial,3157,5,2017-08-05,570,High,Pending
+CASE-2026-2641,Criminal,Financial,2848,4,2018-06-10,441,High,Pending
+CASE-2026-2642,Family,Personal,3048,2,2017-11-22,159,High,Pending
+CASE-2026-2643,Traffic,Public Interest,1095,5,2023-03-29,169,High,Pending
+CASE-2026-2644,Criminal,High Stakes,2075,4,2020-07-22,539,High,Resolved
+CASE-2026-2645,Commercial,Financial,89,4,2025-12-29,815,High,Pending
+CASE-2026-2646,Criminal,Public Interest,705,5,2024-04-22,634,High,Pending
+CASE-2026-2647,Family,High Stakes,3491,5,2016-09-05,388,High,Pending
+CASE-2026-2648,Civil,Routine,1981,3,2020-10-24,383,Medium,Pending
+CASE-2026-2649,Family,Routine,961,5,2023-08-10,306,High,Pending
+CASE-2026-2650,Civil,Public Interest,1745,1,2021-06-17,521,Medium,Pending
+CASE-2026-2651,Civil,Financial,2229,3,2020-02-19,545,Medium,Pending
+CASE-2026-2652,Family,Financial,377,4,2025-03-16,396,High,Pending
+CASE-2026-2653,Criminal,Personal,3516,5,2016-08-11,291,High,Pending
+CASE-2026-2654,Commercial,High Stakes,1559,5,2021-12-20,866,High,Pending
+CASE-2026-2655,Criminal,Routine,2121,4,2020-06-06,296,High,Pending
+CASE-2026-2656,Traffic,Financial,3096,3,2017-10-05,77,High,Resolved
+CASE-2026-2657,Family,Personal,964,3,2023-08-07,326,Medium,Pending
+CASE-2026-2658,Traffic,Routine,1550,4,2021-12-29,93,High,Resolved
+CASE-2026-2659,Criminal,Financial,1379,4,2022-06-18,523,High,Pending
+CASE-2026-2660,Traffic,Personal,245,5,2025-07-26,234,High,Pending
+CASE-2026-2661,Commercial,Public Interest,891,2,2023-10-19,721,Medium,Pending
+CASE-2026-2662,Commercial,High Stakes,302,1,2025-05-30,892,Low,Pending
+CASE-2026-2663,Criminal,Public Interest,2968,3,2018-02-10,422,High,Pending
+CASE-2026-2664,Criminal,Public Interest,2578,5,2019-03-07,517,High,Pending
+CASE-2026-2665,Commercial,Public Interest,605,2,2024-07-31,707,Medium,Pending
+CASE-2026-2666,Criminal,Personal,2934,3,2018-03-16,308,High,Resolved
+CASE-2026-2667,Commercial,Routine,596,2,2024-08-09,540,Medium,Resolved
+CASE-2026-2668,Family,Public Interest,862,3,2023-11-17,436,Medium,Pending
+CASE-2026-2669,Criminal,Public Interest,2252,5,2020-01-27,542,High,Resolved
+CASE-2026-2670,Traffic,High Stakes,2190,3,2020-03-29,76,Medium,Pending
+CASE-2026-2671,Commercial,Routine,88,3,2025-12-30,568,Medium,Pending
+CASE-2026-2672,Commercial,Financial,1913,2,2020-12-31,631,Medium,Resolved
+CASE-2026-2673,Traffic,Public Interest,1465,3,2022-03-24,159,Medium,Pending
+CASE-2026-2674,Traffic,Personal,3284,5,2017-03-31,30,High,Resolved
+CASE-2026-2675,Civil,Financial,2412,3,2019-08-20,506,Medium,Resolved
+CASE-2026-2676,Criminal,High Stakes,1837,4,2021-03-17,596,High,Resolved
+CASE-2026-2677,Civil,Personal,3324,5,2017-02-19,465,High,Resolved
+CASE-2026-2678,Commercial,Financial,338,3,2025-04-24,783,Medium,Pending
+CASE-2026-2679,Criminal,Personal,287,3,2025-06-14,474,High,Pending
+CASE-2026-2680,Commercial,High Stakes,355,1,2025-04-07,867,Low,Pending
+CASE-2026-2681,Criminal,Routine,1719,2,2021-07-13,305,Medium,Pending
+CASE-2026-2682,Commercial,Financial,3511,4,2016-08-16,630,High,Pending
+CASE-2026-2683,Family,Financial,2958,5,2018-02-20,347,High,Pending
+CASE-2026-2684,Family,Financial,791,5,2024-01-27,398,High,Pending
+CASE-2026-2685,Criminal,Personal,264,5,2025-07-07,479,High,Pending
+CASE-2026-2686,Traffic,Personal,64,2,2026-01-23,164,Medium,Pending
+CASE-2026-2687,Civil,High Stakes,1173,3,2023-01-10,749,Medium,Pending
+CASE-2026-2688,Civil,Personal,3152,2,2017-08-10,356,High,Pending
+CASE-2026-2689,Commercial,High Stakes,803,5,2024-01-15,922,High,Pending
+CASE-2026-2690,Commercial,Financial,1149,2,2023-02-03,653,Medium,Pending
+CASE-2026-2691,Commercial,Public Interest,2563,5,2019-03-22,717,High,Resolved
+CASE-2026-2692,Civil,Routine,2720,4,2018-10-16,412,High,Pending
+CASE-2026-2693,Criminal,Routine,1485,4,2022-03-04,361,High,Resolved
+CASE-2026-2694,Traffic,Public Interest,2086,2,2020-07-11,73,Medium,Pending
+CASE-2026-2695,Commercial,Routine,2006,4,2020-09-29,473,High,Resolved
+CASE-2026-2696,Criminal,Financial,318,3,2025-05-14,526,High,Pending
+CASE-2026-2697,Traffic,Personal,3279,3,2017-04-05,30,High,Pending
+CASE-2026-2698,Traffic,Financial,1566,5,2021-12-13,205,High,Pending
+CASE-2026-2699,Criminal,Public Interest,1597,5,2021-11-12,557,High,Resolved
+CASE-2026-2700,Commercial,Financial,21,4,2026-03-07,748,High,Pending
+CASE-2026-2701,Criminal,Financial,990,3,2023-07-12,469,High,Resolved
+CASE-2026-2702,Civil,Routine,3562,5,2016-06-26,355,High,Pending
+CASE-2026-2703,Civil,Personal,414,5,2025-02-07,624,High,Pending
+CASE-2026-2704,Traffic,Routine,3,1,2026-03-25,124,Low,Pending
+CASE-2026-2705,Criminal,Public Interest,296,5,2025-06-05,567,High,Pending
+CASE-2026-2706,Commercial,Personal,2137,3,2020-05-21,507,Medium,Resolved
+CASE-2026-2707,Traffic,Routine,2894,5,2018-04-25,42,High,Resolved
+CASE-2026-2708,Criminal,Routine,282,2,2025-06-19,396,Medium,Pending
+CASE-2026-2709,Criminal,Public Interest,2813,4,2018-07-15,443,High,Pending
+CASE-2026-2710,Traffic,Public Interest,2927,3,2018-03-23,30,High,Resolved
+CASE-2026-2711,Criminal,High Stakes,3144,5,2017-08-18,503,High,Pending
+CASE-2026-2712,Criminal,Routine,2578,4,2019-03-07,348,High,Pending
+CASE-2026-2713,Family,High Stakes,187,3,2025-09-22,461,Medium,Pending
+CASE-2026-2714,Criminal,Financial,3031,4,2017-12-09,420,High,Resolved
+CASE-2026-2715,Civil,High Stakes,1897,5,2021-01-16,705,High,Pending
+CASE-2026-2716,Criminal,Routine,2532,5,2019-04-22,382,High,Resolved
+CASE-2026-2717,Commercial,Routine,1855,5,2021-02-27,581,High,Resolved
+CASE-2026-2718,Traffic,Personal,3004,5,2018-01-05,113,High,Resolved
+CASE-2026-2719,Family,Personal,56,1,2026-01-31,347,Low,Resolved
+CASE-2026-2720,Commercial,Public Interest,1802,1,2021-04-21,682,Medium,Pending
+CASE-2026-2721,Traffic,Personal,833,1,2023-12-16,85,Low,Pending
+CASE-2026-2722,Traffic,Financial,3636,5,2016-04-13,30,High,Pending
+CASE-2026-2723,Family,High Stakes,656,4,2024-06-10,552,High,Resolved
+CASE-2026-2724,Traffic,Routine,2139,2,2020-05-19,30,Medium,Pending
+CASE-2026-2725,Traffic,Financial,567,3,2024-09-07,175,Medium,Pending
+CASE-2026-2726,Family,Personal,2079,4,2020-07-18,250,High,Pending
+CASE-2026-2727,Family,Personal,791,4,2024-01-27,351,High,Pending
+CASE-2026-2728,Traffic,Routine,1655,4,2021-09-15,91,High,Pending
+CASE-2026-2729,Criminal,Public Interest,339,3,2025-04-23,570,High,Resolved
+CASE-2026-2730,Commercial,Personal,763,3,2024-02-24,561,Medium,Pending
+CASE-2026-2731,Traffic,Public Interest,645,4,2024-06-21,166,High,Pending
+CASE-2026-2732,Commercial,Financial,3595,3,2016-05-24,557,High,Pending
+CASE-2026-2733,Family,Personal,3205,2,2017-06-18,198,High,Pending
+CASE-2026-2734,Traffic,High Stakes,1724,5,2021-07-08,203,High,Pending
+CASE-2026-2735,Criminal,Public Interest,3464,4,2016-10-02,392,High,Resolved
+CASE-2026-2736,Commercial,Routine,1571,4,2021-12-08,536,High,Pending
+CASE-2026-2737,Commercial,Public Interest,2912,2,2018-04-07,652,High,Pending
+CASE-2026-2738,Criminal,High Stakes,2591,4,2019-02-22,556,High,Pending
+CASE-2026-2739,Civil,High Stakes,3185,4,2017-07-08,682,High,Pending
+CASE-2026-2740,Traffic,High Stakes,265,5,2025-07-06,277,High,Pending
+CASE-2026-2741,Commercial,Financial,3521,5,2016-08-06,596,High,Pending
+CASE-2026-2742,Civil,Public Interest,1470,4,2022-03-19,680,High,Pending
+CASE-2026-2743,Family,Routine,1458,4,2022-03-31,277,High,Pending
+CASE-2026-2744,Traffic,Financial,3160,2,2017-08-02,45,High,Resolved
+CASE-2026-2745,Commercial,Financial,3383,2,2016-12-22,535,High,Pending
+CASE-2026-2746,Civil,High Stakes,1464,5,2022-03-25,811,High,Resolved
+CASE-2026-2747,Criminal,Routine,1651,3,2021-09-19,298,High,Pending
+CASE-2026-2748,Traffic,Public Interest,168,5,2025-10-11,243,High,Pending
+CASE-2026-2749,Commercial,Routine,892,4,2023-10-18,545,High,Resolved
+CASE-2026-2750,Commercial,Routine,1778,4,2021-05-15,482,High,Pending
+CASE-2026-2751,Traffic,High Stakes,3194,5,2017-06-29,115,High,Pending
+CASE-2026-2752,Traffic,Personal,344,4,2025-04-18,200,High,Pending
+CASE-2026-2753,Criminal,Routine,438,3,2025-01-14,418,High,Pending
+CASE-2026-2754,Civil,Financial,1761,5,2021-06-01,615,High,Pending
+CASE-2026-2755,Traffic,Routine,3542,2,2016-07-16,30,High,Pending
+CASE-2026-2756,Traffic,Personal,175,2,2025-10-04,168,Medium,Pending
+CASE-2026-2757,Criminal,Public Interest,2788,5,2018-08-09,508,High,Resolved
+CASE-2026-2758,Family,Routine,2955,2,2018-02-23,143,High,Pending
+CASE-2026-2759,Commercial,Routine,386,5,2025-03-07,649,High,Pending
+CASE-2026-2760,Traffic,High Stakes,3527,2,2016-07-31,30,High,Pending
+CASE-2026-2761,Traffic,Routine,6,1,2026-03-22,74,Low,Pending
+CASE-2026-2762,Family,Personal,2092,2,2020-07-05,186,Medium,Pending
+CASE-2026-2763,Criminal,Public Interest,1099,4,2023-03-25,570,High,Pending
+CASE-2026-2764,Civil,Financial,3360,5,2017-01-14,580,High,Pending
+CASE-2026-2765,Criminal,Personal,2293,5,2019-12-17,408,High,Pending
+CASE-2026-2766,Traffic,Routine,361,4,2025-04-01,162,High,Pending
+CASE-2026-2767,Family,Public Interest,2284,5,2019-12-26,421,High,Pending
+CASE-2026-2768,Criminal,Financial,1309,2,2022-08-27,430,Medium,Pending
+CASE-2026-2769,Family,Public Interest,1736,4,2021-06-26,374,High,Pending
+CASE-2026-2770,Traffic,Public Interest,1688,2,2021-08-13,77,Medium,Pending
+CASE-2026-2771,Criminal,Personal,1538,4,2022-01-10,401,High,Pending
+CASE-2026-2772,Family,Financial,3305,5,2017-03-10,307,High,Pending
+CASE-2026-2773,Family,Routine,1122,4,2023-03-02,309,High,Pending
+CASE-2026-2774,Civil,Routine,292,5,2025-06-09,540,High,Pending
+CASE-2026-2775,Criminal,Financial,1802,3,2021-04-21,482,High,Pending
+CASE-2026-2776,Family,Routine,3555,5,2016-07-03,182,High,Pending
+CASE-2026-2777,Civil,High Stakes,150,1,2025-10-29,735,Low,Pending
+CASE-2026-2778,Traffic,High Stakes,3480,5,2016-09-16,118,High,Pending
+CASE-2026-2779,Civil,Routine,213,3,2025-08-27,431,Medium,Pending
+CASE-2026-2780,Commercial,Routine,640,3,2024-06-26,559,Medium,Pending
+CASE-2026-2781,Civil,Financial,3197,2,2017-06-26,465,High,Resolved
+CASE-2026-2782,Civil,High Stakes,2319,2,2019-11-21,682,Medium,Pending
+CASE-2026-2783,Commercial,Public Interest,478,1,2024-12-05,726,Low,Pending
+CASE-2026-2784,Civil,Financial,2807,5,2018-07-21,540,High,Pending
+CASE-2026-2785,Commercial,Routine,2673,4,2018-12-02,420,High,Pending
+CASE-2026-2786,Commercial,Financial,1009,1,2023-06-23,641,Medium,Pending
+CASE-2026-2787,Family,Financial,1020,4,2023-06-12,386,High,Pending
+CASE-2026-2788,Family,Financial,95,1,2025-12-23,349,Low,Resolved
+CASE-2026-2789,Family,Personal,377,4,2025-03-16,325,High,Pending
+CASE-2026-2790,Traffic,Public Interest,2257,5,2020-01-22,142,High,Resolved
+CASE-2026-2791,Civil,Personal,2999,5,2018-01-10,468,High,Pending
+CASE-2026-2792,Commercial,Financial,252,4,2025-07-19,761,High,Pending
+CASE-2026-2793,Commercial,Personal,583,2,2024-08-22,552,Medium,Pending
+CASE-2026-2794,Civil,Personal,389,1,2025-03-04,499,Low,Pending
+CASE-2026-2795,Family,High Stakes,2943,5,2018-03-07,432,High,Resolved
+CASE-2026-2796,Family,Routine,841,1,2023-12-08,236,Low,Pending
+CASE-2026-2797,Commercial,Financial,837,2,2023-12-12,667,Medium,Pending
+CASE-2026-2798,Civil,Routine,2568,5,2019-03-17,386,High,Pending
+CASE-2026-2799,Commercial,High Stakes,1381,4,2022-06-16,857,High,Pending
+CASE-2026-2800,Criminal,Public Interest,109,3,2025-12-09,580,High,Pending
+CASE-2026-2801,Traffic,High Stakes,2644,5,2018-12-31,136,High,Pending
+CASE-2026-2802,Criminal,High Stakes,651,2,2024-06-15,549,Medium,Resolved
+CASE-2026-2803,Commercial,Routine,2856,3,2018-06-02,475,High,Pending
+CASE-2026-2804,Civil,High Stakes,3425,4,2016-11-10,598,High,Pending
+CASE-2026-2805,Family,Financial,3170,3,2017-07-23,222,High,Pending
+CASE-2026-2806,Family,Financial,3026,2,2017-12-14,191,High,Resolved
+CASE-2026-2807,Traffic,Routine,1025,4,2023-06-07,126,High,Pending
+CASE-2026-2808,Family,Personal,1429,4,2022-04-29,352,High,Pending
+CASE-2026-2809,Family,Financial,2661,5,2018-12-14,327,High,Pending
+CASE-2026-2810,Family,Personal,1378,4,2022-06-19,302,High,Pending
+CASE-2026-2811,Civil,Financial,2089,4,2020-07-08,579,High,Pending
+CASE-2026-2812,Criminal,High Stakes,1154,3,2023-01-29,638,High,Pending
+CASE-2026-2813,Traffic,High Stakes,648,5,2024-06-18,231,High,Resolved
+CASE-2026-2814,Traffic,Financial,725,2,2024-04-02,152,Medium,Pending
+CASE-2026-2815,Family,Routine,2611,5,2019-02-02,292,High,Resolved
+CASE-2026-2816,Criminal,Routine,566,4,2024-09-08,407,High,Pending
+CASE-2026-2817,Civil,Routine,1140,1,2023-02-12,392,Medium,Pending
+CASE-2026-2818,Civil,Routine,880,4,2023-10-30,520,High,Pending
+CASE-2026-2819,Commercial,Personal,3096,2,2017-10-05,445,High,Pending
+CASE-2026-2820,Commercial,Personal,1230,4,2022-11-14,641,High,Pending
+CASE-2026-2821,Commercial,Public Interest,1299,5,2022-09-06,810,High,Pending
+CASE-2026-2822,Family,Routine,3156,5,2017-08-06,202,High,Pending
+CASE-2026-2823,Traffic,Routine,1013,5,2023-06-19,215,High,Pending
+CASE-2026-2824,Criminal,High Stakes,281,3,2025-06-20,655,High,Pending
+CASE-2026-2825,Traffic,High Stakes,112,3,2025-12-06,180,Medium,Pending
+CASE-2026-2826,Traffic,Personal,3590,5,2016-05-29,30,High,Pending
+CASE-2026-2827,Family,Financial,2806,4,2018-07-22,270,High,Resolved
+CASE-2026-2828,Civil,Public Interest,634,3,2024-07-02,608,Medium,Pending
+CASE-2026-2829,Criminal,Personal,1198,2,2022-12-16,361,Medium,Pending
+CASE-2026-2830,Family,Public Interest,2624,5,2019-01-20,384,High,Pending
+CASE-2026-2831,Family,High Stakes,3114,3,2017-09-17,368,High,Resolved
+CASE-2026-2832,Criminal,Routine,3082,5,2017-10-19,350,High,Resolved
+CASE-2026-2833,Criminal,Financial,2183,5,2020-04-05,496,High,Pending
+CASE-2026-2834,Civil,Personal,3648,5,2016-04-01,383,High,Pending
+CASE-2026-2835,Traffic,Personal,977,1,2023-07-25,38,Low,Pending
+CASE-2026-2836,Traffic,Personal,1012,4,2023-06-20,192,High,Pending
+CASE-2026-2837,Traffic,Routine,1709,4,2021-07-23,84,High,Pending
+CASE-2026-2838,Civil,Routine,285,5,2025-06-16,526,High,Pending
+CASE-2026-2839,Family,Personal,471,1,2024-12-12,248,Low,Pending
+CASE-2026-2840,Traffic,High Stakes,3164,4,2017-07-29,66,High,Pending
+CASE-2026-2841,Traffic,Public Interest,2835,4,2018-06-23,134,High,Pending
+CASE-2026-2842,Traffic,Routine,95,5,2025-12-23,227,High,Resolved
+CASE-2026-2843,Civil,Public Interest,1731,3,2021-07-01,565,Medium,Pending
+CASE-2026-2844,Criminal,Public Interest,2275,4,2020-01-04,471,High,Pending
+CASE-2026-2845,Traffic,Public Interest,3606,4,2016-05-13,91,High,Resolved
+CASE-2026-2846,Commercial,Routine,270,2,2025-07-01,538,Medium,Resolved
+CASE-2026-2847,Commercial,Routine,1329,2,2022-08-07,501,Medium,Pending
+CASE-2026-2848,Family,High Stakes,1012,5,2023-06-20,499,High,Pending
+CASE-2026-2849,Traffic,Financial,2287,5,2019-12-23,175,High,Resolved
+CASE-2026-2850,Commercial,High Stakes,2898,5,2018-04-21,815,High,Resolved
+CASE-2026-2851,Commercial,Financial,1641,1,2021-09-29,610,Medium,Resolved
+CASE-2026-2852,Civil,High Stakes,2530,4,2019-04-24,661,High,Pending
+CASE-2026-2853,Civil,Routine,407,1,2025-02-14,458,Low,Pending
+CASE-2026-2854,Family,Personal,2157,2,2020-05-01,267,Medium,Pending
+CASE-2026-2855,Civil,Public Interest,1541,5,2022-01-07,651,High,Pending
+CASE-2026-2856,Criminal,High Stakes,1804,5,2021-04-19,616,High,Resolved
+CASE-2026-2857,Commercial,Personal,814,4,2024-01-04,643,High,Pending
+CASE-2026-2858,Traffic,Public Interest,149,2,2025-10-30,119,Medium,Pending
+CASE-2026-2859,Civil,Financial,1070,3,2023-04-23,574,Medium,Resolved
+CASE-2026-2860,Commercial,Financial,3255,4,2017-04-29,586,High,Pending
+CASE-2026-2861,Civil,High Stakes,630,2,2024-07-06,768,Medium,Resolved
+CASE-2026-2862,Criminal,Routine,2469,4,2019-06-24,334,High,Pending
+CASE-2026-2863,Commercial,Public Interest,1294,3,2022-09-11,730,Medium,Pending
+CASE-2026-2864,Family,Routine,721,5,2024-04-06,400,High,Resolved
+CASE-2026-2865,Civil,High Stakes,2699,4,2018-11-06,647,High,Pending
+CASE-2026-2866,Civil,Financial,1154,5,2023-01-29,641,High,Pending
+CASE-2026-2867,Criminal,Personal,807,3,2024-01-11,405,High,Pending
+CASE-2026-2868,Family,Routine,3391,5,2016-12-14,239,High,Pending
+CASE-2026-2869,Traffic,Financial,2782,2,2018-08-15,33,High,Pending
+CASE-2026-2870,Civil,Routine,1290,3,2022-09-15,460,Medium,Pending
+CASE-2026-2871,Commercial,Routine,3123,4,2017-09-08,397,High,Pending
+CASE-2026-2872,Criminal,Public Interest,1452,3,2022-04-06,493,High,Resolved
+CASE-2026-2873,Traffic,Financial,1352,2,2022-07-15,94,Medium,Pending
+CASE-2026-2874,Commercial,Financial,98,4,2025-12-20,818,High,Pending
+CASE-2026-2875,Criminal,Financial,2009,4,2020-09-26,507,High,Resolved
+CASE-2026-2876,Civil,Routine,503,5,2024-11-10,560,High,Pending
+CASE-2026-2877,Commercial,Personal,365,3,2025-03-28,617,Medium,Pending
+CASE-2026-2878,Traffic,Personal,1606,1,2021-11-03,41,Medium,Pending
+CASE-2026-2879,Traffic,Personal,1908,3,2021-01-05,38,Medium,Pending
+CASE-2026-2880,Traffic,High Stakes,3612,5,2016-05-07,54,High,Resolved
+CASE-2026-2881,Civil,Financial,112,2,2025-12-06,564,Medium,Pending
+CASE-2026-2882,Family,Public Interest,2521,2,2019-05-03,339,High,Pending
+CASE-2026-2883,Traffic,High Stakes,1216,3,2022-11-28,170,Medium,Pending
+CASE-2026-2884,Commercial,Financial,289,4,2025-06-12,739,High,Pending
+CASE-2026-2885,Civil,Personal,733,3,2024-03-25,469,Medium,Pending
+CASE-2026-2886,Civil,Public Interest,2463,4,2019-06-30,635,High,Pending
+CASE-2026-2887,Civil,Personal,1280,1,2022-09-25,444,Medium,Resolved
+CASE-2026-2888,Traffic,Financial,378,1,2025-03-15,151,Low,Pending
+CASE-2026-2889,Family,Routine,1199,5,2022-12-15,380,High,Pending
+CASE-2026-2890,Family,Public Interest,2368,5,2019-10-03,418,High,Pending
+CASE-2026-2891,Criminal,Financial,1618,2,2021-10-22,419,Medium,Pending
+CASE-2026-2892,Commercial,Financial,2586,3,2019-02-27,627,High,Pending
+CASE-2026-2893,Family,Routine,2604,3,2019-02-09,155,High,Pending
+CASE-2026-2894,Civil,Public Interest,2277,5,2020-01-02,635,High,Resolved
+CASE-2026-2895,Family,Routine,1092,2,2023-04-01,251,Medium,Pending
+CASE-2026-2896,Family,Personal,3581,5,2016-06-07,220,High,Pending
+CASE-2026-2897,Traffic,High Stakes,687,5,2024-05-10,254,High,Pending
+CASE-2026-2898,Traffic,Public Interest,1188,2,2022-12-26,76,Medium,Pending
+CASE-2026-2899,Traffic,Financial,2840,5,2018-06-18,60,High,Pending
+CASE-2026-2900,Commercial,Public Interest,718,4,2024-04-09,850,High,Pending
+CASE-2026-2901,Civil,Routine,1754,4,2021-06-08,428,High,Resolved
+CASE-2026-2902,Criminal,Public Interest,2230,4,2020-02-18,467,High,Pending
+CASE-2026-2903,Family,High Stakes,3636,4,2016-04-13,385,High,Pending
+CASE-2026-2904,Civil,Public Interest,2983,5,2018-01-26,585,High,Pending
+CASE-2026-2905,Traffic,Personal,1437,5,2022-04-21,183,High,Pending
+CASE-2026-2906,Family,Routine,1744,5,2021-06-18,272,High,Pending
+CASE-2026-2907,Civil,Personal,2328,2,2019-11-12,365,Medium,Pending
+CASE-2026-2908,Commercial,Public Interest,580,4,2024-08-25,835,High,Pending
+CASE-2026-2909,Commercial,Public Interest,487,1,2024-11-26,759,Low,Pending
+CASE-2026-2910,Commercial,High Stakes,2706,4,2018-10-30,844,High,Pending
+CASE-2026-2911,Civil,Public Interest,2487,4,2019-06-06,562,High,Pending
+CASE-2026-2912,Criminal,Routine,511,4,2024-11-02,425,High,Pending
+CASE-2026-2913,Civil,Financial,2704,2,2018-11-01,521,High,Resolved
+CASE-2026-2914,Civil,Financial,935,4,2023-09-05,585,High,Resolved
+CASE-2026-2915,Family,Routine,1485,1,2022-03-04,221,Medium,Pending
+CASE-2026-2916,Family,Financial,1750,1,2021-06-12,248,Medium,Resolved
+CASE-2026-2917,Family,Financial,2179,2,2020-04-09,293,Medium,Pending
+CASE-2026-2918,Civil,Financial,2900,4,2018-04-19,488,High,Resolved
+CASE-2026-2919,Commercial,Public Interest,985,2,2023-07-17,730,Medium,Resolved
+CASE-2026-2920,Criminal,Personal,759,5,2024-02-28,474,High,Pending
+CASE-2026-2921,Commercial,Personal,3597,5,2016-05-22,493,High,Resolved
+CASE-2026-2922,Civil,Routine,2155,5,2020-05-03,426,High,Pending
+CASE-2026-2923,Traffic,Routine,2384,5,2019-09-17,92,High,Resolved
+CASE-2026-2924,Civil,Personal,1620,3,2021-10-20,410,Medium,Pending
+CASE-2026-2925,Civil,Personal,2643,5,2019-01-01,450,High,Pending
+CASE-2026-2926,Criminal,Routine,2067,5,2020-07-30,333,High,Pending
+CASE-2026-2927,Family,Personal,2546,5,2019-04-08,287,High,Pending
+CASE-2026-2928,Criminal,High Stakes,1677,3,2021-08-24,577,High,Pending
+CASE-2026-2929,Family,High Stakes,2184,3,2020-04-04,359,Medium,Pending
+CASE-2026-2930,Family,Personal,3290,5,2017-03-25,302,High,Resolved
+CASE-2026-2931,Family,Personal,526,5,2024-10-18,376,High,Pending
+CASE-2026-2932,Civil,Public Interest,2850,4,2018-06-08,614,High,Pending
+CASE-2026-2933,Family,High Stakes,2633,5,2019-01-11,471,High,Pending
+CASE-2026-2934,Family,Financial,1411,4,2022-05-17,366,High,Resolved
+CASE-2026-2935,Commercial,Financial,3286,5,2017-03-29,657,High,Pending
+CASE-2026-2936,Criminal,Personal,146,2,2025-11-02,374,Medium,Resolved
+CASE-2026-2937,Criminal,Personal,1655,3,2021-09-15,353,High,Pending
+CASE-2026-2938,Traffic,Financial,3329,2,2017-02-14,30,High,Pending
+CASE-2026-2939,Civil,Personal,1040,4,2023-05-23,565,High,Pending
+CASE-2026-2940,Criminal,Routine,3102,4,2017-09-29,331,High,Pending
+CASE-2026-2941,Criminal,Public Interest,1009,3,2023-06-23,563,High,Pending
+CASE-2026-2942,Traffic,High Stakes,2463,2,2019-06-30,30,Medium,Pending
+CASE-2026-2943,Commercial,Financial,1437,4,2022-04-21,694,High,Pending
+CASE-2026-2944,Traffic,Public Interest,1764,4,2021-05-29,112,High,Pending
+CASE-2026-2945,Traffic,High Stakes,3356,3,2017-01-18,89,High,Pending
+CASE-2026-2946,Commercial,Financial,1890,5,2021-01-23,731,High,Pending
+CASE-2026-2947,Commercial,Personal,1296,4,2022-09-09,570,High,Pending
+CASE-2026-2948,Civil,Financial,1335,1,2022-08-01,501,Medium,Pending
+CASE-2026-2949,Family,Routine,2808,5,2018-07-20,241,High,Pending
+CASE-2026-2950,Criminal,Financial,434,2,2025-01-18,443,Medium,Pending
+CASE-2026-2951,Civil,High Stakes,2106,5,2020-06-21,749,High,Pending
+CASE-2026-2952,Criminal,Routine,2064,4,2020-08-02,319,High,Resolved
+CASE-2026-2953,Family,Financial,1632,1,2021-10-08,249,Medium,Resolved
+CASE-2026-2954,Traffic,Financial,1527,2,2022-01-21,43,Medium,Pending
+CASE-2026-2955,Family,Routine,954,4,2023-08-17,295,High,Resolved
+CASE-2026-2956,Civil,Personal,1221,2,2022-11-23,430,Medium,Pending
+CASE-2026-2957,Commercial,Public Interest,1283,1,2022-09-22,699,Medium,Resolved
+CASE-2026-2958,Family,High Stakes,2632,5,2019-01-12,434,High,Pending
+CASE-2026-2959,Commercial,High Stakes,498,2,2024-11-15,881,Medium,Pending
+CASE-2026-2960,Commercial,Routine,931,2,2023-09-09,530,Medium,Pending
+CASE-2026-2961,Family,Public Interest,3361,4,2017-01-13,329,High,Resolved
+CASE-2026-2962,Civil,High Stakes,278,1,2025-06-23,740,Low,Pending
+CASE-2026-2963,Commercial,Public Interest,2535,3,2019-04-19,695,High,Pending
+CASE-2026-2964,Criminal,Routine,1560,3,2021-12-19,350,High,Pending
+CASE-2026-2965,Civil,Public Interest,1611,5,2021-10-29,713,High,Pending
+CASE-2026-2966,Traffic,Personal,387,5,2025-03-06,228,High,Pending
+CASE-2026-2967,Criminal,Personal,712,3,2024-04-15,445,High,Pending
+CASE-2026-2968,Civil,High Stakes,1211,1,2022-12-03,667,Medium,Pending
+CASE-2026-2969,Traffic,High Stakes,1076,1,2023-04-17,65,Medium,Pending
+CASE-2026-2970,Traffic,Personal,1469,3,2022-03-20,140,Medium,Pending
+CASE-2026-2971,Family,Financial,840,1,2023-12-09,273,Low,Pending
+CASE-2026-2972,Civil,Public Interest,412,4,2025-02-09,672,High,Pending
+CASE-2026-2973,Commercial,Public Interest,1381,2,2022-06-16,707,Medium,Resolved
+CASE-2026-2974,Civil,Personal,1000,3,2023-07-02,506,Medium,Pending
+CASE-2026-2975,Criminal,Public Interest,3239,4,2017-05-15,395,High,Resolved
+CASE-2026-2976,Civil,Financial,3001,4,2018-01-08,475,High,Pending
+CASE-2026-2977,Criminal,Routine,2000,4,2020-10-05,327,High,Pending
+CASE-2026-2978,Civil,Financial,2399,5,2019-09-02,530,High,Pending
+CASE-2026-2979,Criminal,Routine,786,4,2024-02-01,401,High,Resolved
+CASE-2026-2980,Traffic,High Stakes,1747,4,2021-06-15,154,High,Pending
+CASE-2026-2981,Criminal,Routine,1246,2,2022-10-29,269,Medium,Pending
+CASE-2026-2982,Traffic,Public Interest,3627,5,2016-04-22,38,High,Pending
+CASE-2026-2983,Traffic,High Stakes,298,2,2025-06-03,143,Medium,Pending
+CASE-2026-2984,Criminal,Public Interest,1213,4,2022-12-01,538,High,Pending
+CASE-2026-2985,Civil,Personal,27,5,2026-03-01,617,High,Pending
+CASE-2026-2986,Family,High Stakes,3405,2,2016-11-30,335,High,Pending
+CASE-2026-2987,Family,Financial,3115,5,2017-09-16,364,High,Pending
+CASE-2026-2988,Traffic,Personal,1235,4,2022-11-09,103,High,Pending
+CASE-2026-2989,Criminal,Routine,2766,4,2018-08-31,330,High,Pending
+CASE-2026-2990,Criminal,Financial,968,2,2023-08-03,489,Medium,Resolved
+CASE-2026-2991,Commercial,Public Interest,1402,2,2022-05-26,709,Medium,Resolved
+CASE-2026-2992,Family,Routine,2345,2,2019-10-26,145,Medium,Pending
+CASE-2026-2993,Traffic,Public Interest,566,4,2024-09-08,213,High,Pending
+CASE-2026-2994,Traffic,Financial,3051,5,2017-11-19,89,High,Resolved
+CASE-2026-2995,Traffic,High Stakes,1606,1,2021-11-03,69,Medium,Resolved
+CASE-2026-2996,Traffic,High Stakes,2233,3,2020-02-15,70,Medium,Pending
+CASE-2026-2997,Traffic,High Stakes,1841,5,2021-03-13,177,High,Pending
+CASE-2026-2998,Civil,Routine,1735,5,2021-06-27,487,High,Pending
+CASE-2026-2999,Commercial,High Stakes,1417,1,2022-05-11,779,Medium,Resolved
+CASE-2026-3000,Civil,Public Interest,3328,5,2017-02-15,574,High,Pending
+CASE-2026-3001,Commercial,Public Interest,3149,5,2017-08-13,668,High,Resolved
+CASE-2026-3002,Civil,Public Interest,1616,5,2021-10-24,622,High,Pending
+CASE-2026-3003,Commercial,Routine,354,3,2025-04-08,536,Medium,Resolved
+CASE-2026-3004,Traffic,High Stakes,1426,5,2022-05-02,190,High,Resolved
+CASE-2026-3005,Commercial,Public Interest,1067,2,2023-04-26,692,Medium,Pending
+CASE-2026-3006,Civil,Public Interest,3559,2,2016-06-29,435,High,Pending
+CASE-2026-3007,Criminal,Personal,1884,5,2021-01-29,449,High,Pending
+CASE-2026-3008,Family,High Stakes,1073,2,2023-04-20,449,Medium,Pending
+CASE-2026-3009,Family,Routine,1307,1,2022-08-29,243,Medium,Pending
+CASE-2026-3010,Commercial,Financial,2510,4,2019-05-14,660,High,Pending
+CASE-2026-3011,Family,High Stakes,495,4,2024-11-18,474,High,Pending
+CASE-2026-3012,Family,Personal,3037,5,2017-12-03,271,High,Resolved
+CASE-2026-3013,Traffic,Financial,1740,4,2021-06-22,114,High,Resolved
+CASE-2026-3014,Family,Personal,2900,2,2018-04-19,147,High,Pending
+CASE-2026-3015,Commercial,High Stakes,1964,5,2020-11-10,924,High,Pending
+CASE-2026-3016,Criminal,Personal,737,3,2024-03-21,404,High,Pending
+CASE-2026-3017,Criminal,Public Interest,460,2,2024-12-23,531,Medium,Pending
+CASE-2026-3018,Criminal,Personal,2640,5,2019-01-04,367,High,Pending
+CASE-2026-3019,Family,Public Interest,1112,1,2023-03-12,379,Medium,Pending
+CASE-2026-3020,Civil,Personal,1012,3,2023-06-20,464,Medium,Pending
+CASE-2026-3021,Civil,High Stakes,1916,5,2020-12-28,769,High,Resolved
+CASE-2026-3022,Family,Public Interest,318,5,2025-05-14,531,High,Pending
+CASE-2026-3023,Criminal,Financial,863,2,2023-11-16,418,Medium,Pending
+CASE-2026-3024,Criminal,Routine,1148,4,2023-02-04,423,High,Resolved
+CASE-2026-3025,Criminal,High Stakes,2506,5,2019-05-18,632,High,Pending
+CASE-2026-3026,Commercial,Routine,543,1,2024-10-01,524,Low,Pending
+CASE-2026-3027,Criminal,Public Interest,2603,5,2019-02-10,463,High,Pending
+CASE-2026-3028,Family,High Stakes,158,5,2025-10-21,528,High,Resolved
+CASE-2026-3029,Civil,Personal,1272,5,2022-10-03,543,High,Pending
+CASE-2026-3030,Traffic,Public Interest,562,3,2024-09-12,128,Medium,Resolved
+CASE-2026-3031,Criminal,Financial,2565,4,2019-03-20,475,High,Pending
+CASE-2026-3032,Commercial,Public Interest,2759,3,2018-09-07,622,High,Pending
+CASE-2026-3033,Commercial,Public Interest,758,1,2024-02-29,689,Low,Pending
+CASE-2026-3034,Commercial,Routine,3525,5,2016-08-02,499,High,Pending
+CASE-2026-3035,Family,High Stakes,2311,5,2019-11-29,404,High,Pending
+CASE-2026-3036,Commercial,Financial,1068,1,2023-04-25,643,Medium,Resolved
+CASE-2026-3037,Family,High Stakes,1303,5,2022-09-02,536,High,Resolved
+CASE-2026-3038,Civil,Financial,1101,4,2023-03-23,622,High,Pending
+CASE-2026-3039,Commercial,Personal,761,1,2024-02-26,544,Low,Pending
+CASE-2026-3040,Commercial,High Stakes,3544,4,2016-07-14,790,High,Pending
+CASE-2026-3041,Family,High Stakes,615,3,2024-07-21,434,Medium,Resolved
+CASE-2026-3042,Family,Financial,39,1,2026-02-17,341,Low,Resolved
+CASE-2026-3043,Traffic,Financial,3175,2,2017-07-18,30,High,Pending
+CASE-2026-3044,Commercial,Financial,1802,2,2021-04-21,651,Medium,Resolved
+CASE-2026-3045,Civil,Personal,1871,3,2021-02-11,423,Medium,Pending
+CASE-2026-3046,Traffic,High Stakes,2393,5,2019-09-08,162,High,Pending
+CASE-2026-3047,Commercial,Financial,2455,2,2019-07-08,556,Medium,Pending
+CASE-2026-3048,Family,Financial,3045,3,2017-11-25,218,High,Resolved
+CASE-2026-3049,Criminal,Personal,2939,5,2018-03-11,319,High,Pending
+CASE-2026-3050,Civil,Personal,383,3,2025-03-10,474,Medium,Pending
+CASE-2026-3051,Traffic,Personal,3343,4,2017-01-31,30,High,Pending
+CASE-2026-3052,Criminal,Public Interest,844,3,2023-12-05,491,High,Pending
+CASE-2026-3053,Civil,Personal,28,4,2026-02-28,537,High,Pending
+CASE-2026-3054,Criminal,Personal,121,4,2025-11-27,496,High,Pending
+CASE-2026-3055,Criminal,Personal,987,3,2023-07-15,431,High,Pending
+CASE-2026-3056,Commercial,High Stakes,907,4,2023-10-03,909,High,Pending
+CASE-2026-3057,Family,Personal,1913,4,2020-12-31,267,High,Pending
+CASE-2026-3058,Traffic,Public Interest,722,3,2024-04-05,209,Medium,Pending
+CASE-2026-3059,Family,Financial,1709,3,2021-07-23,307,Medium,Pending
+CASE-2026-3060,Commercial,High Stakes,3069,5,2017-11-01,842,High,Pending
+CASE-2026-3061,Criminal,Financial,2370,5,2019-10-01,429,High,Pending
+CASE-2026-3062,Traffic,High Stakes,2440,3,2019-07-23,111,Medium,Pending
+CASE-2026-3063,Criminal,Routine,2270,4,2020-01-09,280,High,Pending
+CASE-2026-3064,Civil,High Stakes,1354,1,2022-07-13,657,Medium,Pending
+CASE-2026-3065,Traffic,Routine,2506,5,2019-05-18,94,High,Pending
+CASE-2026-3066,Civil,Financial,471,3,2024-12-12,665,Medium,Pending
+CASE-2026-3067,Criminal,High Stakes,3194,4,2017-06-29,531,High,Pending
+CASE-2026-3068,Civil,Routine,2472,2,2019-06-21,327,Medium,Pending
+CASE-2026-3069,Criminal,High Stakes,2731,4,2018-10-05,552,High,Pending
+CASE-2026-3070,Traffic,Personal,776,2,2024-02-11,149,Medium,Pending
+CASE-2026-3071,Commercial,Financial,2499,5,2019-05-25,718,High,Pending
+CASE-2026-3072,Traffic,Financial,1222,4,2022-11-22,129,High,Pending
+CASE-2026-3073,Criminal,Personal,509,3,2024-11-04,408,High,Resolved
+CASE-2026-3074,Traffic,High Stakes,3334,2,2017-02-09,30,High,Pending
+CASE-2026-3075,Civil,Routine,3465,2,2016-10-01,258,High,Pending
+CASE-2026-3076,Family,Financial,1645,4,2021-09-25,323,High,Pending
+CASE-2026-3077,Civil,High Stakes,67,1,2026-01-20,699,Low,Resolved
+CASE-2026-3078,Civil,Financial,3533,4,2016-07-25,519,High,Pending
+CASE-2026-3079,Traffic,Financial,1209,4,2022-12-05,160,High,Resolved
+CASE-2026-3080,Criminal,Public Interest,951,5,2023-08-20,610,High,Pending
+CASE-2026-3081,Traffic,Routine,657,1,2024-06-09,36,Low,Pending
+CASE-2026-3082,Traffic,Routine,146,1,2025-11-02,75,Low,Pending
+CASE-2026-3083,Family,Routine,909,2,2023-10-01,293,Medium,Resolved
+CASE-2026-3084,Family,Financial,2288,5,2019-12-22,338,High,Pending
+CASE-2026-3085,Commercial,Public Interest,60,3,2026-01-27,809,Medium,Pending
+CASE-2026-3086,Family,Financial,3271,4,2017-04-13,270,High,Pending
+CASE-2026-3087,Civil,Personal,2226,2,2020-02-22,444,Medium,Resolved
+CASE-2026-3088,Traffic,Routine,2331,4,2019-11-09,73,High,Pending
+CASE-2026-3089,Criminal,Personal,3197,5,2017-06-26,300,High,Pending
+CASE-2026-3090,Family,Routine,504,2,2024-11-09,255,Medium,Pending
+CASE-2026-3091,Criminal,Personal,550,5,2024-09-24,436,High,Pending
+CASE-2026-3092,Commercial,Financial,3334,3,2017-02-09,572,High,Pending
+CASE-2026-3093,Traffic,Financial,1537,3,2022-01-11,103,Medium,Pending
+CASE-2026-3094,Commercial,Personal,2260,4,2020-01-19,557,High,Pending
+CASE-2026-3095,Family,Financial,694,1,2024-05-03,306,Low,Pending
+CASE-2026-3096,Commercial,Public Interest,393,5,2025-02-28,860,High,Pending
+CASE-2026-3097,Civil,Personal,2829,3,2018-06-29,355,High,Pending
+CASE-2026-3098,Civil,Routine,2591,5,2019-02-22,444,High,Pending
+CASE-2026-3099,Commercial,Financial,3330,5,2017-02-13,677,High,Pending
+CASE-2026-3100,Family,Financial,2607,4,2019-02-06,365,High,Resolved
+CASE-2026-3101,Criminal,Financial,2853,5,2018-06-05,486,High,Pending
+CASE-2026-3102,Civil,Personal,2148,4,2020-05-10,462,High,Pending
+CASE-2026-3103,Criminal,Financial,953,5,2023-08-18,494,High,Pending
+CASE-2026-3104,Family,Routine,2929,5,2018-03-21,233,High,Pending
+CASE-2026-3105,Civil,Public Interest,1759,5,2021-06-03,685,High,Pending
+CASE-2026-3106,Commercial,Personal,230,4,2025-08-10,608,High,Pending
+CASE-2026-3107,Traffic,Personal,2014,5,2020-09-21,90,High,Pending
+CASE-2026-3108,Civil,Personal,2557,5,2019-03-28,425,High,Pending
+CASE-2026-3109,Traffic,Financial,670,5,2024-05-27,176,High,Pending
+CASE-2026-3110,Commercial,Routine,3623,5,2016-04-26,488,High,Pending
+CASE-2026-3111,Civil,Public Interest,2030,4,2020-09-05,656,High,Pending
+CASE-2026-3112,Civil,Public Interest,1082,4,2023-04-11,619,High,Pending
+CASE-2026-3113,Traffic,Personal,124,1,2025-11-24,139,Low,Pending
+CASE-2026-3114,Traffic,Personal,1117,5,2023-03-07,182,High,Resolved
+CASE-2026-3115,Commercial,Financial,1647,1,2021-09-23,584,Medium,Resolved
+CASE-2026-3116,Commercial,Personal,456,4,2024-12-27,636,High,Pending
+CASE-2026-3117,Traffic,Public Interest,947,5,2023-08-24,228,High,Pending
+CASE-2026-3118,Family,Routine,3371,3,2017-01-03,130,High,Pending
+CASE-2026-3119,Commercial,Personal,75,1,2026-01-12,543,Low,Pending
+CASE-2026-3120,Traffic,Personal,703,2,2024-04-24,85,Medium,Resolved
+CASE-2026-3121,Civil,High Stakes,3137,5,2017-08-25,644,High,Pending
+CASE-2026-3122,Criminal,Routine,892,3,2023-10-18,368,High,Pending
+CASE-2026-3123,Family,High Stakes,1603,1,2021-11-06,353,Medium,Pending
+CASE-2026-3124,Commercial,High Stakes,811,1,2024-01-07,810,Low,Resolved
+CASE-2026-3125,Family,Routine,222,2,2025-08-18,254,Medium,Pending
+CASE-2026-3126,Civil,High Stakes,1584,4,2021-11-25,723,High,Pending
+CASE-2026-3127,Commercial,Routine,321,3,2025-05-11,578,Medium,Pending
+CASE-2026-3128,Civil,Financial,3525,3,2016-08-02,509,High,Pending
+CASE-2026-3129,Criminal,High Stakes,150,3,2025-10-29,622,High,Pending
+CASE-2026-3130,Criminal,Public Interest,3088,3,2017-10-13,374,High,Pending
+CASE-2026-3131,Family,Routine,669,5,2024-05-28,401,High,Pending
+CASE-2026-3132,Family,Public Interest,1161,5,2023-01-22,487,High,Pending
+CASE-2026-3133,Traffic,Financial,3267,5,2017-04-17,70,High,Pending
+CASE-2026-3134,Criminal,Public Interest,2410,4,2019-08-22,430,High,Pending
+CASE-2026-3135,Traffic,High Stakes,1835,5,2021-03-19,137,High,Pending
+CASE-2026-3136,Family,High Stakes,367,4,2025-03-26,568,High,Pending
+CASE-2026-3137,Family,Routine,1614,4,2021-10-26,271,High,Pending
+CASE-2026-3138,Traffic,Personal,3456,4,2016-10-10,30,High,Pending
+CASE-2026-3139,Commercial,Public Interest,493,2,2024-11-20,717,Medium,Resolved
+CASE-2026-3140,Commercial,High Stakes,871,4,2023-11-08,905,High,Pending
+CASE-2026-3141,Family,Public Interest,1087,4,2023-04-06,418,High,Pending
+CASE-2026-3142,Commercial,High Stakes,1153,2,2023-01-30,827,Medium,Pending
+CASE-2026-3143,Civil,Personal,2045,5,2020-08-21,536,High,Pending
+CASE-2026-3144,Family,Routine,313,2,2025-05-19,271,Medium,Pending
+CASE-2026-3145,Criminal,Public Interest,3495,4,2016-09-01,469,High,Pending
+CASE-2026-3146,Traffic,Public Interest,2917,5,2018-04-02,76,High,Resolved
+CASE-2026-3147,Commercial,Public Interest,281,4,2025-06-20,844,High,Pending
+CASE-2026-3148,Family,High Stakes,2108,4,2020-06-19,446,High,Pending
+CASE-2026-3149,Family,Routine,3016,2,2017-12-24,159,High,Pending
+CASE-2026-3150,Commercial,Personal,955,3,2023-08-16,577,Medium,Pending
+CASE-2026-3151,Traffic,High Stakes,789,5,2024-01-29,265,High,Pending
+CASE-2026-3152,Civil,Public Interest,158,5,2025-10-21,737,High,Resolved
+CASE-2026-3153,Family,Public Interest,3135,5,2017-08-27,306,High,Resolved
+CASE-2026-3154,Commercial,Financial,1762,2,2021-05-31,616,Medium,Resolved
+CASE-2026-3155,Family,High Stakes,2991,3,2018-01-18,354,High,Resolved
+CASE-2026-3156,Family,Personal,297,3,2025-06-04,376,Medium,Pending
+CASE-2026-3157,Family,Public Interest,1931,2,2020-12-13,302,Medium,Pending
+CASE-2026-3158,Civil,High Stakes,666,5,2024-05-31,806,High,Pending
+CASE-2026-3159,Civil,Public Interest,1696,1,2021-08-05,559,Medium,Pending
+CASE-2026-3160,Traffic,Routine,232,4,2025-08-08,159,High,Pending
+CASE-2026-3161,Civil,Routine,1774,4,2021-05-19,390,High,Pending
+CASE-2026-3162,Commercial,Personal,1848,5,2021-03-06,613,High,Pending
+CASE-2026-3163,Criminal,Personal,917,4,2023-09-23,403,High,Pending
+CASE-2026-3164,Commercial,Public Interest,2533,3,2019-04-21,643,High,Pending
+CASE-2026-3165,Family,Personal,3476,4,2016-09-20,175,High,Resolved
+CASE-2026-3166,Commercial,High Stakes,23,1,2026-03-05,891,Low,Pending
+CASE-2026-3167,Traffic,High Stakes,2174,3,2020-04-14,96,Medium,Pending
+CASE-2026-3168,Civil,Public Interest,1739,5,2021-06-23,658,High,Pending
+CASE-2026-3169,Criminal,Routine,3050,5,2017-11-20,274,High,Pending
+CASE-2026-3170,Commercial,Financial,2791,5,2018-08-06,647,High,Resolved
+CASE-2026-3171,Traffic,Financial,67,1,2026-01-20,114,Low,Pending
+CASE-2026-3172,Traffic,High Stakes,1449,4,2022-04-09,145,High,Pending
+CASE-2026-3173,Civil,Routine,726,2,2024-04-01,417,Medium,Resolved
+CASE-2026-3174,Traffic,Personal,2319,5,2019-11-21,87,High,Pending
+CASE-2026-3175,Criminal,Financial,3072,4,2017-10-29,447,High,Resolved
+CASE-2026-3176,Commercial,Routine,3214,4,2017-06-09,489,High,Pending
+CASE-2026-3177,Family,High Stakes,1732,4,2021-06-30,441,High,Pending
+CASE-2026-3178,Family,Personal,3097,4,2017-10-04,241,High,Pending
+CASE-2026-3179,Commercial,Financial,1995,5,2020-10-10,678,High,Pending
+CASE-2026-3180,Family,Personal,1728,2,2021-07-04,261,Medium,Pending
+CASE-2026-3181,Family,High Stakes,2262,5,2020-01-17,452,High,Pending
+CASE-2026-3182,Traffic,Public Interest,2471,5,2019-06-22,158,High,Pending
+CASE-2026-3183,Commercial,Personal,1325,1,2022-08-11,531,Medium,Pending
+CASE-2026-3184,Criminal,Routine,948,2,2023-08-23,361,Medium,Resolved
+CASE-2026-3185,Family,Routine,663,4,2024-06-03,277,High,Pending
+CASE-2026-3186,Civil,High Stakes,1460,5,2022-03-29,740,High,Pending
+CASE-2026-3187,Criminal,Personal,1082,4,2023-04-11,448,High,Pending
+CASE-2026-3188,Civil,High Stakes,3484,5,2016-09-12,671,High,Resolved
+CASE-2026-3189,Criminal,High Stakes,935,3,2023-09-05,636,High,Pending
+CASE-2026-3190,Family,Routine,2755,3,2018-09-11,159,High,Pending
+CASE-2026-3191,Traffic,Personal,2688,3,2018-11-17,30,High,Resolved
+CASE-2026-3192,Criminal,Routine,1817,3,2021-04-06,281,High,Pending
+CASE-2026-3193,Civil,Financial,1883,3,2021-01-30,580,Medium,Pending
+CASE-2026-3194,Commercial,Public Interest,3074,5,2017-10-27,736,High,Pending
+CASE-2026-3195,Traffic,High Stakes,1511,2,2022-02-06,102,Medium,Pending
+CASE-2026-3196,Traffic,Personal,872,3,2023-11-07,120,Medium,Pending
+CASE-2026-3197,Criminal,Public Interest,1673,4,2021-08-28,518,High,Pending
+CASE-2026-3198,Traffic,Routine,2972,2,2018-02-06,30,High,Pending
+CASE-2026-3199,Commercial,High Stakes,254,5,2025-07-17,1027,High,Pending
+CASE-2026-3200,Traffic,High Stakes,3497,2,2016-08-30,55,High,Resolved
+CASE-2026-3201,Criminal,Public Interest,1743,4,2021-06-19,525,High,Pending
+CASE-2026-3202,Criminal,Public Interest,470,5,2024-12-13,556,High,Pending
+CASE-2026-3203,Criminal,Financial,1764,3,2021-05-29,438,High,Pending
+CASE-2026-3204,Commercial,High Stakes,3496,2,2016-08-31,675,High,Pending
+CASE-2026-3205,Civil,High Stakes,1241,4,2022-11-03,800,High,Pending
+CASE-2026-3206,Criminal,High Stakes,2332,5,2019-11-08,569,High,Pending
+CASE-2026-3207,Commercial,Financial,3263,4,2017-04-21,597,High,Pending
+CASE-2026-3208,Criminal,Routine,3646,4,2016-04-03,295,High,Pending
+CASE-2026-3209,Civil,Financial,3312,4,2017-03-03,518,High,Pending
+CASE-2026-3210,Family,Routine,3372,4,2017-01-02,151,High,Resolved
+CASE-2026-3211,Criminal,Financial,3148,4,2017-08-14,393,High,Resolved
+CASE-2026-3212,Commercial,High Stakes,1764,4,2021-05-29,911,High,Pending
+CASE-2026-3213,Criminal,Financial,1763,3,2021-05-30,476,High,Resolved
+CASE-2026-3214,Civil,Routine,405,5,2025-02-16,550,High,Pending
+CASE-2026-3215,Traffic,Public Interest,695,1,2024-05-02,62,Low,Pending
+CASE-2026-3216,Commercial,Personal,2415,5,2019-08-17,605,High,Pending
+CASE-2026-3217,Family,Financial,792,4,2024-01-26,408,High,Pending
+CASE-2026-3218,Commercial,Routine,1836,2,2021-03-18,423,Medium,Pending
+CASE-2026-3219,Commercial,High Stakes,3147,4,2017-08-15,761,High,Resolved
+CASE-2026-3220,Commercial,Public Interest,3608,3,2016-05-11,618,High,Pending
+CASE-2026-3221,Commercial,Financial,3194,5,2017-06-29,635,High,Pending
+CASE-2026-3222,Traffic,Routine,3642,2,2016-04-07,30,High,Pending
+CASE-2026-3223,Family,High Stakes,2297,2,2019-12-13,404,Medium,Pending
+CASE-2026-3224,Criminal,Financial,1922,4,2020-12-22,457,High,Resolved
+CASE-2026-3225,Family,High Stakes,944,2,2023-08-27,395,Medium,Pending
+CASE-2026-3226,Commercial,Routine,175,4,2025-10-04,638,High,Pending
+CASE-2026-3227,Traffic,Financial,2538,2,2019-04-16,30,High,Pending
+CASE-2026-3228,Commercial,High Stakes,3430,5,2016-11-05,804,High,Pending
+CASE-2026-3229,Criminal,Routine,2196,4,2020-03-23,320,High,Pending
+CASE-2026-3230,Civil,Public Interest,224,3,2025-08-16,685,Medium,Pending
+CASE-2026-3231,Traffic,Financial,1068,3,2023-04-25,147,Medium,Pending
+CASE-2026-3232,Criminal,Financial,3437,3,2016-10-29,359,High,Resolved
+CASE-2026-3233,Traffic,Personal,1506,2,2022-02-11,104,Medium,Resolved
+CASE-2026-3234,Traffic,High Stakes,2951,3,2018-02-27,40,High,Pending
+CASE-2026-3235,Civil,Personal,1321,4,2022-08-15,500,High,Pending
+CASE-2026-3236,Traffic,Financial,465,4,2024-12-18,186,High,Pending
+CASE-2026-3237,Civil,High Stakes,2346,2,2019-10-25,642,Medium,Resolved
+CASE-2026-3238,Civil,Routine,226,3,2025-08-14,491,Medium,Pending
+CASE-2026-3239,Traffic,Public Interest,1630,1,2021-10-10,63,Medium,Pending
+CASE-2026-3240,Criminal,Public Interest,3616,4,2016-05-03,379,High,Resolved
+CASE-2026-3241,Commercial,Public Interest,990,1,2023-07-12,732,Low,Pending
+CASE-2026-3242,Criminal,High Stakes,467,3,2024-12-16,637,High,Resolved
+CASE-2026-3243,Commercial,High Stakes,1913,5,2020-12-31,938,High,Resolved
+CASE-2026-3244,Criminal,Public Interest,2824,4,2018-07-04,449,High,Pending
+CASE-2026-3245,Traffic,High Stakes,2394,2,2019-09-07,71,Medium,Pending
+CASE-2026-3246,Criminal,Personal,3595,3,2016-05-24,296,High,Pending
+CASE-2026-3247,Family,High Stakes,3000,2,2018-01-09,338,High,Pending
+CASE-2026-3248,Traffic,Personal,717,4,2024-04-10,137,High,Pending
+CASE-2026-3249,Commercial,Public Interest,1161,3,2023-01-22,704,Medium,Pending
+CASE-2026-3250,Criminal,Personal,1737,5,2021-06-25,379,High,Pending
+CASE-2026-3251,Family,High Stakes,2742,3,2018-09-24,420,High,Pending
+CASE-2026-3252,Family,Public Interest,3318,4,2017-02-25,283,High,Resolved
+CASE-2026-3253,Family,Personal,1682,3,2021-08-19,311,Medium,Resolved
+CASE-2026-3254,Civil,Personal,203,1,2025-09-06,454,Low,Pending
+CASE-2026-3255,Family,Personal,735,5,2024-03-23,404,High,Pending
+CASE-2026-3256,Criminal,High Stakes,1619,3,2021-10-21,520,High,Pending
+CASE-2026-3257,Family,High Stakes,23,5,2026-03-05,593,High,Pending
+CASE-2026-3258,Traffic,Routine,2970,5,2018-02-08,47,High,Pending
+CASE-2026-3259,Criminal,Routine,3512,4,2016-08-15,234,High,Pending
+CASE-2026-3260,Civil,High Stakes,482,4,2024-12-01,813,High,Pending
+CASE-2026-3261,Commercial,Financial,2038,3,2020-08-28,661,Medium,Pending
+CASE-2026-3262,Criminal,Personal,1891,4,2021-01-22,359,High,Pending
+CASE-2026-3263,Traffic,Public Interest,331,4,2025-05-01,207,High,Pending
+CASE-2026-3264,Commercial,Personal,2522,5,2019-05-02,528,High,Pending
+CASE-2026-3265,Traffic,High Stakes,2643,4,2019-01-01,102,High,Pending
+CASE-2026-3266,Criminal,Public Interest,2252,4,2020-01-27,517,High,Pending
+CASE-2026-3267,Commercial,Financial,3235,5,2017-05-19,606,High,Pending
+CASE-2026-3268,Traffic,Routine,3361,4,2017-01-13,37,High,Pending
+CASE-2026-3269,Civil,Personal,3211,3,2017-06-12,419,High,Pending
+CASE-2026-3270,Family,Routine,3446,5,2016-10-20,229,High,Pending
+CASE-2026-3271,Traffic,Financial,2076,2,2020-07-21,96,Medium,Pending
+CASE-2026-3272,Traffic,Routine,1077,4,2023-04-16,128,High,Pending
+CASE-2026-3273,Commercial,Personal,3396,4,2016-12-09,469,High,Pending
+CASE-2026-3274,Traffic,High Stakes,3260,5,2017-04-24,123,High,Pending
+CASE-2026-3275,Criminal,Public Interest,1128,3,2023-02-24,465,High,Pending
+CASE-2026-3276,Traffic,Public Interest,1561,2,2021-12-18,76,Medium,Pending
+CASE-2026-3277,Civil,High Stakes,251,1,2025-07-20,730,Low,Pending
+CASE-2026-3278,Traffic,Routine,808,5,2024-01-10,136,High,Pending
+CASE-2026-3279,Traffic,Public Interest,3569,3,2016-06-19,30,High,Pending
+CASE-2026-3280,Criminal,Routine,337,4,2025-04-25,473,High,Pending
+CASE-2026-3281,Family,Routine,418,4,2025-02-03,344,High,Pending
+CASE-2026-3282,Civil,High Stakes,3638,4,2016-04-11,604,High,Pending
+CASE-2026-3283,Civil,Routine,175,2,2025-10-04,412,Medium,Pending
+CASE-2026-3284,Criminal,High Stakes,3323,4,2017-02-20,542,High,Pending
+CASE-2026-3285,Traffic,High Stakes,1265,4,2022-10-10,155,High,Pending
+CASE-2026-3286,Commercial,Routine,108,5,2025-12-10,630,High,Resolved
+CASE-2026-3287,Civil,High Stakes,3039,3,2017-12-01,679,High,Pending
+CASE-2026-3288,Traffic,Public Interest,3409,5,2016-11-26,78,High,Resolved
+CASE-2026-3289,Traffic,Personal,505,3,2024-11-08,109,Medium,Pending
+CASE-2026-3290,Commercial,Routine,2533,5,2019-04-21,513,High,Resolved
+CASE-2026-3291,Criminal,High Stakes,747,2,2024-03-11,622,Medium,Pending
+CASE-2026-3292,Criminal,High Stakes,2811,4,2018-07-17,584,High,Pending
+CASE-2026-3293,Civil,Financial,3172,2,2017-07-21,415,High,Resolved
+CASE-2026-3294,Family,Public Interest,2137,5,2020-05-21,418,High,Pending
+CASE-2026-3295,Traffic,Financial,3269,2,2017-04-15,30,High,Pending
+CASE-2026-3296,Civil,Financial,1214,1,2022-11-30,565,Medium,Pending
+CASE-2026-3297,Commercial,Personal,2635,4,2019-01-09,560,High,Pending
+CASE-2026-3298,Traffic,Personal,1348,3,2022-07-19,140,Medium,Pending
+CASE-2026-3299,Criminal,Routine,34,5,2026-02-22,418,High,Pending
+CASE-2026-3300,Family,Public Interest,894,1,2023-10-16,351,Low,Pending
+CASE-2026-3301,Commercial,Financial,2097,4,2020-06-30,655,High,Pending
+CASE-2026-3302,Criminal,High Stakes,2771,4,2018-08-26,549,High,Resolved
+CASE-2026-3303,Traffic,Financial,1774,1,2021-05-19,30,Medium,Pending
+CASE-2026-3304,Commercial,High Stakes,3061,5,2017-11-09,875,High,Pending
+CASE-2026-3305,Commercial,Public Interest,2293,5,2019-12-17,798,High,Pending
+CASE-2026-3306,Criminal,Financial,265,3,2025-07-06,466,High,Resolved
+CASE-2026-3307,Traffic,Financial,3494,5,2016-09-02,119,High,Pending
+CASE-2026-3308,Family,Personal,758,3,2024-02-29,303,Medium,Pending
+CASE-2026-3309,Criminal,High Stakes,2706,4,2018-10-30,550,High,Pending
+CASE-2026-3310,Criminal,High Stakes,637,3,2024-06-29,663,High,Pending
+CASE-2026-3311,Family,Public Interest,2031,3,2020-09-04,317,Medium,Pending
+CASE-2026-3312,Commercial,Financial,1177,4,2023-01-06,673,High,Pending
+CASE-2026-3313,Traffic,Financial,3464,3,2016-10-02,30,High,Resolved
+CASE-2026-3314,Criminal,Routine,394,4,2025-02-27,406,High,Pending
+CASE-2026-3315,Family,Public Interest,673,5,2024-05-24,515,High,Pending
+CASE-2026-3316,Commercial,Personal,3621,2,2016-04-28,413,High,Pending
+CASE-2026-3317,Criminal,High Stakes,3371,5,2017-01-03,535,High,Pending
+CASE-2026-3318,Family,Personal,1736,4,2021-06-26,317,High,Pending
+CASE-2026-3319,Civil,Routine,1832,5,2021-03-22,485,High,Pending
+CASE-2026-3320,Traffic,Personal,3495,2,2016-09-01,30,High,Pending
+CASE-2026-3321,Criminal,Financial,823,3,2023-12-26,526,High,Pending
+CASE-2026-3322,Criminal,Public Interest,1105,5,2023-03-19,586,High,Pending
+CASE-2026-3323,Criminal,Financial,898,5,2023-10-12,556,High,Pending
+CASE-2026-3324,Traffic,Public Interest,3216,4,2017-06-07,70,High,Pending
+CASE-2026-3325,Criminal,Financial,2983,5,2018-01-26,424,High,Pending
+CASE-2026-3326,Criminal,Personal,984,2,2023-07-18,354,Medium,Pending
+CASE-2026-3327,Criminal,Personal,461,5,2024-12-22,460,High,Pending
+CASE-2026-3328,Traffic,Routine,639,5,2024-06-27,192,High,Pending
+CASE-2026-3329,Commercial,Routine,2836,2,2018-06-22,362,High,Resolved
+CASE-2026-3330,Traffic,High Stakes,1151,2,2023-02-01,109,Medium,Resolved
+CASE-2026-3331,Family,Personal,2452,3,2019-07-11,225,Medium,Pending
+CASE-2026-3332,Commercial,Routine,3232,4,2017-05-22,421,High,Pending
+CASE-2026-3333,Criminal,Personal,2611,4,2019-02-02,337,High,Resolved
+CASE-2026-3334,Criminal,Routine,602,2,2024-08-03,390,Medium,Resolved
+CASE-2026-3335,Traffic,Routine,1023,3,2023-06-09,91,Medium,Pending
+CASE-2026-3336,Civil,Routine,1759,4,2021-06-03,446,High,Pending
+CASE-2026-3337,Family,Routine,3535,5,2016-07-23,205,High,Resolved
+CASE-2026-3338,Traffic,Financial,2021,5,2020-09-14,114,High,Pending
+CASE-2026-3339,Family,Public Interest,3604,2,2016-05-15,289,High,Pending
+CASE-2026-3340,Criminal,High Stakes,1274,2,2022-10-01,541,Medium,Pending
+CASE-2026-3341,Commercial,Financial,1017,5,2023-06-15,801,High,Resolved
+CASE-2026-3342,Traffic,Financial,1043,3,2023-05-20,178,Medium,Pending
+CASE-2026-3343,Traffic,Financial,2616,5,2019-01-28,155,High,Resolved
+CASE-2026-3344,Civil,Public Interest,2067,4,2020-07-30,639,High,Pending
+CASE-2026-3345,Traffic,Personal,2954,2,2018-02-24,36,High,Pending
+CASE-2026-3346,Family,High Stakes,2506,4,2019-05-18,464,High,Pending
+CASE-2026-3347,Family,Public Interest,133,1,2025-11-15,357,Low,Pending
+CASE-2026-3348,Commercial,Public Interest,1240,2,2022-11-04,767,Medium,Pending
+CASE-2026-3349,Civil,Financial,172,5,2025-10-07,682,High,Pending
+CASE-2026-3350,Criminal,Personal,415,2,2025-02-06,367,Medium,Pending
+CASE-2026-3351,Commercial,Routine,1492,5,2022-02-25,540,High,Pending
+CASE-2026-3352,Family,Public Interest,3229,5,2017-05-25,337,High,Pending
+CASE-2026-3353,Commercial,Routine,3288,5,2017-03-27,489,High,Resolved
+CASE-2026-3354,Civil,High Stakes,2830,2,2018-06-28,651,High,Pending
+CASE-2026-3355,Civil,High Stakes,2748,4,2018-09-18,683,High,Resolved
+CASE-2026-3356,Commercial,Public Interest,2922,5,2018-03-28,684,High,Pending
+CASE-2026-3357,Civil,Routine,1221,5,2022-11-23,507,High,Resolved
+CASE-2026-3358,Criminal,Personal,2030,4,2020-09-05,427,High,Pending
+CASE-2026-3359,Commercial,Routine,1115,1,2023-03-09,433,Medium,Resolved
+CASE-2026-3360,Criminal,Financial,2194,5,2020-03-25,471,High,Resolved
+CASE-2026-3361,Family,Routine,1234,1,2022-11-10,216,Medium,Pending
+CASE-2026-3362,Traffic,Financial,2805,5,2018-07-23,154,High,Pending
+CASE-2026-3363,Commercial,Routine,775,2,2024-02-12,539,Medium,Pending
+CASE-2026-3364,Criminal,Public Interest,3346,3,2017-01-28,354,High,Pending
+CASE-2026-3365,Criminal,Public Interest,1625,5,2021-10-15,545,High,Resolved
+CASE-2026-3366,Civil,High Stakes,1608,3,2021-11-01,704,Medium,Resolved
+CASE-2026-3367,Criminal,Financial,2749,5,2018-09-17,479,High,Pending
+CASE-2026-3368,Criminal,Routine,2302,5,2019-12-08,370,High,Pending
+CASE-2026-3369,Criminal,Personal,1265,4,2022-10-10,446,High,Pending
+CASE-2026-3370,Commercial,Personal,2633,5,2019-01-11,543,High,Pending
+CASE-2026-3371,Civil,Financial,966,5,2023-08-05,672,High,Pending
+CASE-2026-3372,Commercial,Routine,2676,4,2018-11-29,487,High,Resolved
+CASE-2026-3373,Commercial,Financial,2492,4,2019-06-01,661,High,Pending
+CASE-2026-3374,Civil,Financial,2798,5,2018-07-30,535,High,Pending
+CASE-2026-3375,Commercial,Routine,1954,2,2020-11-20,479,Medium,Resolved
+CASE-2026-3376,Civil,Personal,3555,4,2016-07-03,399,High,Pending
+CASE-2026-3377,Family,Personal,1321,1,2022-08-15,258,Medium,Pending
+CASE-2026-3378,Family,Public Interest,3578,4,2016-06-10,348,High,Pending
+CASE-2026-3379,Commercial,Public Interest,1297,3,2022-09-08,784,Medium,Pending
+CASE-2026-3380,Criminal,Financial,2426,4,2019-08-06,390,High,Pending
+CASE-2026-3381,Criminal,High Stakes,342,3,2025-04-20,624,High,Pending
+CASE-2026-3382,Family,High Stakes,3556,5,2016-07-02,388,High,Pending
+CASE-2026-3383,Family,Financial,539,4,2024-10-05,447,High,Pending
+CASE-2026-3384,Civil,High Stakes,1691,3,2021-08-10,723,Medium,Pending
+CASE-2026-3385,Family,Routine,35,4,2026-02-21,403,High,Pending
+CASE-2026-3386,Civil,Routine,403,3,2025-02-18,511,Medium,Pending
+CASE-2026-3387,Traffic,Financial,1529,5,2022-01-19,123,High,Resolved
+CASE-2026-3388,Commercial,Routine,840,3,2023-12-09,554,Medium,Pending
+CASE-2026-3389,Civil,High Stakes,3490,5,2016-09-06,646,High,Pending
+CASE-2026-3390,Commercial,Personal,125,5,2025-11-23,647,High,Pending
+CASE-2026-3391,Commercial,Routine,217,4,2025-08-23,635,High,Pending
+CASE-2026-3392,Traffic,Routine,2422,3,2019-08-10,30,Medium,Resolved
+CASE-2026-3393,Criminal,Financial,2461,4,2019-07-02,398,High,Pending
+CASE-2026-3394,Civil,High Stakes,397,2,2025-02-24,698,Medium,Pending
+CASE-2026-3395,Civil,Financial,3076,4,2017-10-25,534,High,Pending
+CASE-2026-3396,Commercial,Financial,1489,1,2022-02-28,609,Medium,Pending
+CASE-2026-3397,Family,Financial,3092,5,2017-10-09,361,High,Pending
+CASE-2026-3398,Traffic,Routine,3032,2,2017-12-08,30,High,Pending
+CASE-2026-3399,Criminal,Financial,2257,5,2020-01-22,449,High,Pending
+CASE-2026-3400,Family,Financial,2250,2,2020-01-29,237,Medium,Pending
+CASE-2026-3401,Traffic,High Stakes,2979,3,2018-01-30,49,High,Pending
+CASE-2026-3402,Civil,Financial,60,1,2026-01-27,574,Low,Pending
+CASE-2026-3403,Traffic,Financial,1315,2,2022-08-21,131,Medium,Resolved
+CASE-2026-3404,Criminal,Personal,1455,5,2022-04-03,408,High,Resolved
+CASE-2026-3405,Traffic,Routine,1289,2,2022-09-16,34,Medium,Pending
+CASE-2026-3406,Traffic,High Stakes,3117,5,2017-09-14,102,High,Resolved
+CASE-2026-3407,Civil,Personal,444,5,2025-01-08,595,High,Pending
+CASE-2026-3408,Traffic,Routine,3630,4,2016-04-19,30,High,Pending
+CASE-2026-3409,Traffic,High Stakes,636,4,2024-06-30,177,High,Pending
+CASE-2026-3410,Criminal,Personal,257,5,2025-07-14,480,High,Pending
+CASE-2026-3411,Criminal,Financial,2132,5,2020-05-26,457,High,Resolved
+CASE-2026-3412,Family,Financial,1239,3,2022-11-05,341,Medium,Pending
+CASE-2026-3413,Traffic,Personal,2319,3,2019-11-21,89,Medium,Pending
+CASE-2026-3414,Family,Personal,1052,2,2023-05-11,325,Medium,Pending
+CASE-2026-3415,Civil,Financial,2067,5,2020-07-30,591,High,Resolved
+CASE-2026-3416,Commercial,High Stakes,1456,4,2022-04-02,861,High,Pending
+CASE-2026-3417,Criminal,Routine,1595,3,2021-11-14,288,High,Pending
+CASE-2026-3418,Family,Financial,3381,5,2016-12-24,305,High,Pending
+CASE-2026-3419,Civil,Public Interest,2489,5,2019-06-04,632,High,Pending
+CASE-2026-3420,Family,Routine,2549,3,2019-04-05,230,High,Pending
+CASE-2026-3421,Traffic,Financial,1416,1,2022-05-12,57,Medium,Pending
+CASE-2026-3422,Family,Financial,1503,1,2022-02-14,305,Medium,Pending
+CASE-2026-3423,Family,High Stakes,440,2,2025-01-12,496,Medium,Resolved
+CASE-2026-3424,Criminal,High Stakes,718,3,2024-04-09,606,High,Pending
+CASE-2026-3425,Civil,Routine,3497,3,2016-08-30,290,High,Pending
+CASE-2026-3426,Criminal,High Stakes,481,3,2024-12-02,647,High,Pending
+CASE-2026-3427,Civil,Routine,3262,5,2017-04-22,358,High,Resolved
+CASE-2026-3428,Commercial,High Stakes,1048,2,2023-05-15,862,Medium,Pending
+CASE-2026-3429,Traffic,Personal,1315,4,2022-08-21,135,High,Pending
+CASE-2026-3430,Criminal,Financial,3285,4,2017-03-30,405,High,Resolved
+CASE-2026-3431,Criminal,Routine,1314,3,2022-08-22,303,High,Pending
+CASE-2026-3432,Family,Personal,1896,5,2021-01-17,367,High,Pending
+CASE-2026-3433,Criminal,Personal,1526,4,2022-01-22,389,High,Pending
+CASE-2026-3434,Criminal,High Stakes,789,3,2024-01-29,652,High,Pending
+CASE-2026-3435,Civil,Routine,2772,2,2018-08-25,332,High,Pending
+CASE-2026-3436,Civil,Financial,3087,2,2017-10-14,470,High,Resolved
+CASE-2026-3437,Traffic,High Stakes,1148,3,2023-02-04,168,Medium,Pending
+CASE-2026-3438,Criminal,High Stakes,587,5,2024-08-18,648,High,Pending
+CASE-2026-3439,Family,High Stakes,2498,4,2019-05-26,463,High,Pending
+CASE-2026-3440,Civil,High Stakes,3187,2,2017-07-06,642,High,Pending
+CASE-2026-3441,Commercial,Financial,2378,5,2019-09-23,673,High,Pending
+CASE-2026-3442,Civil,Personal,1907,2,2021-01-06,390,Medium,Pending
+CASE-2026-3443,Commercial,Financial,634,4,2024-07-02,745,High,Pending
+CASE-2026-3444,Commercial,Public Interest,443,3,2025-01-09,822,Medium,Pending
+CASE-2026-3445,Commercial,Personal,3259,5,2017-04-25,524,High,Pending
+CASE-2026-3446,Commercial,Personal,1404,3,2022-05-24,570,Medium,Resolved
+CASE-2026-3447,Civil,Public Interest,234,1,2025-08-06,650,Low,Pending
+CASE-2026-3448,Traffic,High Stakes,308,5,2025-05-24,234,High,Pending
+CASE-2026-3449,Family,Public Interest,1262,4,2022-10-13,405,High,Pending
+CASE-2026-3450,Criminal,Routine,619,5,2024-07-17,426,High,Pending
+CASE-2026-3451,Family,Financial,183,4,2025-09-26,419,High,Pending
+CASE-2026-3452,Family,Routine,3192,2,2017-07-01,171,High,Pending
+CASE-2026-3453,Civil,Personal,2122,4,2020-06-05,439,High,Pending
+CASE-2026-3454,Family,Routine,2804,4,2018-07-24,175,High,Pending
+CASE-2026-3455,Civil,Public Interest,2250,5,2020-01-29,587,High,Pending
+CASE-2026-3456,Family,Routine,2504,5,2019-05-20,280,High,Pending
+CASE-2026-3457,Traffic,High Stakes,1681,3,2021-08-20,113,Medium,Pending
+CASE-2026-3458,Civil,High Stakes,3345,3,2017-01-29,599,High,Pending
+CASE-2026-3459,Commercial,High Stakes,1724,1,2021-07-08,810,Medium,Resolved
+CASE-2026-3460,Traffic,Public Interest,1986,5,2020-10-19,173,High,Resolved
+CASE-2026-3461,Traffic,Routine,3378,2,2016-12-27,30,High,Pending
+CASE-2026-3462,Civil,Financial,1012,1,2023-06-20,553,Medium,Pending
+CASE-2026-3463,Civil,Public Interest,2118,2,2020-06-09,585,Medium,Pending
+CASE-2026-3464,Civil,Routine,2060,3,2020-08-06,363,Medium,Resolved
+CASE-2026-3465,Civil,Financial,683,1,2024-05-14,503,Low,Resolved
+CASE-2026-3466,Criminal,Routine,2024,5,2020-09-11,378,High,Resolved
+CASE-2026-3467,Traffic,Public Interest,354,4,2025-04-08,180,High,Pending
+CASE-2026-3468,Traffic,Financial,773,1,2024-02-14,56,Low,Pending
+CASE-2026-3469,Family,Financial,3387,5,2016-12-18,280,High,Pending
+CASE-2026-3470,Criminal,Public Interest,1333,5,2022-08-03,601,High,Pending
+CASE-2026-3471,Civil,Personal,907,1,2023-10-03,417,Low,Resolved
+CASE-2026-3472,Criminal,High Stakes,2953,4,2018-02-25,520,High,Pending
+CASE-2026-3473,Commercial,Financial,671,4,2024-05-26,738,High,Pending
+CASE-2026-3474,Civil,Routine,3399,3,2016-12-06,317,High,Pending
+CASE-2026-3475,Civil,Routine,2212,3,2020-03-07,420,Medium,Pending
+CASE-2026-3476,Commercial,Public Interest,2395,4,2019-09-06,768,High,Pending
+CASE-2026-3477,Commercial,Financial,1238,4,2022-11-06,668,High,Resolved
+CASE-2026-3478,Civil,Personal,1981,5,2020-10-24,524,High,Pending
+CASE-2026-3479,Traffic,Public Interest,1173,5,2023-01-10,235,High,Pending
+CASE-2026-3480,Family,High Stakes,841,4,2023-12-08,535,High,Pending
+CASE-2026-3481,Traffic,Public Interest,610,3,2024-07-26,129,Medium,Pending
+CASE-2026-3482,Civil,Public Interest,35,1,2026-02-21,674,Low,Resolved
+CASE-2026-3483,Family,High Stakes,309,3,2025-05-23,463,Medium,Resolved
+CASE-2026-3484,Civil,Personal,3174,5,2017-07-19,489,High,Pending
+CASE-2026-3485,Family,Financial,2417,5,2019-08-15,375,High,Pending
+CASE-2026-3486,Criminal,Financial,123,4,2025-11-25,592,High,Pending
+CASE-2026-3487,Civil,Routine,1729,4,2021-07-03,393,High,Pending
+CASE-2026-3488,Family,High Stakes,1764,2,2021-05-29,415,Medium,Pending
+CASE-2026-3489,Civil,Personal,3084,4,2017-10-17,425,High,Pending
+CASE-2026-3490,Traffic,Financial,609,1,2024-07-27,143,Low,Resolved
+CASE-2026-3491,Family,Personal,1465,5,2022-03-24,370,High,Resolved
+CASE-2026-3492,Traffic,High Stakes,2659,2,2018-12-16,60,High,Pending
+CASE-2026-3493,Family,High Stakes,758,1,2024-02-29,387,Low,Pending
+CASE-2026-3494,Civil,Public Interest,2648,5,2018-12-27,584,High,Pending
+CASE-2026-3495,Family,Financial,283,2,2025-06-18,363,Medium,Pending
+CASE-2026-3496,Commercial,Routine,1345,4,2022-07-22,543,High,Pending
+CASE-2026-3497,Commercial,Financial,2131,3,2020-05-27,666,Medium,Resolved
+CASE-2026-3498,Commercial,Routine,2423,2,2019-08-09,373,Medium,Resolved
+CASE-2026-3499,Traffic,Routine,527,1,2024-10-17,87,Low,Pending

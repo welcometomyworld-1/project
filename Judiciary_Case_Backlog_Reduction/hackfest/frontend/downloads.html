@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloads & Export — NyayaFlow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 min-h-screen font-sans p-6 md:p-10">
+    <div class="max-w-3xl mx-auto">
+        <div class="flex items-center justify-between mb-8">
+            <div>
+                <h1 class="text-2xl font-bold text-slate-800">Download & export</h1>
+                <p class="text-slate-500 text-sm mt-1">Backend must run at <code class="bg-slate-200 px-1 rounded">http://localhost:5000</code></p>
+            </div>
+            <a href="index.html" class="text-indigo-600 font-bold text-sm hover:underline">← Dashboard</a>
+        </div>
+
+        <div class="space-y-6">
+            <section class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
+                <h2 class="font-bold text-slate-800 mb-4"><i class="fas fa-database mr-2 text-indigo-600"></i>Case data (sab ke liye)</h2>
+                <p class="text-sm text-slate-600 mb-4">Poori case list JSON ya CSV mein.</p>
+                <div class="flex flex-wrap gap-3">
+                    <a class="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-lg font-bold text-sm hover:bg-indigo-700" href="http://localhost:5000/api/export/cases?format=json" download>Cases (.json)</a>
+                    <a class="inline-flex items-center px-4 py-2 bg-slate-800 text-white rounded-lg font-bold text-sm hover:bg-slate-900" href="http://localhost:5000/api/export/cases?format=csv" download>Cases (.csv)</a>
+                </div>
+            </section>
+
+            <section class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
+                <h2 class="font-bold text-slate-800 mb-4"><i class="fas fa-history mr-2 text-indigo-600"></i>Case history (timeline)</h2>
+                <div class="flex flex-wrap gap-3">
+                    <a class="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-lg font-bold text-sm hover:bg-indigo-700" href="http://localhost:5000/api/export/case-history?format=json" download>History (.json)</a>
+                    <a class="inline-flex items-center px-4 py-2 bg-slate-800 text-white rounded-lg font-bold text-sm hover:bg-slate-900" href="http://localhost:5000/api/export/case-history?format=csv" download>History (.csv)</a>
+                </div>
+            </section>
+
+            <section class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
+                <h2 class="font-bold text-slate-800 mb-4"><i class="fas fa-chart-pie mr-2 text-indigo-600"></i>Dashboard snapshot</h2>
+                <a class="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-lg font-bold text-sm hover:bg-indigo-700" href="http://localhost:5000/api/export/dashboard" download>dashboard.json</a>
+            </section>
+
+            <section class="bg-amber-50 rounded-xl border border-amber-200 p-6 shadow-sm">
+                <h2 class="font-bold text-amber-900 mb-2"><i class="fas fa-user-shield mr-2"></i>Admin — poora backup (DB + uploads + JSON)</h2>
+                <p class="text-sm text-amber-800 mb-4">Sirf tab kaam karega jab header mein admin key ho. Browser normal link se header nahi bhejta — niche script chalao ya <strong>curl</strong> use karo.</p>
+                <p class="text-xs font-mono bg-amber-100/80 p-3 rounded-lg mb-4 text-amber-950 break-all">curl -O -J -H "X-Admin-Key: hackfest-admin" "http://localhost:5000/api/admin/download-backup"</p>
+                <button type="button" id="btnBackup" class="px-4 py-2 bg-amber-700 text-white rounded-lg font-bold text-sm hover:bg-amber-800">Download backup (browser — key embedded demo)</button>
+                <p id="backupMsg" class="text-xs text-amber-800 mt-2"></p>
+            </section>
+
+            <section class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm">
+                <h2 class="font-bold text-slate-800 mb-4"><i class="fas fa-users mr-2 text-indigo-600"></i>Users directory (admin — no passwords)</h2>
+                <p class="text-xs font-mono bg-slate-100 p-3 rounded-lg mb-3 break-all">curl -o users.json -H "X-Admin-Key: hackfest-admin" "http://localhost:5000/api/export/users?format=json"</p>
+                <button type="button" id="btnUsers" class="px-4 py-2 bg-slate-700 text-white rounded-lg font-bold text-sm hover:bg-slate-800">Download users.json (demo)</button>
+            </section>
+
+            <section class="bg-slate-100 rounded-xl border border-slate-200 p-6">
+                <h2 class="font-bold text-slate-800 mb-2"><i class="fas fa-folder-open mr-2"></i>Poora project folder ZIP (offline)</h2>
+                <p class="text-sm text-slate-600 mb-2">PowerShell mein project parent folder se:</p>
+                <code class="text-xs block bg-slate-900 text-green-400 p-3 rounded-lg font-mono whitespace-pre-wrap">cd "C:\Users\...\hackfest11"
+Compress-Archive -Path ".\hackfest\*" -DestinationPath ".\NyayaFlow_project.zip" -Force</code>
+                <p class="text-xs text-slate-500 mt-2">Ya repo mein <span class="font-mono">scripts\zip-project.ps1</span> run karo.</p>
+            </section>
+        </div>
+    </div>
+    <script>
+        const API = 'http://localhost:5000';
+        const ADMIN_KEY = 'hackfest-admin';
+
+        async function downloadBlob(url, name, headers = {}) {
+            const r = await fetch(url, { headers });
+            if (!r.ok) {
+                const t = await r.text();
+                throw new Error(t || r.statusText);
+            }
+            const blob = await r.blob();
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = name;
+            a.click();
+            URL.revokeObjectURL(a.href);
+        }
+
+        document.getElementById('btnBackup').addEventListener('click', async () => {
+            const msg = document.getElementById('backupMsg');
+            msg.textContent = 'Downloading…';
+            try {
+                await downloadBlob(API + '/api/admin/download-backup', 'nyayaflow_backup.zip', { 'X-Admin-Key': ADMIN_KEY });
+                msg.textContent = 'Save complete.';
+            } catch (e) {
+                msg.textContent = 'Error: ' + e.message;
+            }
+        });
+
+        document.getElementById('btnUsers').addEventListener('click', async () => {
+            try {
+                await downloadBlob(API + '/api/export/users?format=json', 'nyayaflow_users.json', { 'X-Admin-Key': ADMIN_KEY });
+            } catch (e) {
+                alert(e.message);
+            }
+        });
+    </script>
+</body>
+</html>
