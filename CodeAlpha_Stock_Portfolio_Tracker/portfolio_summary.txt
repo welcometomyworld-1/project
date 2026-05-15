@@ -1,9 +1,0 @@
-========== STOCK PORTFOLIO SUMMARY ==========
-
-Stock Name : AAPLE
-Quantity   : 212
-Price      : $180
-Investment : $38160
------------------------------------
-
-Total Investment Value = $38160
